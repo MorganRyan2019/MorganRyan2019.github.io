@@ -1,0 +1,2789 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Australia",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 3,
+        "f": 4,
+        "g": 4,
+        "h": 5,
+        "i": 7,
+        "j": 9,
+        "k": 9,
+        "l": 12,
+        "m": 12,
+        "n": 12,
+        "o": 12,
+        "p": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.7751,
+          -25.2744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Belgium",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "l": 0,
+        "m": 0,
+        "n": 0,
+        "o": 0,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4699,
+          50.5039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Cambodia",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 1,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.991,
+          12.5657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Canada",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 1,
+        "h": 2,
+        "i": 3,
+        "j": 3,
+        "k": 3,
+        "l": 4,
+        "m": 4,
+        "n": 4,
+        "o": 4,
+        "p": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.3468,
+          56.1304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "China",
+        "a": 278,
+        "b": 310,
+        "c": 574,
+        "d": 835,
+        "e": 1297,
+        "f": 1985,
+        "g": 2761,
+        "h": 4537,
+        "i": 5997,
+        "j": 9720,
+        "k": 9720,
+        "l": 11821,
+        "m": 14411,
+        "n": 17238,
+        "o": 20471,
+        "p": 24363
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.1954,
+          35.8617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Finland",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7482,
+          61.9241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "France",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 3,
+        "f": 0,
+        "g": 3,
+        "h": 3,
+        "i": 4,
+        "j": 6,
+        "k": 6,
+        "l": 6,
+        "m": 6,
+        "n": 6,
+        "o": 6,
+        "p": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2137,
+          46.2276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Germany",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 1,
+        "i": 4,
+        "j": 5,
+        "k": 5,
+        "l": 7,
+        "m": 8,
+        "n": 10,
+        "o": 12,
+        "p": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4515,
+          51.1657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "India",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 2,
+        "n": 3,
+        "o": 3,
+        "p": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9629,
+          20.5937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Italy",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 2,
+        "k": 2,
+        "l": 2,
+        "m": 2,
+        "n": 2,
+        "o": 2,
+        "p": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5674,
+          41.8719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Japan",
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "d": 1,
+        "e": 3,
+        "f": 3,
+        "g": 4,
+        "h": 6,
+        "i": 7,
+        "j": 14,
+        "k": 14,
+        "l": 17,
+        "m": 20,
+        "n": 20,
+        "o": 20,
+        "p": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.2529,
+          36.2048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Malaysia",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 3,
+        "g": 4,
+        "h": 4,
+        "i": 4,
+        "j": 8,
+        "k": 8,
+        "l": 8,
+        "m": 8,
+        "n": 8,
+        "o": 10,
+        "p": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9758,
+          4.2105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Nepal",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 1,
+        "f": 0,
+        "g": 1,
+        "h": 1,
+        "i": 1,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.124,
+          28.3949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Philippines",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 2,
+        "n": 2,
+        "o": 2,
+        "p": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.774,
+          12.8797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Republic of Korea",
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 4,
+        "h": 4,
+        "i": 4,
+        "j": 11,
+        "k": 11,
+        "l": 12,
+        "m": 15,
+        "n": 15,
+        "o": 16,
+        "p": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7669,
+          35.9078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Russia",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "l": 2,
+        "m": 2,
+        "n": 2,
+        "o": 2,
+        "p": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3188,
+          61.524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Singapore",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "e": 3,
+        "f": 4,
+        "g": 4,
+        "h": 7,
+        "i": 7,
+        "j": 13,
+        "k": 13,
+        "l": 16,
+        "m": 18,
+        "n": 18,
+        "o": 18,
+        "p": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8198,
+          1.3521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Sri Lanka",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 1,
+        "i": 1,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7718,
+          7.8731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Sweden",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6435,
+          60.1282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Thailand",
+        "a": 2,
+        "b": 2,
+        "c": 4,
+        "d": 4,
+        "e": 4,
+        "f": 5,
+        "g": 5,
+        "h": 0,
+        "i": 14,
+        "j": 14,
+        "k": 14,
+        "l": 19,
+        "m": 19,
+        "n": 19,
+        "o": 19,
+        "p": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.9925,
+          15.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "United Arab Emirates",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 4,
+        "j": 4,
+        "k": 4,
+        "l": 4,
+        "m": 5,
+        "n": 5,
+        "o": 5,
+        "p": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.8478,
+          23.4241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "United States",
+        "a": 0,
+        "b": 0,
+        "c": 1,
+        "d": 1,
+        "e": 2,
+        "f": 2,
+        "g": 5,
+        "h": 5,
+        "i": 5,
+        "j": 6,
+        "k": 6,
+        "l": 7,
+        "m": 8,
+        "n": 11,
+        "o": 11,
+        "p": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7129,
+          37.0902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Vietnam",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 5,
+        "k": 5,
+        "l": 6,
+        "m": 7,
+        "n": 8,
+        "o": 9,
+        "p": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2772,
+          14.0583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Australia",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 3,
+        "f": 4,
+        "g": 4,
+        "h": 5,
+        "i": 7,
+        "j": 9,
+        "k": 9,
+        "l": 12,
+        "m": 12,
+        "n": 12,
+        "o": 12,
+        "p": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.7751,
+          -25.2744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Belgium",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "l": 0,
+        "m": 0,
+        "n": 0,
+        "o": 0,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4699,
+          50.5039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Cambodia",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 1,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.991,
+          12.5657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Canada",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 1,
+        "h": 2,
+        "i": 3,
+        "j": 3,
+        "k": 3,
+        "l": 4,
+        "m": 4,
+        "n": 4,
+        "o": 4,
+        "p": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.3468,
+          56.1304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "China",
+        "a": 278,
+        "b": 310,
+        "c": 574,
+        "d": 835,
+        "e": 1297,
+        "f": 1985,
+        "g": 2761,
+        "h": 4537,
+        "i": 5997,
+        "j": 9720,
+        "k": 9720,
+        "l": 11821,
+        "m": 14411,
+        "n": 17238,
+        "o": 20471,
+        "p": 24363
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.1954,
+          35.8617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Finland",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7482,
+          61.9241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "France",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 3,
+        "f": 0,
+        "g": 3,
+        "h": 3,
+        "i": 4,
+        "j": 6,
+        "k": 6,
+        "l": 6,
+        "m": 6,
+        "n": 6,
+        "o": 6,
+        "p": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2137,
+          46.2276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Germany",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 1,
+        "i": 4,
+        "j": 5,
+        "k": 5,
+        "l": 7,
+        "m": 8,
+        "n": 10,
+        "o": 12,
+        "p": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4515,
+          51.1657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "India",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 2,
+        "n": 3,
+        "o": 3,
+        "p": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9629,
+          20.5937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Italy",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 2,
+        "k": 2,
+        "l": 2,
+        "m": 2,
+        "n": 2,
+        "o": 2,
+        "p": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5674,
+          41.8719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Japan",
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "d": 1,
+        "e": 3,
+        "f": 3,
+        "g": 4,
+        "h": 6,
+        "i": 7,
+        "j": 14,
+        "k": 14,
+        "l": 17,
+        "m": 20,
+        "n": 20,
+        "o": 20,
+        "p": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.2529,
+          36.2048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Malaysia",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 3,
+        "g": 4,
+        "h": 4,
+        "i": 4,
+        "j": 8,
+        "k": 8,
+        "l": 8,
+        "m": 8,
+        "n": 8,
+        "o": 10,
+        "p": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9758,
+          4.2105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Nepal",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 1,
+        "f": 0,
+        "g": 1,
+        "h": 1,
+        "i": 1,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.124,
+          28.3949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Philippines",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 2,
+        "n": 2,
+        "o": 2,
+        "p": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.774,
+          12.8797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Republic of Korea",
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 4,
+        "h": 4,
+        "i": 4,
+        "j": 11,
+        "k": 11,
+        "l": 12,
+        "m": 15,
+        "n": 15,
+        "o": 16,
+        "p": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7669,
+          35.9078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Russia",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "l": 2,
+        "m": 2,
+        "n": 2,
+        "o": 2,
+        "p": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3188,
+          61.524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Singapore",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "e": 3,
+        "f": 4,
+        "g": 4,
+        "h": 7,
+        "i": 7,
+        "j": 13,
+        "k": 13,
+        "l": 16,
+        "m": 18,
+        "n": 18,
+        "o": 18,
+        "p": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8198,
+          1.3521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Spain",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9898,
+          40.4637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Sri Lanka",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 1,
+        "i": 1,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7718,
+          7.8731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Sweden",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6435,
+          60.1282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Thailand",
+        "a": 2,
+        "b": 2,
+        "c": 4,
+        "d": 4,
+        "e": 4,
+        "f": 5,
+        "g": 5,
+        "h": 0,
+        "i": 14,
+        "j": 14,
+        "k": 14,
+        "l": 19,
+        "m": 19,
+        "n": 19,
+        "o": 19,
+        "p": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.9925,
+          15.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "United Arab Emirates",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 4,
+        "j": 4,
+        "k": 4,
+        "l": 4,
+        "m": 5,
+        "n": 5,
+        "o": 5,
+        "p": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.8478,
+          23.4241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "United States",
+        "a": 0,
+        "b": 0,
+        "c": 1,
+        "d": 1,
+        "e": 2,
+        "f": 2,
+        "g": 5,
+        "h": 5,
+        "i": 5,
+        "j": 6,
+        "k": 6,
+        "l": 7,
+        "m": 8,
+        "n": 11,
+        "o": 11,
+        "p": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7129,
+          37.0902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Vietnam",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 5,
+        "k": 5,
+        "l": 6,
+        "m": 7,
+        "n": 8,
+        "o": 9,
+        "p": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2772,
+          14.0583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Australia",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 3,
+        "f": 4,
+        "g": 4,
+        "h": 5,
+        "i": 7,
+        "j": 9,
+        "k": 9,
+        "l": 12,
+        "m": 12,
+        "n": 12,
+        "o": 12,
+        "p": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.7751,
+          -25.2744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Belgium",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "l": 0,
+        "m": 0,
+        "n": 0,
+        "o": 0,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4699,
+          50.5039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Cambodia",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 1,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.991,
+          12.5657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Canada",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 1,
+        "h": 2,
+        "i": 3,
+        "j": 3,
+        "k": 3,
+        "l": 4,
+        "m": 4,
+        "n": 4,
+        "o": 4,
+        "p": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.3468,
+          56.1304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "China",
+        "a": 278,
+        "b": 310,
+        "c": 574,
+        "d": 835,
+        "e": 1297,
+        "f": 1985,
+        "g": 2761,
+        "h": 4537,
+        "i": 5997,
+        "j": 9720,
+        "k": 9720,
+        "l": 11821,
+        "m": 14411,
+        "n": 17238,
+        "o": 20471,
+        "p": 24363
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.1954,
+          35.8617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Finland",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7482,
+          61.9241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "France",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 3,
+        "f": 0,
+        "g": 3,
+        "h": 3,
+        "i": 4,
+        "j": 6,
+        "k": 6,
+        "l": 6,
+        "m": 6,
+        "n": 6,
+        "o": 6,
+        "p": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2137,
+          46.2276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Germany",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 1,
+        "i": 4,
+        "j": 5,
+        "k": 5,
+        "l": 7,
+        "m": 8,
+        "n": 10,
+        "o": 12,
+        "p": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4515,
+          51.1657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "India",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 2,
+        "n": 3,
+        "o": 3,
+        "p": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9629,
+          20.5937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Italy",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 2,
+        "k": 2,
+        "l": 2,
+        "m": 2,
+        "n": 2,
+        "o": 2,
+        "p": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5674,
+          41.8719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Japan",
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "d": 1,
+        "e": 3,
+        "f": 3,
+        "g": 4,
+        "h": 6,
+        "i": 7,
+        "j": 14,
+        "k": 14,
+        "l": 17,
+        "m": 20,
+        "n": 20,
+        "o": 20,
+        "p": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.2529,
+          36.2048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Malaysia",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 3,
+        "g": 4,
+        "h": 4,
+        "i": 4,
+        "j": 8,
+        "k": 8,
+        "l": 8,
+        "m": 8,
+        "n": 8,
+        "o": 10,
+        "p": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9758,
+          4.2105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Nepal",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 1,
+        "f": 0,
+        "g": 1,
+        "h": 1,
+        "i": 1,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.124,
+          28.3949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Philippines",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 2,
+        "n": 2,
+        "o": 2,
+        "p": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.774,
+          12.8797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Republic of Korea",
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 4,
+        "h": 4,
+        "i": 4,
+        "j": 11,
+        "k": 11,
+        "l": 12,
+        "m": 15,
+        "n": 15,
+        "o": 16,
+        "p": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7669,
+          35.9078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Russia",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "l": 2,
+        "m": 2,
+        "n": 2,
+        "o": 2,
+        "p": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3188,
+          61.524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Singapore",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "e": 3,
+        "f": 4,
+        "g": 4,
+        "h": 7,
+        "i": 7,
+        "j": 13,
+        "k": 13,
+        "l": 16,
+        "m": 18,
+        "n": 18,
+        "o": 18,
+        "p": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8198,
+          1.3521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Spain",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9898,
+          40.4637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Sri Lanka",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 1,
+        "i": 1,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7718,
+          7.8731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Sweden",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6435,
+          60.1282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Thailand",
+        "a": 2,
+        "b": 2,
+        "c": 4,
+        "d": 4,
+        "e": 4,
+        "f": 5,
+        "g": 5,
+        "h": 0,
+        "i": 14,
+        "j": 14,
+        "k": 14,
+        "l": 19,
+        "m": 19,
+        "n": 19,
+        "o": 19,
+        "p": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.9925,
+          15.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "United Arab Emirates",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 4,
+        "j": 4,
+        "k": 4,
+        "l": 4,
+        "m": 5,
+        "n": 5,
+        "o": 5,
+        "p": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.8478,
+          23.4241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "United States",
+        "a": 0,
+        "b": 0,
+        "c": 1,
+        "d": 1,
+        "e": 2,
+        "f": 2,
+        "g": 5,
+        "h": 5,
+        "i": 5,
+        "j": 6,
+        "k": 6,
+        "l": 7,
+        "m": 8,
+        "n": 11,
+        "o": 11,
+        "p": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7129,
+          37.0902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Vietnam",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 5,
+        "k": 5,
+        "l": 6,
+        "m": 7,
+        "n": 8,
+        "o": 9,
+        "p": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2772,
+          14.0583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Australia",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 3,
+        "f": 4,
+        "g": 4,
+        "h": 5,
+        "i": 7,
+        "j": 9,
+        "k": 9,
+        "l": 12,
+        "m": 12,
+        "n": 12,
+        "o": 12,
+        "p": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.7751,
+          -25.2744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Belgium",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "l": 0,
+        "m": 0,
+        "n": 0,
+        "o": 0,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4699,
+          50.5039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Cambodia",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 1,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.991,
+          12.5657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Canada",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 1,
+        "h": 2,
+        "i": 3,
+        "j": 3,
+        "k": 3,
+        "l": 4,
+        "m": 4,
+        "n": 4,
+        "o": 4,
+        "p": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.3468,
+          56.1304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "China",
+        "a": 278,
+        "b": 310,
+        "c": 574,
+        "d": 835,
+        "e": 1297,
+        "f": 1985,
+        "g": 2761,
+        "h": 4537,
+        "i": 5997,
+        "j": 9720,
+        "k": 9720,
+        "l": 11821,
+        "m": 14411,
+        "n": 17238,
+        "o": 20471,
+        "p": 24363
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.1954,
+          35.8617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Finland",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7482,
+          61.9241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "France",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 3,
+        "f": 0,
+        "g": 3,
+        "h": 3,
+        "i": 4,
+        "j": 6,
+        "k": 6,
+        "l": 6,
+        "m": 6,
+        "n": 6,
+        "o": 6,
+        "p": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2137,
+          46.2276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Germany",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 1,
+        "i": 4,
+        "j": 5,
+        "k": 5,
+        "l": 7,
+        "m": 8,
+        "n": 10,
+        "o": 12,
+        "p": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4515,
+          51.1657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "India",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 2,
+        "n": 3,
+        "o": 3,
+        "p": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9629,
+          20.5937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Italy",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 2,
+        "k": 2,
+        "l": 2,
+        "m": 2,
+        "n": 2,
+        "o": 2,
+        "p": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5674,
+          41.8719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Japan",
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "d": 1,
+        "e": 3,
+        "f": 3,
+        "g": 4,
+        "h": 6,
+        "i": 7,
+        "j": 14,
+        "k": 14,
+        "l": 17,
+        "m": 20,
+        "n": 20,
+        "o": 20,
+        "p": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.2529,
+          36.2048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Malaysia",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 3,
+        "g": 4,
+        "h": 4,
+        "i": 4,
+        "j": 8,
+        "k": 8,
+        "l": 8,
+        "m": 8,
+        "n": 8,
+        "o": 10,
+        "p": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9758,
+          4.2105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Nepal",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 1,
+        "f": 0,
+        "g": 1,
+        "h": 1,
+        "i": 1,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.124,
+          28.3949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Philippines",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 2,
+        "n": 2,
+        "o": 2,
+        "p": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.774,
+          12.8797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Republic of Korea",
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 4,
+        "h": 4,
+        "i": 4,
+        "j": 11,
+        "k": 11,
+        "l": 12,
+        "m": 15,
+        "n": 15,
+        "o": 16,
+        "p": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7669,
+          35.9078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Russia",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "l": 2,
+        "m": 2,
+        "n": 2,
+        "o": 2,
+        "p": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3188,
+          61.524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Singapore",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "e": 3,
+        "f": 4,
+        "g": 4,
+        "h": 7,
+        "i": 7,
+        "j": 13,
+        "k": 13,
+        "l": 16,
+        "m": 18,
+        "n": 18,
+        "o": 18,
+        "p": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8198,
+          1.3521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Spain",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9898,
+          40.4637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Sri Lanka",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 1,
+        "i": 1,
+        "j": 1,
+        "k": 1,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7718,
+          7.8731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Sweden",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "l": 1,
+        "m": 1,
+        "n": 1,
+        "o": 1,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6435,
+          60.1282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Thailand",
+        "a": 2,
+        "b": 2,
+        "c": 4,
+        "d": 4,
+        "e": 4,
+        "f": 5,
+        "g": 5,
+        "h": 0,
+        "i": 14,
+        "j": 14,
+        "k": 14,
+        "l": 19,
+        "m": 19,
+        "n": 19,
+        "o": 19,
+        "p": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.9925,
+          15.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "United Arab Emirates",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 4,
+        "j": 4,
+        "k": 4,
+        "l": 4,
+        "m": 5,
+        "n": 5,
+        "o": 5,
+        "p": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.8478,
+          23.4241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "United States",
+        "a": 0,
+        "b": 0,
+        "c": 1,
+        "d": 1,
+        "e": 2,
+        "f": 2,
+        "g": 5,
+        "h": 5,
+        "i": 5,
+        "j": 6,
+        "k": 6,
+        "l": 7,
+        "m": 8,
+        "n": 11,
+        "o": 11,
+        "p": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7129,
+          37.0902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "UK",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "e": 0,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "l": 2,
+        "m": 2,
+        "n": 2,
+        "o": 2,
+        "p": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5444,
+          53.3781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Vietnam",
+        "a": 0,
+        "b": 0,
+        "c": 0,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 5,
+        "k": 5,
+        "l": 6,
+        "m": 7,
+        "n": 8,
+        "o": 9,
+        "p": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2772,
+          14.0583
+        ]
+      }
+    }
+  ]
+}
