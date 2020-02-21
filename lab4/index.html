@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -137,7 +138,7 @@ sliderControl.onAdd = function(map) {
 
   // Define the labels of the time slider as an array of strings
   // Modify this for your data
-  var labels = ["day 1", "day 2", "day 3", "day 4", "day 5", "day 6", "day 7", "day 8"];
+  var labels = ["Day1", "Day2", "Day3", "Day4", "Day5", "Day6", "Day7", "Day8"];
 
   $(slider)
       .attr({
@@ -155,7 +156,7 @@ sliderControl.onAdd = function(map) {
   return slider;
 }
 sliderControl.addTo(map);
-createTimeLabel("Days"); //The starting timestamp label
+createTimeLabel("Day"); //The starting timestamp label
 }
 
 
