@@ -43,7 +43,8 @@
         }).addTo(map);
 
         //change the file name to yours
-          $.getJSON("https://MorganRyan2019.github.io/newwhodata.geojson") // The getJSON() method is used to get JSON data
+          $.getJSON("https://MorganRyan2019.github.io/lab4/newwhodata.geojson
+") // The getJSON() method is used to get JSON data
           .done(function(data) {
               var info = processData(data);
               createPropSymbols(info.timestamps, data);
