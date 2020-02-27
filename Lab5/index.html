@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <title>Lab5</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+    crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+    crossorigin=""></script>
+
+    <script src="https://MorganRyan2019.github.io/Lab5/Provinces.js"
+    crossorigin=""></script>
+
+    <script src="https://MorganRyan2019.github.io/Lab5/newwhodata.js"
+    crossorigin=""></script>
+
+
+    <style type="text/css">
+      html,body{ margin: 0; padding: 0; height:100%; }
+      #map{ min-height: 100%; }
+      </style>
+    </head>
+
+    <body>
+      <div id="map"></div>
+
+      <script type="text/javascript">
+
+        var map = L.map('map', {
+          center: [34.666, 104.9569],
+          zoom: 5
+        });
+
+      var imagery =  L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.{ext}',{
+          attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+          subdomains: 'abcd',
+          minZoom: 0,
+          maxZoom: 18,
+          ext: 'png'
+});
+
+      var canvas = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}',{
+          attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+          subdomains: 'abcd',
+          minZoom: 0,
+          maxZoom: 20,
+          ext: 'png'
+  }).addTo(map);
+
+
+    var Provinces = L.geoJson(data).addTo(map);
+
+    var newwhodata = L.geoJson(data2).addTo(map);
+
+    var basemaps = {
+      "Light Canvas": canvas,
+      "Satellite imagery": imagery
+  };
+
+    var overlaymaps = {
+      "China Provinces": Provinces,
+      "Novel Coronavirus": newwhodata
+  };
+  var myStyle = {
+      "color": "#23BD05",
+      "weight": 5,
+      "opacity": 0.65
+  };
+  L.geoJson(data, {
+    style: myStyle
+
+}).addTo(map);
+var geojsonMarkerOptions = {
+    radius: 8,
+    fillColor: "#ff7800",
+    color: "#000",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.1
+};
+
+
+L.control.layers(basemaps, overlaymaps).addTo(map)
+
+    </script>
+  </body>
+</html>
