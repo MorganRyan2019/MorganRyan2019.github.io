@@ -46,11 +46,35 @@
           maxZoom: 20,
           ext: 'png'
   }).addTo(map);
+    var geojsonMarkerOptions = {
+        radius: 8,
+        fillColor: "#ff7800",
+        color: "#000",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8
+    };
 
+    var Provinces = L.geoJson(data, {
+          "color": "#E98EFD",
+          "weight": 5,
+          "opacity": 0.65
+    }).addTo(map);
 
-    var Provinces = L.geoJson(data).addTo(map);
+    var geojsonMarkerOptions = {
+        radius: 8,
+        fillColor: "#BA0EE2",
+        color: "#BA0EE2",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.5
+    };
 
-    var newwhodata = L.geoJson(data2).addTo(map);
+    var newwhodata = L.geoJson(data2, {
+      pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, geojsonMarkerOptions)
+      }
+    }).addTo(map);
 
     var basemaps = {
       "Light Canvas": canvas,
@@ -61,24 +85,12 @@
       "China Provinces": Provinces,
       "Novel Coronavirus": newwhodata
   };
+
   var myStyle = {
-      "color": "#23BD05",
-      "weight": 5,
-      "opacity": 0.65
-  };
-  L.geoJson(data, {
-    style: myStyle
-
-}).addTo(map);
-var geojsonMarkerOptions = {
-    radius: 8,
-    fillColor: "#ff7800",
-    color: "#000",
-    weight: 1,
-    opacity: 1,
-    fillOpacity: 0.1
+    "color": "#23BD05",
+    "weight": 5,
+    "opacity": 0.65
 };
-
 
 L.control.layers(basemaps, overlaymaps).addTo(map)
 
