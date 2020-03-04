@@ -1,99 +1,186 @@
 <html>
-  <head>
-    <title>Lab5</title>
+<head>
+<title>Lab5</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
-    crossorigin=""/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+crossorigin=""/>
 
-    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
-    crossorigin=""></script>
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+crossorigin=""></script>
 
-    <script src="https://MorganRyan2019.github.io/Lab5/Provinces.js"
-    crossorigin=""></script>
+<script src="https://MorganRyan2019.github.io/Lab5/Provinces.js"
+crossorigin=""></script>
 
-    <script src="https://MorganRyan2019.github.io/Lab5/newwhodata.js"
-    crossorigin=""></script>
+<script src="https://MorganRyan2019.github.io/Lab5/newwhodata.js"
+crossorigin=""></script>
 
 
-    <style type="text/css">
-      html,body{ margin: 0; padding: 0; height:100%; }
-      #map{ min-height: 100%; }
-      </style>
-    </head>
+<style type="text/css">
+html,body{ margin: 0; padding: 0; height:100%; }
+#map{ min-height: 100%; }
+.legned{
+padding: 6px 8px;
+line-height: 18px;
+background: rgba(255,255,255,0.9)
+box-shadow: 0 0 15px rgba(0,0,0,0.2);
+border-radius: 5px;
+}
+.legend i {
+width: 18px;
+height: 18px;
+float: left;
+margin-right: 8px;
+opacity: 0.7;
+}
+</style>
+</head>
 
-    <body>
-      <div id="map"></div>
+<body>
+<div id="map"></div>
 
-      <script type="text/javascript">
+<script type="text/javascript">
 
-        var map = L.map('map', {
-          center: [34.666, 104.9569],
-          zoom: 5
-        });
-
-      var imagery =  L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.{ext}',{
-          attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-          subdomains: 'abcd',
-          minZoom: 0,
-          maxZoom: 18,
-          ext: 'png'
+var map = L.map('map', {
+center: [34.666, 104.9569],
+zoom: 5
 });
 
-      var canvas = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}',{
-          attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-          subdomains: 'abcd',
-          minZoom: 0,
-          maxZoom: 20,
-          ext: 'png'
-  }).addTo(map);
-    var geojsonMarkerOptions = {
-        radius: 8,
-        fillColor: "#ff7800",
-        color: "#000",
-        weight: 1,
-        opacity: 1,
-        fillOpacity: 0.8
-    };
+var imagery = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.{ext}',{
+attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+subdomains: 'abcd',
+minZoom: 0,
+maxZoom: 18,
+ext: 'png'
+});
 
-    var Provinces = L.geoJson(data, {
-          "color": "#E98EFD",
-          "weight": 5,
-          "opacity": 0.65
-    }).addTo(map);
+var canvas = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}',{
+attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+subdomains: 'abcd',
+minZoom: 0,
+maxZoom: 20,
+ext: 'png'
+}).addTo(map);
 
-    var geojsonMarkerOptions = {
-        radius: 8,
-        fillColor: "#BA0EE2",
-        color: "#BA0EE2",
-        weight: 1,
-        opacity: 1,
-        fillOpacity: 0.5
-    };
+function getColor(value) {
+return value > 40000000 ? '#5e01ff':
+value > 20000000 ? '#8340ff':
+value > 10000000 ? '#be9bff':
+value > 5000000 ? '#d1b7ff':
+value > 1000000 ? '#f2f0f7':
+                '#FFF8F8'
+;
+}
+function style(feature){
+return { fillColor: getColor(feature.properties.POP10),
+weight: 2,
+opacity: .8,
+color: '#b8adcd',
+fillOpacity: .4
+};
+}
+var provinces = new L.geoJson(data,{style:style}).addTo(map);
 
-    var newwhodata = L.geoJson(data2, {
-      pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, geojsonMarkerOptions)
-      }
-    }).addTo(map);
-
-    var basemaps = {
-      "Light Canvas": canvas,
-      "Satellite imagery": imagery
-  };
-
-    var overlaymaps = {
-      "China Provinces": Provinces,
-      "Novel Coronavirus": newwhodata
-  };
-
-  var myStyle = {
-    "color": "#23BD05",
-    "weight": 5,
-    "opacity": 0.65
+var geojsonMarkerOptions = {
+radius: 8,
+fillColor: "#ce001b",
+color: "#000",
+weight: 1,
+opacity: 1,
+fillOpacity: 1
 };
 
-L.control.layers(basemaps, overlaymaps).addTo(map)
+//var Provinces = L.geoJson(data, {
+// "color": "#E98EFD",
+//"weight": 5,
+//"opacity": 0.65
+//}).addTo(map);
 
-    </script>
-  </body>
+var geojsonMarkerOptions = {
+radius: 8,
+fillColor: "#BA0EE2",
+color: "#BA0EE2",
+weight: 1,
+opacity: 1,
+fillOpacity: 0.5
+};
+var minValue = 100;
+var minRadius = 5;
+function calcRadius(val){
+return 0.6 * Math.pow(val/minValue,.7) * minRadius;
+}
+var newwhodata = new L.geoJson(data2, {
+pointToLayer: function(feature, ll){
+return L.circleMarker(ll,{
+color: '#ce001b',
+opacity: 1,
+weigh: 2,
+fillColor: '#FF002E',
+fillOpacity: .5,
+//radius: 10
+radius: calcRadius(feature.properties.covid)
+});
+}
+}).addTo(map);
+
+// var newwhodata = L.geoJson(data2, {
+// pointToLayer: function (feature, latlng) {
+// return L.circleMarker(latlng, geojsonMarkerOptions)
+// }
+// }).addTo(map);
+
+var basemaps = {
+"Light Canvas": canvas,
+"Satellite imagery": imagery
+};
+
+var overlaymaps = {
+"China Provinces": provinces,
+"Novel Coronavirus": newwhodata
+};
+
+L.control.layers(basemaps, overlaymaps, {collapsed:false}).addTo(map)
+
+var legend = L.control({position:'bottomright'})
+
+legend.onAdd =function (map) {
+
+var div = L.DomUtil.create('div', 'Legend'),
+
+grades = [0, 1000000, 5000000, 10000000, 20000000, 40000000];
+
+div.innerHTML = '<b>Population 2019<br><br></b>';
+
+for (var i = 0; i < grades.length; i++) {
+div.innerHTML +=
+'<i style="background:' + getColor(grades[i] + 1) + '"></i>' +
+grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br><br>' : '+');
+}
+return div;
+};
+
+var onEachFeature = function(feature, layer){
+if(feature.properties){
+var prpp = feature.properties;
+var popup = '<h3>'+prop['Location']+'</h3>'+'<br>Cases Day 1: '+prop['1']+'<br>CasesDay 16: '+prop['covid'];
+feature.layer = layer;
+layer.bindPopup(popup, {maxWidth:"auto"});
+}
+};
+legend.addTo(map);
+
+// Removing the legend when the layer is removed
+map.on('overlayremove', function(eventLayer){
+if (eventLayer.name == 'provinces'){ // We use the key/display name to refer to the layer
+map.removeControl(legend); // legend is the variable name of the layer legend
+}
+});
+
+// Adding the legend when the layer is added
+map.on('overlayadd', function(eventLayer){
+if (eventLayer.name == 'provinces'){
+legend.addTo(map);
+}
+});
+</script>
+</body>
 </html>
