@@ -1,0 +1,28 @@
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <meta name="viewpoint" content="initial-scale=1,maximum-scale=1,user-scalable=no"/>
+  <title>Lab 6 | Morgan Ryan</title>
+  <style> html, body, #viewDiv {padding: 0; margin: 0; height: 100%; width: 100%;}</style>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.14/esri/themes/light/main.css"/>
+  <script src="https://js.arcgis.com/4.14/"></script>
+
+    <script>
+      require(["esri/Map", "esri/views/MapView"], function(Map, MapView) {
+        var thebasemap = new TileLay({
+          basemap:"streets"
+      });
+        var view = new MapView({
+          container: "viewDiv",
+          map: map,
+          zoom: 17,
+          center:[-96.68, 40.81]
+        });
+      });
+      </script>
+    </head>
+
+    <body>
+      <div id="viewDiv"></div>
+    </body>
+</html>
