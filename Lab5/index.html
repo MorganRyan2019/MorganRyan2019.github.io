@@ -103,7 +103,7 @@ fillOpacity: 0.5
 var minValue = 100;
 var minRadius = 5;
 function calcRadius(val){
-return 0.6 * Math.pow(val/minValue,.7) * minRadius;
+return 1 * Math.pow(val/minValue,.7) * minRadius;
 }
 var newwhodata = new L.geoJson(data2, {
 pointToLayer: function(feature, ll){
