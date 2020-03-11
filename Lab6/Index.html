@@ -26,9 +26,9 @@ const renderer = {
             legendOptions: {title: "Lab 6 Symbols"},
         symbol: {
         type: "simple-marker",
-        color: "red",
+        color: "#8ADE85",
         outline: {
-          color: "white"
+          color: "#CDEDCB "
           }
         },
           visualVariables: [
@@ -69,6 +69,7 @@ var thebasemap = new TileLayer({
 var map = new Map({
         layers: [thebasemap, geojsonLayer]
         });
+
 var featureLayer = new FeatureLayer({
   url:
   "https://gisext.lincoln.ne.gov/arcgis/rest/services/Parks/Park_Boundaries/MapServer/0"
