@@ -37,7 +37,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -96.63486111,40.85694444 ]
+       "coordinates":  [ -96.705296,40.814973 ]
     },
     "properties": {
     "Restaurants":"Misty's",
@@ -53,7 +53,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -96.705296,40.814973 ]
+       "coordinates":  [ -96.710583,40.814551 ]
     },
     "properties": {
     "Restaurants":"Rodizio Grill",
