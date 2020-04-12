@@ -35,7 +35,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -96.63486111,40.85694444 ]
+       "coordinates":  [ -96.705283,40.814967 ]
     },
     "properties": {
     "Restaurants":"Misty's",
