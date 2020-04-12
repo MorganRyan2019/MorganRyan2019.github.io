@@ -5,7 +5,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.80666667,-96.70230556 ]
+       "coordinates":  [ -96.70230556,40.80666667 ]
     },
     "properties": {
     "Restaurants":"Billy's",
@@ -20,7 +20,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81447222,-96.70530556 ]
+       "coordinates":  [ -96.70530556,40.81447222 ]
     },
     "properties": {
     "Restaurants":"DISH",
@@ -35,7 +35,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.85694444,-96.63486111 ]
+       "coordinates":  [ -96.63486111,40.85694444 ]
     },
     "properties": {
     "Restaurants":"Misty's",
@@ -50,7 +50,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81461111,-96.71058333 ]
+       "coordinates":  [ -96.71058333,40.81461111 ]
     },
     "properties": {
     "Restaurants":"Rodizio Grill",
@@ -65,7 +65,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81505556,-96.71019444 ]
+       "coordinates":  [ -96.71019444,40.81505556 ]
     },
     "properties": {
     "Restaurants":"The Oven",
@@ -80,7 +80,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81447222,-96.70658333 ]
+       "coordinates":  [ -96.70658333,40.81447222 ]
     },
     "properties": {
     "Restaurants":"Single Barrel",
@@ -95,7 +95,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81502778,-96.71080556 ]
+       "coordinates":  [ -96.71080556,40.81502778 ]
     },
     "properties": {
     "Restaurants":"Lazlo's",
@@ -110,7 +110,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.8165,-96.71213889 ]
+       "coordinates":  [ -96.71213889,40.8165 ]
     },
     "properties": {
     "Restaurants":"Hiro 88",
@@ -125,7 +125,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81608333,-96.71022222 ]
+       "coordinates":  [ -96.71022222,40.81608333 ]
     },
     "properties": {
     "Restaurants":"Leadbelly",
@@ -140,7 +140,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81083333,-96.70666667 ]
+       "coordinates":  [ -96.70666667,40.81083333 ]
     },
     "properties": {
     "Restaurants":"Green Gateau",
@@ -155,7 +155,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81555556,-96.71016667 ]
+       "coordinates":  [ -96.71016667,40.81555556 ]
     },
     "properties": {
     "Restaurants":"Buzzard Billy's",
@@ -170,7 +170,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81741667,-96.7095 ]
+       "coordinates":  [ -96.7095,40.81741667 ]
     },
     "properties": {
     "Restaurants":"Blue Sushi Sake Grill",
@@ -185,7 +185,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81686111,-96.71219444 ]
+       "coordinates":  [ -96.71219444,40.81686111 ]
     },
     "properties": {
     "Restaurants":"Mellow Mushroom",
@@ -200,7 +200,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81497222,-96.7095 ]
+       "coordinates":  [ -96.7095,40.81497222 ]
     },
     "properties": {
     "Restaurants":"Vincenzo's",
@@ -215,7 +215,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81416667,-96.70772222 ]
+       "coordinates":  [ -96.70772222,40.81416667 ]
     },
     "properties": {
     "Restaurants":"Blue Orchid Thai",
@@ -230,7 +230,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81430556,-96.70736111 ]
+       "coordinates":  [ -96.70736111,40.81430556 ]
     },
     "properties": {
     "Restaurants":"Grey Whale ",
@@ -245,7 +245,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81563889,-96.70972222 ]
+       "coordinates":  [ -96.70972222,40.81563889 ]
     },
     "properties": {
     "Restaurants":"Screamers Dining and Cabaret",
@@ -260,7 +260,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81613889,-96.71155556 ]
+       "coordinates":  [ -96.71155556,40.81613889 ]
     },
     "properties": {
     "Restaurants":"BurgerFi",
@@ -275,7 +275,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81616667,-96.71133333 ]
+       "coordinates":  [ -96.71133333,40.81616667 ]
     },
     "properties": {
     "Restaurants":"Gate 25",
@@ -290,7 +290,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81541667,-96.70358333 ]
+       "coordinates":  [ -96.70358333,40.81541667 ]
     },
     "properties": {
     "Restaurants":"Rutabagas",
@@ -305,7 +305,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81327778,-96.70222222 ]
+       "coordinates":  [ -96.70222222,40.81327778 ]
     },
     "properties": {
     "Restaurants":"Sultan's Kite",
@@ -320,7 +320,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81394444,-96.70097222 ]
+       "coordinates":  [ -96.70097222,40.81394444 ]
     },
     "properties": {
     "Restaurants":"Ali Baba Gyros",
@@ -335,7 +335,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81344444,-96.69997222 ]
+       "coordinates":  [ -96.69997222,40.81344444 ]
     },
     "properties": {
     "Restaurants":"AmuManu",
@@ -350,7 +350,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81544444,-96.70291667 ]
+       "coordinates":  [ -96.70291667,40.81544444 ]
     },
     "properties": {
     "Restaurants":"Thai Garden",
@@ -365,7 +365,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81563889,-96.70894444 ]
+       "coordinates":  [ -96.70894444,40.81563889 ]
     },
     "properties": {
     "Restaurants":"Barry's",
@@ -380,7 +380,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81497222,-96.70452778 ]
+       "coordinates":  [ -96.70452778,40.81497222 ]
     },
     "properties": {
     "Restaurants":"Qdoba",
@@ -395,7 +395,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81575,-96.70238889 ]
+       "coordinates":  [ -96.70238889,40.81575 ]
     },
     "properties": {
     "Restaurants":"Chipotle",
@@ -410,7 +410,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81566667,-96.70180556 ]
+       "coordinates":  [ -96.70180556,40.81566667 ]
     },
     "properties": {
     "Restaurants":"Panda Express",
@@ -425,7 +425,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81491667,-96.70141667 ]
+       "coordinates":  [ -96.70141667,40.81491667 ]
     },
     "properties": {
     "Restaurants":"Raising Cane's",
@@ -440,7 +440,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 40.81541667,-96.70236111 ]
+       "coordinates":  [ -96.70236111,40.81541667 ]
     },
     "properties": {
     "Restaurants":"Blaze Pizza",
