@@ -53,7 +53,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -96.71058333,40.81461111 ]
+       "coordinates":  [ -96.705296,40.814973 ]
     },
     "properties": {
     "Restaurants":"Rodizio Grill",
