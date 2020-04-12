@@ -1,36 +1,455 @@
 {
-"type": "FeatureCollection",
-"name": "Cart 2 proj",
-"features": [
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Billy's", "Y": "40.80666667", "X": "-96.70230556", "Price": "3", "Vegan-friendly": "0", "Vegetarian-friendly": "1", "Gluten-friendly": "0", "Type of Food": "American" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "DISH", "Y": "40.81447222", "X": "-96.70530556", "Price": "3", "Vegan-friendly": "1", "Vegetarian-friendly": "1", "Gluten-friendly": "1", "Type of Food": "American" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Misty's", "Y": "40.85694444", "X": "-96.63486111", "Price": "3", "Vegan-friendly": "1", "Vegetarian-friendly": "1", "Gluten-friendly": "0", "Type of Food": "Steakhouse" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Rodizio Grill", "Y": "40.81461111", "X": "-96.71058333", "Price": "3", "Vegan-friendly": "0", "Vegetarian-friendly": "0", "Gluten-friendly": "0", "Type of Food": "Brazillian" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "The Oven", "Y": "40.81505556", "X": "-96.71019444", "Price": "2", "Vegan-friendly": "1", "Vegetarian-friendly": "0", "Gluten-friendly": "0", "Type of Food": "Indian" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Single Barrel", "Y": "40.81447222", "X": "-96.70658333", "Price": "2", "Vegan-friendly": "0", "Vegetarian-friendly": "0", "Gluten-friendly": "0", "Type of Food": "Steakhouse" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Lazlo's", "Y": "40.81502778", "X": "-96.71080556", "Price": "2", "Vegan-friendly": "0", "Vegetarian-friendly": "1", "Gluten-friendly": "1", "Type of Food": "Brewpub" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Hiro 88", "Y": "40.8165", "X": "-96.71213889", "Price": "2", "Vegan-friendly": "0", "Vegetarian-friendly": "1", "Gluten-friendly": "0", "Type of Food": "Pan-Asian" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Leadbelly", "Y": "40.81608333", "X": "-96.71022222", "Price": "2", "Vegan-friendly": "0", "Vegetarian-friendly": "1", "Gluten-friendly": "0", "Type of Food": "American" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Green Gateau", "Y": "40.81083333", "X": "-96.70666667", "Price": "2", "Vegan-friendly": "1", "Vegetarian-friendly": "1", "Gluten-friendly": "1", "Type of Food": "French, Bistro" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Buzzard Billy's", "Y": "40.81555556", "X": "-96.71016667", "Price": "2", "Vegan-friendly": "0", "Vegetarian-friendly": "1", "Gluten-friendly": "0", "Type of Food": "American, Creole, Cajun" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Blue Sushi Sake Grill", "Y": "40.81741667", "X": "-96.7095", "Price": "2", "Vegan-friendly": "1", "Vegetarian-friendly": "1", "Gluten-friendly": "1", "Type of Food": "Sushi" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Mellow Mushroom", "Y": "40.81686111", "X": "-96.71219444", "Price": "2", "Vegan-friendly": "1", "Vegetarian-friendly": "1", "Gluten-friendly": "1", "Type of Food": "Pizza" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Vincenzo's", "Y": "40.81497222", "X": "-96.7095", "Price": "2", "Vegan-friendly": "0", "Vegetarian-friendly": "1", "Gluten-friendly": "0", "Type of Food": "Italian" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Blue Orchid Thai", "Y": "40.81416667", "X": "-96.70772222", "Price": "2", "Vegan-friendly": "1", "Vegetarian-friendly": "1", "Gluten-friendly": "0", "Type of Food": "Thai" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Grey Whale Sushi & Grill", "Y": "40.81430556", "X": "-96.70736111", "Price": "2", "Vegan-friendly": "1", "Vegetarian-friendly": "1", "Gluten-friendly": "0", "Type of Food": "Sushi, Pan-Asian" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Screamers Dining and Cabaret: A Family Restaurant", "Y": "40.81563889", "X": "-96.70972222", "Price": "2", "Vegan-friendly": "1", "Vegetarian-friendly": "1", "Gluten-friendly": "0", "Type of Food": "American" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "BurgerFi", "Y": "40.81613889", "X": "-96.71155556", "Price": "2", "Vegan-friendly": "1", "Vegetarian-friendly": "1", "Gluten-friendly": "0", "Type of Food": "American" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Gate 25", "Y": "40.81616667", "X": "-96.71133333", "Price": "2", "Vegan-friendly": "0", "Vegetarian-friendly": "1", "Gluten-friendly": "0", "Type of Food": "American" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Rutabagas", "Y": "40.81541667", "X": "-96.70358333", "Price": "2", "Vegan-friendly": "1", "Vegetarian-friendly": "1", "Gluten-friendly": "1", "Type of Food": "Plant-based, American" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Sultan's Kite", "Y": "40.81327778", "X": "-96.70222222", "Price": "1", "Vegan-friendly": "0", "Vegetarian-friendly": "1", "Gluten-friendly": "0", "Type of Food": "Mediterranean, Halal" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Ali Baba Gyros", "Y": "40.81394444", "X": "-96.70097222", "Price": "1", "Vegan-friendly": "0", "Vegetarian-friendly": "1", "Gluten-friendly": "0", "Type of Food": "Greek, Mediterranean, Halal" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "AmuManu Ramen Bar", "Y": "40.81344444", "X": "-96.69997222", "Price": "1", "Vegan-friendly": "1", "Vegetarian-friendly": "1", "Gluten-friendly": "1", "Type of Food": "Asian" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Thai Garden", "Y": "40.81544444", "X": "-96.70291667", "Price": "1", "Vegan-friendly": "0", "Vegetarian-friendly": "1", "Gluten-friendly": "0", "Type of Food": "Thai" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Barry's: The Nebraska Bar", "Y": "40.81563889", "X": "-96.70894444", "Price": "1", "Vegan-friendly": "0", "Vegetarian-friendly": "0", "Gluten-friendly": "1", "Type of Food": "American" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Qdoba", "Y": "40.81497222", "X": "-96.70452778", "Price": "1", "Vegan-friendly": "1", "Vegetarian-friendly": "1", "Gluten-friendly": "1", "Type of Food": "Mexican" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Chipotle", "Y": "40.81575", "X": "-96.70238889", "Price": "1", "Vegan-friendly": "1", "Vegetarian-friendly": "1", "Gluten-friendly": "1", "Type of Food": "Mexican" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Panda Express", "Y": "40.81566667", "X": "-96.70180556", "Price": "1", "Vegan-friendly": "0", "Vegetarian-friendly": "0", "Gluten-friendly": "0", "Type of Food": "Chinese" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Raising Cane's", "Y": "40.81491667", "X": "-96.70141667", "Price": "1", "Vegan-friendly": "0", "Vegetarian-friendly": "0", "Gluten-friendly": "0", "Type of Food": "American" }, "geometry": point },
-{ "type": "Feature", "properties": { "Restaurants in Lincoln near the Graduate Hotel": "Blaze Pizza", "Y": "40.81541667", "X": "-96.70236111", "Price": "1", "Vegan-friendly": "1", "Vegetarian-friendly": "1", "Gluten-friendly": "1", "Type of Food": "Pizza" }, "geometry": point }
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.80666667,-96.70230556 ]
+    },
+    "properties": {
+    "Restaurants":"Billy's",
+    "Price":3,
+    "Vegan-friendly":"0",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"0",
+    "Type of Food":"American"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81447222,-96.70530556 ]
+    },
+    "properties": {
+    "Restaurants":"DISH",
+    "Price":3,
+    "Vegan-friendly":"1",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"1",
+    "Type of Food":"American"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.85694444,-96.63486111 ]
+    },
+    "properties": {
+    "Restaurants":"Misty's",
+    "Price":3,
+    "Vegan-friendly":"1",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"0",
+    "Type of Food":"Steakhouse"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81461111,-96.71058333 ]
+    },
+    "properties": {
+    "Restaurants":"Rodizio Grill",
+    "Price":3,
+    "Vegan-friendly":"0",
+    "Vegetarian-friendly":"0",
+    "Gluten-friendly":"0",
+    "Type of Food":"Brazillian"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81505556,-96.71019444 ]
+    },
+    "properties": {
+    "Restaurants":"The Oven",
+    "Price":2,
+    "Vegan-friendly":"1",
+    "Vegetarian-friendly":"0",
+    "Gluten-friendly":"0",
+    "Type of Food":"Indian"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81447222,-96.70658333 ]
+    },
+    "properties": {
+    "Restaurants":"Single Barrel",
+    "Price":2,
+    "Vegan-friendly":"0",
+    "Vegetarian-friendly":"0",
+    "Gluten-friendly":"0",
+    "Type of Food":"Steakhouse"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81502778,-96.71080556 ]
+    },
+    "properties": {
+    "Restaurants":"Lazlo's",
+    "Price":2,
+    "Vegan-friendly":"0",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"1",
+    "Type of Food":"Brewpub"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.8165,-96.71213889 ]
+    },
+    "properties": {
+    "Restaurants":"Hiro 88",
+    "Price":2,
+    "Vegan-friendly":"0",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"0",
+    "Type of Food":"Pan-Asian"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81608333,-96.71022222 ]
+    },
+    "properties": {
+    "Restaurants":"Leadbelly",
+    "Price":2,
+    "Vegan-friendly":"0",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"0",
+    "Type of Food":"American"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81083333,-96.70666667 ]
+    },
+    "properties": {
+    "Restaurants":"Green Gateau",
+    "Price":2,
+    "Vegan-friendly":"1",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"1",
+    "Type of Food":"French, Bistro"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81555556,-96.71016667 ]
+    },
+    "properties": {
+    "Restaurants":"Buzzard Billy's",
+    "Price":2,
+    "Vegan-friendly":"0",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"0",
+    "Type of Food":"American, Creole, Cajun"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81741667,-96.7095 ]
+    },
+    "properties": {
+    "Restaurants":"Blue Sushi Sake Grill",
+    "Price":2,
+    "Vegan-friendly":"1",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"1",
+    "Type of Food":"Sushi"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81686111,-96.71219444 ]
+    },
+    "properties": {
+    "Restaurants":"Mellow Mushroom",
+    "Price":2,
+    "Vegan-friendly":"1",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"1",
+    "Type of Food":"Pizza"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81497222,-96.7095 ]
+    },
+    "properties": {
+    "Restaurants":"Vincenzo's",
+    "Price":2,
+    "Vegan-friendly":"0",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"0",
+    "Type of Food":"Italian"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81416667,-96.70772222 ]
+    },
+    "properties": {
+    "Restaurants":"Blue Orchid Thai",
+    "Price":2,
+    "Vegan-friendly":"1",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"0",
+    "Type of Food":"Thai"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81430556,-96.70736111 ]
+    },
+    "properties": {
+    "Restaurants":"Grey Whale ",
+    "Price":2,
+    "Vegan-friendly":"1",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"0",
+    "Type of Food":"Sushi, Pan-Asian"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81563889,-96.70972222 ]
+    },
+    "properties": {
+    "Restaurants":"Screamers Dining and Cabaret",
+    "Price":2,
+    "Vegan-friendly":"1",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"0",
+    "Type of Food":"American"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81613889,-96.71155556 ]
+    },
+    "properties": {
+    "Restaurants":"BurgerFi",
+    "Price":2,
+    "Vegan-friendly":"1",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"0",
+    "Type of Food":"American"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81616667,-96.71133333 ]
+    },
+    "properties": {
+    "Restaurants":"Gate 25",
+    "Price":2,
+    "Vegan-friendly":"0",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"0",
+    "Type of Food":"American"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81541667,-96.70358333 ]
+    },
+    "properties": {
+    "Restaurants":"Rutabagas",
+    "Price":2,
+    "Vegan-friendly":"1",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"1",
+    "Type of Food":"Plant-based, American"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81327778,-96.70222222 ]
+    },
+    "properties": {
+    "Restaurants":"Sultan's Kite",
+    "Price":1,
+    "Vegan-friendly":"0",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"0",
+    "Type of Food":"Mediterranean, Halal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81394444,-96.70097222 ]
+    },
+    "properties": {
+    "Restaurants":"Ali Baba Gyros",
+    "Price":1,
+    "Vegan-friendly":"0",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"0",
+    "Type of Food":"Greek, Mediterranean, Halal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81344444,-96.69997222 ]
+    },
+    "properties": {
+    "Restaurants":"AmuManu",
+    "Price":1,
+    "Vegan-friendly":"1",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"1",
+    "Type of Food":"Asian"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81544444,-96.70291667 ]
+    },
+    "properties": {
+    "Restaurants":"Thai Garden",
+    "Price":1,
+    "Vegan-friendly":"0",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"0",
+    "Type of Food":"Thai"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81563889,-96.70894444 ]
+    },
+    "properties": {
+    "Restaurants":"Barry's",
+    "Price":1,
+    "Vegan-friendly":"0",
+    "Vegetarian-friendly":"0",
+    "Gluten-friendly":"1",
+    "Type of Food":"American"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81497222,-96.70452778 ]
+    },
+    "properties": {
+    "Restaurants":"Qdoba",
+    "Price":1,
+    "Vegan-friendly":"1",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"1",
+    "Type of Food":"Mexican"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81575,-96.70238889 ]
+    },
+    "properties": {
+    "Restaurants":"Chipotle",
+    "Price":1,
+    "Vegan-friendly":"1",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"1",
+    "Type of Food":"Mexican"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81566667,-96.70180556 ]
+    },
+    "properties": {
+    "Restaurants":"Panda Express",
+    "Price":1,
+    "Vegan-friendly":"0",
+    "Vegetarian-friendly":"0",
+    "Gluten-friendly":"0",
+    "Type of Food":"Chinese"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81491667,-96.70141667 ]
+    },
+    "properties": {
+    "Restaurants":"Raising Cane's",
+    "Price":1,
+    "Vegan-friendly":"0",
+    "Vegetarian-friendly":"0",
+    "Gluten-friendly":"0",
+    "Type of Food":"American"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 40.81541667,-96.70236111 ]
+    },
+    "properties": {
+    "Restaurants":"Blaze Pizza",
+    "Price":1,
+    "Vegan-friendly":"1",
+    "Vegetarian-friendly":"1",
+    "Gluten-friendly":"1",
+    "Type of Food":"Pizza"
+    }
+  }
 ]
 }
