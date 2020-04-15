@@ -1,5 +1,6 @@
 var HistoricData = {
 "type": "FeatureCollection",
+"name": "HistoricS2,
 "features": [
 { "type": "Feature", "properties": { "Name": "Lyman Terrace", "HP_Type": "Historic Site", "D_TYPE": "National Register \/ Local Landmark", "Architect": "Ferdinand C. Fiske", "Builder": null, "Yr_Built": "1890", "YR_Designa": "1979\/1982", "ShortDescr": "Lincoln's population burgeoned from about 13,000 in 1880 to 55,000 in 1890. Among the new, urban buildings developed in the booming city were a small number of row housesâ€“multi-story homes, each with its own entrance, sharing party walls. <a target=\"_b" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -96.704998261562878, 40.806705735921796 ] ] } },
 { "type": "Feature", "properties": { "Name": "Kappa Sigma Fraternity", "HP_Type": "Historic Site", "D_TYPE": "Local Landmark", "Architect": "McDonald & McDonald", "Builder": null, "Yr_Built": "1924", "YR_Designa": "2005", "ShortDescr": "Kappa Sigma Fraternity house, built in 1924-25, is the only known Lincoln work by the prominent Omaha architects <a href= \"http:\/\/www.e-nebraskahistory.org\/index.php?title=John_%26_Alan_McDonald,_Architects\">McDonald & McDonald<\/a>. It is also atypical a" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -96.704340826180712, 40.806756372544285 ] ] } },
