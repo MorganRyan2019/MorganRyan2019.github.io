@@ -15,11 +15,12 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": 
+        "coordinates": [
             [
               -96.7068432,
               40.81462
               ]
+          ]
       },
       "id": "way/203844164"
     },
