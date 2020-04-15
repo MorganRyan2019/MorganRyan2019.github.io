@@ -1,6 +1,5 @@
 var HistoricData = {
 "type": "FeatureCollection",
-"name": "HistoricData",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "Name": "Lyman Terrace", "HP_Type": "Historic Site", "D_TYPE": "National Register \/ Local Landmark", "Architect": "Ferdinand C. Fiske", "Builder": null, "Yr_Built": "1890", "YR_Designa": "1979\/1982", "ShortDescr": "Lincoln's population burgeoned from about 13,000 in 1880 to 55,000 in 1890. Among the new, urban buildings developed in the booming city were a small number of row housesâ€“multi-story homes, each with its own entrance, sharing party walls. <a target=\"_b" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -96.704998261562878, 40.806705735921796 ] ] } },
