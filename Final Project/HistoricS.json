@@ -1,682 +1,1211 @@
-[
- {
-   "Name": "Lyman Terrace",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register / Local Landmark",
-   "Architect": "Ferdinand C. Fiske",
-   "Builder": "",
-   "Yr_Built": "1890",
-   "YR_Designa": "1979 to 1982",
-   "ShortDescr": "Lincoln's population burgeoned from about 13,000 in 1880 to 55,000 in 1890. Among the new, urban buildings developed in the booming city were a small number of row housesâ€“multi-story homes, each with its own entrance, sharing party walls. <a target=\"_b"
- },
- {
-   "Name": "Kappa Sigma Fraternity",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "McDonald & McDonald",
-   "Builder": "",
-   "Yr_Built": "1924",
-   "YR_Designa": "2005",
-   "ShortDescr": "Kappa Sigma Fraternity house, built in 1924-25, is the only known Lincoln work by the prominent Omaha architects <a href= \"http://www.e-nebraskahistory.org/index.php?title=John_%26_Alan_McDonald,_Architects\">McDonald & McDonald</a>. It is also atypical a"
- },
- {
-   "Name": "Mt. Zion Baptist Church (Lincoln Baptist Church)",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "James Tyler, Jr.",
-   "Builder": "",
-   "Yr_Built": "1922-25",
-   "YR_Designa": "1998",
-   "ShortDescr": "Mt. Zion Baptist Church, a predominantly African-American congregation, received this lot at the southeast corner of 12th and F Streets from the State of Nebraska in 1883. They first occupied a wood-frame church, then constructed a limestone basement in"
- },
- {
-   "Name": "Candy (Albert & Ella) House",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "",
-   "Builder": "T. P. Quick/George A. Wilson",
-   "Yr_Built": "1888 to 1907",
-   "YR_Designa": "1995",
-   "ShortDescr": "Constructed in 1888 by T. P. Quick and expanded in 1907 by contractor George A. Wilson, this small house is significant as the residence of Professor Albert Luther Candy, a \"Professor of Pure Mathematics\" at University of Nebraska and chairman of the Mat"
- },
- {
-   "Name": "Delta Gamma Sorority",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "Miller & Craig",
-   "Builder": "T. Randolph",
-   "Yr_Built": "1926",
-   "YR_Designa": "1999",
-   "ShortDescr": "Delta Gamma was built in 1926 by designs from <a href=\"http://www.e-nebraskahistory.org/index.php?title=Davis_%26_Wilson,_Architects\">Davis & Wilson</a>. Delta Gamma and Kappa Delta sororities flank University Terrace on the north side of R Street betwee"
- },
- {
-   "Name": "Kappa Kappa Gamma Sorority",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "Miller & Craig",
-   "Builder": "",
-   "Yr_Built": "1925",
-   "YR_Designa": "1999",
-   "ShortDescr": "Kappa Kappa Gamma was the first sorority established at the University of Nebraska, dating from 1884.  The house is an excellent representative of the several Period Revival chapter houses designed by the prominent Lincoln architects <a href=\"http://www."
- },
- {
-   "Name": "Sigma Phi Epsilon Fraternity",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "Miller & Craig",
-   "Builder": "",
-   "Yr_Built": "1929",
-   "YR_Designa": "2002",
-   "ShortDescr": "The Sigma Phi Epsilon house was constructed in 1929 in a high Tudor Revival manner by the Lincoln architects <a href=\"http://www.e-nebraskahistory.org/index.php?title=Miller_%26_Craig,_Architects\">Miller & Craig</a>. On its constricted site a major addit"
- },
- {
-   "Name": "Phi Delta Theta Fraternity",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register / Local Landmark",
-   "Architect": "Martin I. Aitken",
-   "Builder": "Olson Construction Co.",
-   "Yr_Built": "1937",
-   "YR_Designa": "1985",
-   "ShortDescr": "When Greek Row developed on the south and east edges of the expanded University of Nebraska city campus, the chapter houses of the 1910s and â€˜20s reflected revivals of historic architectural styles, especially Tudor and Colonial. In contrast, Phi Delta"
- },
- {
-   "Name": "Kappa Alpha Theta Sorority",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "Davis & Wilson",
-   "Builder": "",
-   "Yr_Built": "1925",
-   "YR_Designa": "2001",
-   "ShortDescr": "Kappa Alpha Theta Sorority house is one of the best examples within the Greek Row Historic District of Federal Revival style architecture, and was designed in 1925 by <a href = \"http://www.e-nebraskahistory.org/index.php?title=Davis_%26_Wilson,_Architect"
- },
- {
-   "Name": "Alpha Xi Delta Sorority",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "Miller & Craig",
-   "Builder": "",
-   "Yr_Built": "1929",
-   "YR_Designa": "2004",
-   "ShortDescr": "This tall limestone sorority house was built in 1929 and anchors the southeast corner of the Greek Row Historic District. Its architects, <a href=\"http://www.e-nebraskahistory.org/index.php?title=Miller_%26_Craig,_Architects\">Miller & Craig</a>, designed"
- },
- {
-   "Name": "Delta Delta Delta Sorority",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "Miller & Craig",
-   "Builder": "",
-   "Yr_Built": "1926",
-   "YR_Designa": "2006",
-   "ShortDescr": "<a href=\"http://www.e-nebraskahistory.org/index.php?title=Miller_%26_Craig,_Architects\">Miller & Craig </a>were the most prolific architects of Greek chapter houses at UNL. The \"Tri-Delt\" house at the prominent southeast corner of 16th and R Streets exem"
- },
- {
-   "Name": "Sigma Nu Fraternity",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "N. R. Brigham",
-   "Builder": "John M. Alexander & Co.",
-   "Yr_Built": "1927",
-   "YR_Designa": "2002",
-   "ShortDescr": "Sigma Nu is unique in UNLâ€™s Greek Row in utilizing the Spanish Colonial style with a strong symmetrical faÃ§ade, arcaded entrance, and tile roof. The building was executed in 1927 by prominent Omaha architect <a href= \"http://www.e-nebraskahistory.org/"
- },
- {
-   "Name": "Gamma Phi Beta Sorority",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "Kemyss L. Bonebright",
-   "Builder": "",
-   "Yr_Built": "1927",
-   "YR_Designa": "2007",
-   "ShortDescr": "This three-story sorority house, designed by Kemyss L. Bonebright, a draftsman for <a href = \"http://www.e-nebraskahistory.org/index.php?title=Davis_%26_Wilson,_Architects\">Davis & Wilson</a>, is perhaps the best example in UNLâ€™s Greek Row of the Feder"
- },
- {
-   "Name": "Lewis-Syford House",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register / Local Landmark",
-   "Architect": "",
-   "Builder": "",
-   "Yr_Built": "1878",
-   "YR_Designa": "1971",
-   "ShortDescr": "The Lewis-Syford House is highly unusual in Lincoln for its University location, very early date of construction, and architectural style. Rev. Elisha M. Lewis, a â€œhome missionaryâ€ of the Presbyterian Church, built his house around 1878 in a resident"
- },
- {
-   "Name": "Phi Kappa Psi Fraternity",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "A. H. Welch",
-   "Builder": "",
-   "Yr_Built": "1917",
-   "YR_Designa": "2008",
-   "ShortDescr": "In 1917 Phi Kappa Psi Fraternity house inaugurated the pattern of constructing substantial masonry buildings for fraternities and sororities on the south and east boundaries of the expanding University of Nebraska campus, which became the historic Greek"
- },
- {
-   "Name": "Sigma Chi Fraternity",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "Davis & Wilson",
-   "Builder": "",
-   "Yr_Built": "1931",
-   "YR_Designa": "2008",
-   "ShortDescr": "Sigma Chi Fraternity house of 1931 is an exemplary Tudor Revival design by the leading Lincoln architects <a href = \"http://www.e-nebraskahistory.org/index.php?title=Davis_%26_Wilson,_Architects\">Davis & Wilson</a>. An addition on the east side nearly do"
- },
- {
-   "Name": "Sigma Alpha Epsilon Fraternity",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "Miller & Craig",
-   "Builder": "",
-   "Yr_Built": "1927",
-   "YR_Designa": "2013",
-   "ShortDescr": "The Sigma Alpha Epsilon Fraternity house of 1927 is an excellent example of the Tudor style applied to a fraternity chapter house. It is the most decorative of <a href=\"http://www.e-nebraskahistory.org/index.php?title=Miller_%26_Craig,_Architects\">Miller"
- },
- {
-   "Name": "Greek Row District",
-   "HP_Type": "Historic District",
-   "D_TYPE": "National Register",
-   "Architect": "",
-   "Builder": "",
-   "Yr_Built": "N/A",
-   "YR_Designa": "1997",
-   "ShortDescr": ""
- },
- {
-   "Name": "Nebraska State Historical Society Building",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "Davis & Wilson",
-   "Builder": "Olson Construction Co.",
-   "Yr_Built": "1953",
-   "YR_Designa": "2003",
-   "ShortDescr": "Although the Nebraska State Historical Society was founded in 1878, it was not until 1953 that the Society successfully constructed its first purpose-built headquarters. The site on the edge of UNLâ€™s City Campus has special significance in Lincolnâ€™s"
- },
- {
-   "Name": "Theta Xi Fraternity",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "Wesley Murray Matthews",
-   "Builder": "Kingery Construction",
-   "Yr_Built": "1946",
-   "YR_Designa": "2017",
-   "ShortDescr": "The Art Deco style of the Theta Xi fraternity house helps anchor the 16th and R street intersection at the heart of the Greek Row Historic District."
- },
- {
-   "Name": "YWCA Building",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "Meginnis & Schaumberg",
-   "Builder": "",
-   "Yr_Built": "1932",
-   "YR_Designa": "1984",
-   "ShortDescr": "Lincoln's Young Women's Christian Association chapter dates to 1886. In 1906 the chapter commissioned <a target = \"_blank\" href = \"http://www.e-nebraskahistory.org/index.php?title=Fiske_%26_Dieman,_Architects\" >Fiske & Dieman</a> to design a substantial"
- },
- {
-   "Name": "Scottish Rite Temple",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register / Local Landmark",
-   "Architect": "Ellery L. Davis",
-   "Builder": "",
-   "Yr_Built": "1916",
-   "YR_Designa": "1986",
-   "ShortDescr": "The Scottish Rite Temple is a reinforced concrete, Neo-Classical Revival style building sheathed in Indiana limestone. The temple's most prominent feature is a colossal order of ten Roman Doric engaged columns on the front facade. When the temple was con"
- },
- {
-   "Name": "Terminal Building",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "Paul V. Hyland",
-   "Builder": "Selden-Breck Construction Company",
-   "Yr_Built": "1916",
-   "YR_Designa": "1986",
-   "ShortDescr": "The ten-story Terminal Building was planned in 1915 and erected in 1916 as the headquarters for Lincoln Traction Company. The Lincoln Traction Company, formed in 1897 as a reorganization of the Lincoln Street Railway Company, was the major street railway"
- },
- {
-   "Name": "Lincoln Liberty Life Building",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "Fiske & Dieman",
-   "Builder": "",
-   "Yr_Built": "1907 to 1936",
-   "YR_Designa": "1988",
-   "ShortDescr": "This structure had its beginnings in 1907-08 as the five-story Little Building, designed by <a href=\"http://www.e-nebraskahistory.org/index.php?title=Fiske_%26_Dieman,_Architects\">Fiske & Dieman</a> in the early 20th century Commercial Style, topped with"
- },
- {
-   "Name": "Security Mutual Building (Centerstone)",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "James Tyler",
-   "Builder": "",
-   "Yr_Built": "1887 to 1916",
-   "YR_Designa": "1979",
-   "ShortDescr": "In 1887 investors and brothers C. C. and L. C. Burr developed a six-story skyscraper on this site, designed by <a href= \"http://www.e-nebraskahistory.org/index.php?title=James_Tyler_(1844-1919),_Architect\" >James Tyler</a>. The â€œBurrsâ€™ Blockâ€ was L"
- },
- {
-   "Name": "Nebraska Telephone Company",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register / Local Landmark",
-   "Architect": "Walker & Kimball",
-   "Builder": "",
-   "Yr_Built": "1894",
-   "YR_Designa": "1978",
-   "ShortDescr": "This three-story commercial building in the Renaissance Revival style is the only Lincoln example of the work of <a target = \"_blank\" href= \"http://www.e-nebraskahistory.org/index.php?title=Thomas_Rogers_Kimball_(1862-1934),_Architect\">Thomas Rogers Kimb"
- },
- {
-   "Name": "Harris (Sarah) House",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register / Local Landmark",
-   "Architect": "",
-   "Builder": "",
-   "Yr_Built": "1902-03",
-   "YR_Designa": "1982",
-   "ShortDescr": "The Harris House was built for Sarah F. Harris, widow of George Harris, who served as a land commissioner for the Burlington and Missouri Railroad. Sarah and George settled in Lincoln in 1872 and he died in 1874. Widow Sarah raised their seven children i"
- },
- {
-   "Name": "Gold & Company Department Store",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "Davis  & Wilson",
-   "Builder": "",
-   "Yr_Built": "1924",
-   "YR_Designa": "1982",
-   "ShortDescr": "In 1902 William Gold, a native of New York, established \"The Peoples' Store,\" a modest retail business in downtown Lincoln. The firm was incorporated in 1915 with William Gold as president and son Nathan as vice-president and was later renamed \"Gold and"
- },
- {
-   "Name": "Hotel Capital (Georgian Place & YMCA)",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "H. T. Stevens & Company",
-   "Builder": "",
-   "Yr_Built": "1925-26",
-   "YR_Designa": "1983",
-   "ShortDescr": "Eugene C. Eppley of Omaha owned the Lincoln Hotel at 9th and P Streets when a group of Lincoln businessmen formed the Lancaster Hotel Company and built the community-owned Cornhusker Hotel at 13th and M Streets in 1925-26. Eppley responded by extensively"
- },
- {
-   "Name": "Old City Hall",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "Alfred B. Mullett",
-   "Builder": "",
-   "Yr_Built": "1874-79",
-   "YR_Designa": "1969",
-   "ShortDescr": "Old City Hall stands on the block designated on Lincoln's original city plan of 1867 as \"Market Square,\" which was initially planned as a stopping point for visitors and an open-air market for residents.  In 1873 the City deeded the block to the U. S. Go"
- },
- {
-   "Name": "Old Federal Building (Grand Manse)",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register / Local Landmark",
-   "Architect": "James Knox Taylor",
-   "Builder": "",
-   "Yr_Built": "1905 to 1939",
-   "YR_Designa": "2004",
-   "ShortDescr": "In 1905, a new federal building was under construction on the east (10th Street) end of the north half of Government Square, designed by federal architect <a target = \"_blank\" href= \"http://www.e-nebraskahistory.org/index.php?title=James_Knox_Taylor_(_-1"
- },
- {
-   "Name": "Helmer-Winnett-White Flats",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register / Local Landmark",
-   "Architect": "",
-   "Builder": "",
-   "Yr_Built": "1898",
-   "YR_Designa": "1979",
-   "ShortDescr": "As Lincoln became a larger and more urbanized place in the 1880s and 1890s new housing types began to be developed. Previously in Lincoln typical housing types included single family, duplex, boarding houses, and residential hotels. In the late 1880s row"
- },
- {
-   "Name": "Lincoln Woman's Club",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "Schaumberg & Freeman",
-   "Builder": "",
-   "Yr_Built": "1954 to 1955",
-   "YR_Designa": "2000",
-   "ShortDescr": "While the clubhouse of the Lincoln Womanâ€™s Club is a pristine small-scale example of International style architecture designed by Lincoln architectural firm <a href= \"http://www.e-nebraskahistory.org/index.php?title=Schaumberg_%26_Freeman,_Architects\""
- },
- {
-   "Name": "Woods Brothers Companies Building",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register / Local Landmark",
-   "Architect": "",
-   "Builder": "Woods Brothers Construction Co.",
-   "Yr_Built": "1920",
-   "YR_Designa": "1980",
-   "ShortDescr": "Col. F. M. Woods, a livestock auctioneer from Illinois, brought his family to Lincoln in the 1870s. Three of his sons, Mark, George, and Frank Woods, began forming a series of companies in 1889 dealing in real estate, livestock, and construction. Under t"
- },
- {
-   "Name": "First National Bank Building",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "Hyland & Green",
-   "Builder": "",
-   "Yr_Built": "1910",
-   "YR_Designa": "1998",
-   "ShortDescr": "First National Bank was Lincoln's first federally chartered bank in 1871 and was one of the few local banks to survive the turbulent 1890s. In 1910 the bank replaced its 1870's building on the southeast corner of 10th and O Streets with an eight-story, s"
- },
- {
-   "Name": "Federal Trust Building",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "Meginnis & Schaumberg",
-   "Builder": "Olson Construction Co.",
-   "Yr_Built": "1926 to 27",
-   "YR_Designa": "2002",
-   "ShortDescr": "The Federal Trust Building is a well-preserved representative of a significant moment in Lincoln office construction, built in 1926-27 and designed by the productive local architecture firm of <a href=\"http://www.e-nebraskahistory.org/index.php?title=Meg"
- },
- {
-   "Name": "Stuart Building (University Towers)",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "Davis & Wilson",
-   "Builder": "Olson Construction",
-   "Yr_Built": "1928 to 29",
-   "YR_Designa": "2003",
-   "ShortDescr": "The Stuart Building was designed by Lincoln architects <a href = \"http://www.e-nebraskahistory.org/index.php?title=Davis_%26_Wilson,_Architects\">Davis & Wilson</a> and completed in 1929 in the Art Deco style with Gothic Revival ornament including gargoyl"
- },
- {
-   "Name": "Masonic Temple",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "Meginnis & Schaumberg",
-   "Builder": "Charles Olson",
-   "Yr_Built": "1935",
-   "YR_Designa": "2005",
-   "ShortDescr": "Designed by the Lincoln architectural firm of <a href=\"http://www.e-nebraskahistory.org/index.php?title=Meginnis_%26_Schaumberg,_Architects\" >Meginnis & Schaumberg</a> and built in 1935, the Masonic Temple is an excellent example of the union of art and"
- },
- {
-   "Name": "Comfort Station",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "Fritz Craig",
-   "Builder": "",
-   "Yr_Built": "1924",
-   "YR_Designa": "2004",
-   "ShortDescr": "The third, smallest building on Government Square, at the corner of 9th and O Streets, was built in 1924 as a \"Public Comfort Station for Men,\" especially for travelers on the DLD (Detroit-Lincoln-Denver) Highway.  Women's restrooms were provided in the"
- },
- {
-   "Name": "Kirkwood Brothel (Mission Arts)",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "",
-   "Builder": "",
-   "Yr_Built": "1903",
-   "YR_Designa": "2012",
-   "ShortDescr": "By the 1880s through the beginning of the 20th century, a frame house at this site was used as a brothel, for many years owned by a prominent madam named Lydia Stewart. Prostitution was outlawed in Lincoln by 1885 but was tacitly tolerated in the ninetee"
- },
- {
-   "Name": "Sky Park Manor",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "Selmer A. Solheim",
-   "Builder": "Olson Construction",
-   "Yr_Built": "1950",
-   "YR_Designa": "2016",
-   "ShortDescr": "Sky Park Manor is a twelve-story, high-rise, luxury apartment building completed in 1963 in the International style. Sky Park is the tallest structure in the immediate vicinity of the Capitol, and was built before the modern Capitol Environs height limit"
- },
- {
-   "Name": "Strode Building",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "Fiske & Meginnis",
-   "Builder": "Edmund C. Strode",
-   "Yr_Built": "1916",
-   "YR_Designa": "2019",
-   "ShortDescr": "The Strode Building is significant as a large, early automotive building, very prominently located downtown, designed by Fiske & Meginnis, one of Lincoln's leading architectural partnerships of the first quarter of the 20th century."
- },
- {
-   "Name": "German Evangelical Lutheran Immanuel Church",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "James Tyler",
-   "Builder": "F. W. Rische",
-   "Yr_Built": "1910",
-   "YR_Designa": "1986",
-   "ShortDescr": "The German Evangelical Lutheran Immanuel Church and School was designed by <a href= \"http://www.e-nebraskahistory.org/index.php?title=Tyler_%26_Brandt,_Architects\">Tyler & Brandt </a>and built in 1910 by F. W. Rische to serve a congregation of Germans fr"
- },
- {
-   "Name": "Tyler (William & Sarah) House",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register / Local Landmark",
-   "Architect": "James Tyler",
-   "Builder": "",
-   "Yr_Built": "1891",
-   "YR_Designa": "1978, 1981",
-   "ShortDescr": "English-born architect <a target= \"_blank\" href= \"http://www.e-nebraskahistory.org/index.php?title=James_Tyler_(1844-1919),_Architect\" >James Tyler</a> (1844-1919) designed one of Lincoln's finest Queen Anne style houses for his brother William Tyler in"
- },
- {
-   "Name": "Quinn Chapel African Methodist Episcopal Church",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "A. W. Woods",
-   "Builder": "",
-   "Yr_Built": "1900 to 1926",
-   "YR_Designa": "1999",
-   "ShortDescr": "Quinn Chapel A. M. E. Church was established in 1871 as Lincoln's first African-American congregation. Their first church was located at 1024-26 E Street on land granted by the State of Nebraska. They subsequently built a brick church at 1026 F Street in"
- },
- {
-   "Name": "Meadow Gold Block of Beatrice Creamery Company",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "C. A. P. Turner",
-   "Builder": "",
-   "Yr_Built": "1898",
-   "YR_Designa": "2012",
-   "ShortDescr": "The Meadow Gold Block consists of a dozen buildings occupying a full city block built between 1902 and 1916. The earliest buildings on the south half of the block originally housed a local ice and cold storage company. Beatrice Creamery Company had its o"
- },
- {
-   "Name": "O'Connell-Galbraith House",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "",
-   "Builder": "John O'Connell",
-   "Yr_Built": "1881",
-   "YR_Designa": "2014",
-   "ShortDescr": "This house was built around 1881 for John Oâ€™Connell and is among the oldest surviving brick houses in Lincoln. While altered, it still retains its essential early form. It was subsequently occupied by people of Irish, African, and German ancestry which"
- },
- {
-   "Name": "Veith Building",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "Smith & Tyler",
-   "Builder": "",
-   "Yr_Built": "1884",
-   "YR_Designa": "1980",
-   "ShortDescr": "Veith Building in Haymarket is individually listed on the National Register as the most intact small, 19th century commercial building in Lincoln. Designed by the Lincoln architects <a target= \"_blank\" href= \"http://www.e-nebraskahistory.org/index.php?ti"
- },
- {
-   "Name": "Hayward School",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register / Local Landmark",
-   "Architect": "James H. Craddock\n",
-   "Builder": "George A. Wilson",
-   "Yr_Built": "1904",
-   "YR_Designa": "1983",
-   "ShortDescr": "Hayward School was built in 1903-04, with additions completed in 1913 and 1925. Each building phase displays a distinct style of public school architecture. The original school is at the center of the present structure and was designed by architect James"
- },
- {
-   "Name": "Old University Library (Architecture Hall)",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "Mendelssohn, Fisher & Lawrie",
-   "Builder": "",
-   "Yr_Built": "1891 to 1895",
-   "YR_Designa": "1975",
-   "ShortDescr": "The Old University Library, constructed 1891-95, is the oldest existing building on the University of Nebraska-Lincoln's downtown campus. Designed by the architectural firm of <a href= \"http://www.e-nebraskahistory.org/index.php?title=Mendelssohn,_Fisher"
- },
- {
-   "Name": "CB&Q Locomotive 710",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "",
-   "Builder": "",
-   "Yr_Built": "1901 to 1928",
-   "YR_Designa": "1997",
-   "ShortDescr": "One of the few remaining steam locomotives built at Burlington Railroad's Havelock Shops, the 78 ton Locomotive 710 was constructed in 1901 and rebuilt in 1928 with smaller drive wheels in a 4-6-0 configuration. It was used first in passenger service, th"
- },
- {
-   "Name": "Standard Oil Company Barn & Garage",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "Joseph W. Salmon",
-   "Builder": "F. P. Gould & Son",
-   "Yr_Built": "1915",
-   "YR_Designa": "2009",
-   "ShortDescr": "The Standard Oil Company Barn & Garage is a rare remnant of the early automotive era, when horse power and horsepower overlapped.  The structure was built in 1915 to accommodate both the trucks and horses or mules that delivered Standard Oil products to"
- },
- {
-   "Name": "Sheldon Musium of Art",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "Philip Johnson",
-   "Builder": "",
-   "Yr_Built": "1963",
-   "YR_Designa": "2013",
-   "ShortDescr": "The Sheldon Museum of Art and its associated sculpture garden were designed by the renowned architect <a href= \"http://www.e-nebraskahistory.org/index.php?title=Philip_Cortelyou_Johnson_(1906-2005),_Architect\" >Philip Johnson</a> and built in 1963, refle"
- },
- {
-   "Name": "Haymarket District",
-   "HP_Type": "Historic District",
-   "D_TYPE": "Local Landmark",
-   "Architect": "",
-   "Builder": "",
-   "Yr_Built": "N/A",
-   "YR_Designa": "1982",
-   "ShortDescr": ""
- },
- {
-   "Name": "Noble-Dawes House",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "",
-   "Builder": "",
-   "Yr_Built": "1885",
-   "YR_Designa": "1985",
-   "ShortDescr": "Built around 1885 for photographer Henry E. Noble, this Queen Anne style duplex was the home of Charles G. Dawes from 1891-1895. Born in Ohio in 1865, Dawes was a recent graduate from Cincinnati Law School when he was admitted to the Nebraska Bar in 1886"
- },
- {
-   "Name": "Kennard House (Nebraska Statehood Memorial)",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "John Keys Winchell",
-   "Builder": "",
-   "Yr_Built": "1869",
-   "YR_Designa": "1969",
-   "ShortDescr": "Built in 1869 for Nebraskaâ€™s first Secretary of State, the Thomas P. and Livia Kennard House is the oldest residence still standing in the original boundaries of Lincoln. Chicago architect <a href = \"http://www.e-nebraskahistory.org/index.php?title=Joh"
- },
- {
-   "Name": "Nebraska State Capitol",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Historic Landmark",
-   "Architect": "Bertram Goodhue",
-   "Builder": "",
-   "Yr_Built": "1922 to 1932",
-   "YR_Designa": "1970",
-   "ShortDescr": "The Nebraska State Capitol, the product of a nationwide design competition won by New York Architect <a href=\"http://www.e-nebraskahistory.org/index.php?title=Bertram_Grosvenor_Goodhue_(1869-1924),_Architect\">Bertram Grosvenor Goodhue </a>in 1920. The pr"
- },
- {
-   "Name": "Ferguson (William & Myrtle) House",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "Searles, Hirsch & Gavin",
-   "Builder": "",
-   "Yr_Built": "1909 to 1911",
-   "YR_Designa": "1972",
-   "ShortDescr": "Entrepreneur William Henry Ferguson built his sturdy Renaissance Revival mansion on Capitol Square in 1909-1911, thirty years after coming to Nebraska in a covered wagon. His early efforts in agriculture, innovating in the planting of winter wheat and al"
- },
- {
-   "Name": "President & Ambassador Apartments",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "John M. Alexander",
-   "Builder": "John M. Alexander",
-   "Yr_Built": "1928 to 1929",
-   "YR_Designa": "1993",
-   "ShortDescr": "The President & Ambassador Apartments are a pair of five-story, flat-roofed, apartment buildings. They were constructed in 1928-29 by architect/developer <a href= \"http://www.e-nebraskahistory.org/index.php?title=John_M._Alexander_(ca._1888-1972),_Archit"
- },
- {
-   "Name": "Hurlbut-Yates House",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register / Local Landmark",
-   "Architect": "Ferdinand C. Fiske",
-   "Builder": "",
-   "Yr_Built": "1890",
-   "YR_Designa": "1998",
-   "ShortDescr": "Built in 1891 from a design by architect <a target=\"_blank\" href = \"http://www.e-nebraskahistory.org/index.php?title=Ferdinand_Comstock_Fiske_(1856-1930),_Architect\">Ferdinand C. Fiske</a>, the Hurlbut-Yates House is prominently located on a large corner"
- },
- {
-   "Name": "Nebraska Governor's Mansion",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "Selmer A. Solheim",
-   "Builder": "W. J. Broer Construction Co.",
-   "Yr_Built": "1957",
-   "YR_Designa": "2008",
-   "ShortDescr": "Nebraskaâ€™s Governorâ€™s Mansion, built in 1957, replaced a large Neo-Classical Revival residence on the northeast corner of the same block. The earlier house was built in the 1890s for the Thompson family but served as the Governorâ€™s residence for th"
- },
- {
-   "Name": "Watkins (Albert & Margaret) House",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register",
-   "Architect": "John H. W. Hawkins",
-   "Builder": "",
-   "Yr_Built": "1887",
-   "YR_Designa": "1989",
-   "ShortDescr": "Architect <a target = \"_blank\" href= \"http://www.e-nebraskahistory.org/index.php?title=John_Henry_Willis_Hawkins_(1855-1923),_Architect\" >John H. W. Hawkins</a> designed this Queen Anne style house of 1887 for Albert Watkins, a newspaper publisher, histo"
- },
- {
-   "Name": "Hall (Frank & Anna) House",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "John H. W. Hawkins",
-   "Builder": "",
-   "Yr_Built": "1884",
-   "YR_Designa": "1998",
-   "ShortDescr": "Banker Richard Outcalt built the large wood-frame house designed by <a href= \"http://www.e-nebraskahistory.org/index.php?title=John_Henry_Willis_Hawkins_(1855-1923),_Architect\" >John H. W. Hawkins</a> at the northwest corner of 11th and D Streets around"
- },
- {
-   "Name": "Foster (John & Mary) House",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "",
-   "Builder": "",
-   "Yr_Built": "1881",
-   "YR_Designa": "2008",
-   "ShortDescr": "The Foster House was under construction by 1881, making it a locally early example of the Queen Anne style that dominated residential construction during Lincoln's booming 1880s. John and Mary Foster were a young farming family when they built the house."
- },
- {
-   "Name": "Bowman-Cameron House",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "",
-   "Builder": "Thomas P. Harrison",
-   "Yr_Built": "1887",
-   "YR_Designa": "2013",
-   "ShortDescr": "The two story Italianate house with a prominent Neo-Classical front porch was built circa 1885 by Thomas P. Harrison, a local carpenter/contractor, for Dr. John W. and Catherine Bowman. Dr. Bowman was treasurer of Lincoln Insurance Company and later serv"
- },
- {
-   "Name": "Betz/VanAndel Houses",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "Local Landmark",
-   "Architect": "",
-   "Builder": "John M. Betz",
-   "Yr_Built": "1912",
-   "YR_Designa": "2016",
-   "ShortDescr": "The Betz and VanAndel Houses are an exemplary pair of American Foursquare residences built in 1912 on a single lot at the prominent intersection of 13th and D Streets. They demonstrate the turn-of-the-century intensification of Lincoln's Everett neighbor"
- },
- {
-   "Name": "Everett District",
-   "HP_Type": "Historic District",
-   "D_TYPE": "Local Landmark",
-   "Architect": "",
-   "Builder": "",
-   "Yr_Built": "N/A",
-   "YR_Designa": "1998",
-   "ShortDescr": ""
- },
- {
-   "Name": "Barr Terrace",
-   "HP_Type": "Historic Site",
-   "D_TYPE": "National Register / Local Landmark",
-   "Architect": "Ferdinand C. Fiske",
-   "Builder": "",
-   "Yr_Built": "1889 to 1891",
-   "YR_Designa": "1979",
-   "ShortDescr": "<a href = \"http://www.e-nebraskahistory.org/index.php?title=Ferdinand_Comstock_Fiske_(1856-1930),_Architect\">Ferdinand C. Fiske</a> came to Lincoln in 1887 and soon established himself as one of the leading architects in the booming capital city. Barr Te"
- }
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69747481,40.81659011 ]
+    },
+    "properties": {
+    "OBJECTID":73,
+    "Name":"Alpha Xi Delta Sorority",
+    "HTML_Name":"alphaxidelta",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"Miller & Craig",
+    "Builder":"No Info",
+    "Yr_Built":"1929",
+    "YR_Designated":2004
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70596019,40.80729506 ]
+    },
+    "properties": {
+    "OBJECTID":20,
+    "Name":"Barr Terrace",
+    "HTML_Name":"barrterrace",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register / Local Landmark",
+    "Architect":"Ferdinand C. Fiske",
+    "Builder":"No Info",
+    "Yr_Built":"1889",
+    "YR_Designated":1979
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70293986,40.80284398 ]
+    },
+    "properties": {
+    "OBJECTID":150,
+    "Name":"Betz/VanAndel Houses",
+    "HTML_Name":"betzvanandel",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"No Info",
+    "Builder":"John M. Betz",
+    "Yr_Built":"1912",
+    "YR_Designated":2016
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70385147,40.80220976 ]
+    },
+    "properties": {
+    "OBJECTID":145,
+    "Name":"Bowman-Cameron House",
+    "HTML_Name":"bowmancameron",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"No Info",
+    "Builder":"Thomas P. Harrison",
+    "Yr_Built":"1887",
+    "YR_Designated":2013
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70676626,40.80667131 ]
+    },
+    "properties": {
+    "OBJECTID":91,
+    "Name":"Candy (Albert & Ella) House",
+    "HTML_Name":"candy",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"No Info",
+    "Builder":"T. P. Quick/George A. Wilson",
+    "Yr_Built":"1888",
+    "YR_Designated":1995
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.71163352,40.81585498 ]
+    },
+    "properties": {
+    "OBJECTID":95,
+    "Name":"CB&Q Locomotive 710",
+    "HTML_Name":"cbqlocomotive",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"No Info",
+    "Builder":"No Info",
+    "Yr_Built":"1901",
+    "YR_Designated":1997
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7081698,40.81391204 ]
+    },
+    "properties": {
+    "OBJECTID":111,
+    "Name":"Comfort Station",
+    "HTML_Name":"comfortstation",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"Fritz Craig",
+    "Builder":"No Info",
+    "Yr_Built":"1924",
+    "YR_Designated":2004
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69787967,40.81659382 ]
+    },
+    "properties": {
+    "OBJECTID":74,
+    "Name":"Delta Delta Delta Sorority",
+    "HTML_Name":"deltadeltadelta",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"Miller & Craig",
+    "Builder":"No Info",
+    "Yr_Built":"1926",
+    "YR_Designated":2006
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69696886,40.81726261 ]
+    },
+    "properties": {
+    "OBJECTID":60,
+    "Name":"Delta Gamma Sorority",
+    "HTML_Name":"deltagamma",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"Miller & Craig",
+    "Builder":"T. Randolph",
+    "Yr_Built":"1926",
+    "YR_Designated":1999
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70583825,40.80296642 ]
+    },
+    "properties": {
+    "OBJECTID":169,
+    "Name":"Everett District",
+    "HTML_Name":"everett",
+    "HP_Type":"Historic District",
+    "D_TYPE":"Local Landmark",
+    "Architect":"No Info",
+    "Builder":"No Info",
+    "Yr_Built":"No Info",
+    "YR_Designated":1998
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70229071,40.81275629 ]
+    },
+    "properties": {
+    "OBJECTID":106,
+    "Name":"Federal Trust Building",
+    "HTML_Name":"federaltrust",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"Meginnis & Schaumberg",
+    "Builder":"Olson Construction Co.",
+    "Yr_Built":"1926",
+    "YR_Designated":2002
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69783507,40.80660099 ]
+    },
+    "properties": {
+    "OBJECTID":16,
+    "Name":"Ferguson (William & Myrtle) House",
+    "HTML_Name":"ferguson",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"Searles, Hirsch & Gavin",
+    "Builder":"No Info",
+    "Yr_Built":"1909",
+    "YR_Designated":1972
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70668385,40.81333564 ]
+    },
+    "properties": {
+    "OBJECTID":96,
+    "Name":"First National Bank Building",
+    "HTML_Name":"firstnatlbank",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"Hyland & Green",
+    "Builder":"No Info",
+    "Yr_Built":"1910",
+    "YR_Designated":1998
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70643804,40.80219603 ]
+    },
+    "properties": {
+    "OBJECTID":122,
+    "Name":"Foster (John & Mary) House",
+    "HTML_Name":"foster",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"No Info",
+    "Builder":"No Info",
+    "Yr_Built":"1881",
+    "YR_Designated":2008
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.6984932,40.81733372 ]
+    },
+    "properties": {
+    "OBJECTID":118,
+    "Name":"Gamma Phi Beta Sorority",
+    "HTML_Name":"gammaphibeta",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"Kemyss L. Bonebright",
+    "Builder":"No Info",
+    "Yr_Built":"1927",
+    "YR_Designated":2007
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.71035831,40.80230665 ]
+    },
+    "properties": {
+    "OBJECTID":5,
+    "Name":"German Evangelical Lutheran Immanuel Church ",
+    "HTML_Name":"germanevanluth",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"James Tyler",
+    "Builder":"F. W. Rische",
+    "Yr_Built":"1910",
+    "YR_Designated":1986
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70585664,40.81332397 ]
+    },
+    "properties": {
+    "OBJECTID":27,
+    "Name":"Gold & Company Department Store",
+    "HTML_Name":"golds",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"Davis  & Wilson",
+    "Builder":"No Info",
+    "Yr_Built":"1924",
+    "YR_Designated":1982
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.6979136,40.81849842 ]
+    },
+    "properties": {
+    "OBJECTID":166,
+    "Name":"Greek Row District",
+    "HTML_Name":"greekrow",
+    "HP_Type":"Historic District",
+    "D_TYPE":"National Register",
+    "Architect":"No Info",
+    "Builder":"No Info",
+    "Yr_Built":"No Info",
+    "YR_Designated":1997
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70597849,40.80285293 ]
+    },
+    "properties": {
+    "OBJECTID":78,
+    "Name":"Hall (Frank & Anna) House",
+    "HTML_Name":"hall",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"John H. W. Hawkins",
+    "Builder":"No Info",
+    "Yr_Built":"1884",
+    "YR_Designated":1998
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69743469,40.80942796 ]
+    },
+    "properties": {
+    "OBJECTID":26,
+    "Name":"Harris (Sarah) House",
+    "HTML_Name":"harris",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register / Local Landmark",
+    "Architect":"No Info",
+    "Builder":"No Info",
+    "Yr_Built":"1902",
+    "YR_Designated":1982
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.71000645,40.81513539 ]
+    },
+    "properties": {
+    "OBJECTID":158,
+    "Name":"Haymarket District",
+    "HTML_Name":"haymarket",
+    "HP_Type":"Historic District",
+    "D_TYPE":"Local Landmark",
+    "Architect":"No Info",
+    "Builder":"No Info",
+    "Yr_Built":"No Info",
+    "YR_Designated":1982
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70851945,40.82594557 ]
+    },
+    "properties": {
+    "OBJECTID":47,
+    "Name":"Hayward School",
+    "HTML_Name":"hayward",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register / Local Landmark",
+    "Architect":"James H. Craddock\n",
+    "Builder":"George A. Wilson",
+    "Yr_Built":"1904",
+    "YR_Designated":1983
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70615875,40.80953942 ]
+    },
+    "properties": {
+    "OBJECTID":80,
+    "Name":"Helmer-Winnett-White Flats",
+    "HTML_Name":"helmerwinnett",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register / Local Landmark",
+    "Architect":"No Info",
+    "Builder":"No Info",
+    "Yr_Built":"1898",
+    "YR_Designated":1979
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70581899,40.81448793 ]
+    },
+    "properties": {
+    "OBJECTID":28,
+    "Name":"Hotel Capital (Georgian Place & YMCA)",
+    "HTML_Name":"hotelcapital",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"H. T. Stevens & Company",
+    "Builder":"No Info",
+    "Yr_Built":"1925",
+    "YR_Designated":1983
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69787613,40.80617796 ]
+    },
+    "properties": {
+    "OBJECTID":99,
+    "Name":"Hurlbut-Yates House",
+    "HTML_Name":"hurlbutyates",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register / Local Landmark",
+    "Architect":"Ferdinand C. Fiske",
+    "Builder":"No Info",
+    "Yr_Built":"1890",
+    "YR_Designated":1998
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69840926,40.81773374 ]
+    },
+    "properties": {
+    "OBJECTID":72,
+    "Name":"Kappa Alpha Theta Sorority",
+    "HTML_Name":"kappaalphatheta",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"Davis & Wilson",
+    "Builder":"No Info",
+    "Yr_Built":"1925",
+    "YR_Designated":2001
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69775682,40.81941799 ]
+    },
+    "properties": {
+    "OBJECTID":61,
+    "Name":"Kappa Kappa Gamma Sorority",
+    "HTML_Name":"kappakappagamma",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"Miller & Craig",
+    "Builder":"No Info",
+    "Yr_Built":"1925",
+    "YR_Designated":1999
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70434083,40.80675637 ]
+    },
+    "properties": {
+    "OBJECTID":70,
+    "Name":"Kappa Sigma Fraternity",
+    "HTML_Name":"kappasigma",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"McDonald & McDonald",
+    "Builder":"No Info",
+    "Yr_Built":"1924",
+    "YR_Designated":2005
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69759379,40.80660448 ]
+    },
+    "properties": {
+    "OBJECTID":13,
+    "Name":"Kennard House (Nebraska Statehood Memorial)",
+    "HTML_Name":"kennard",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"John Keys Winchell",
+    "Builder":"No Info",
+    "Yr_Built":"1869",
+    "YR_Designated":1969
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70805271,40.81299181 ]
+    },
+    "properties": {
+    "OBJECTID":140,
+    "Name":"Kirkwood Brothel (Mission Arts)",
+    "HTML_Name":"kirkwood",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"No Info",
+    "Builder":"No Info",
+    "Yr_Built":"1903",
+    "YR_Designated":2012
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69776827,40.82010352 ]
+    },
+    "properties": {
+    "OBJECTID":119,
+    "Name":"Lewis-Syford House",
+    "HTML_Name":"lewissyford",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register / Local Landmark",
+    "Architect":"No Info",
+    "Builder":"No Info",
+    "Yr_Built":"1878",
+    "YR_Designated":1971
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70582716,40.81397524 ]
+    },
+    "properties": {
+    "OBJECTID":9,
+    "Name":"Lincoln Liberty Life Building",
+    "HTML_Name":"lincolnlibertylife",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"Fiske & Dieman",
+    "Builder":"No Info",
+    "Yr_Built":"1907",
+    "YR_Designated":1988
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70154031,40.80998206 ]
+    },
+    "properties": {
+    "OBJECTID":81,
+    "Name":"Lincoln Woman's Club",
+    "HTML_Name":"lincolnwomansclub",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"Schaumberg & Freeman",
+    "Builder":"No Info",
+    "Yr_Built":"1954",
+    "YR_Designated":2000
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70499826,40.80670574 ]
+    },
+    "properties": {
+    "OBJECTID":69,
+    "Name":"Lyman Terrace",
+    "HTML_Name":"lymanterrace",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register / Local Landmark",
+    "Architect":"Ferdinand C. Fiske",
+    "Builder":"No Info",
+    "Yr_Built":"1890",
+    "YR_Designated":1979
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69719694,40.81003497 ]
+    },
+    "properties": {
+    "OBJECTID":110,
+    "Name":"Masonic Temple",
+    "HTML_Name":"masonictemple",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"Meginnis & Schaumberg",
+    "Builder":"Charles Olson",
+    "Yr_Built":"1935",
+    "YR_Designated":2005
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.71072824,40.81105023 ]
+    },
+    "properties": {
+    "OBJECTID":141,
+    "Name":"Meadow Gold Block of Beatrice Creamery Company",
+    "HTML_Name":"meadowgold",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"C. A. P. Turner ",
+    "Builder":"No Info",
+    "Yr_Built":"1898",
+    "YR_Designated":2012
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70383094,40.80453276 ]
+    },
+    "properties": {
+    "OBJECTID":79,
+    "Name":"Mt. Zion Baptist Church (Lincoln Baptist Church)",
+    "HTML_Name":"mtzion",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"James Tyler, Jr.",
+    "Builder":"No Info",
+    "Yr_Built":"1922",
+    "YR_Designated":1998
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70046687,40.80646922 ]
+    },
+    "properties": {
+    "OBJECTID":181,
+    "Name":"Nebraska Governor's Mansion",
+    "HTML_Name":"negovernors",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"Selmer A. Solheim",
+    "Builder":"W. J. Broer Construction Co.",
+    "Yr_Built":"1957",
+    "YR_Designated":2008
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69966718,40.80810935 ]
+    },
+    "properties": {
+    "OBJECTID":14,
+    "Name":"Nebraska State Capitol",
+    "HTML_Name":"nestatecapitol",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Historic Landmark",
+    "Architect":"Bertram Goodhue",
+    "Builder":"No Info",
+    "Yr_Built":"1922",
+    "YR_Designated":1970
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69965294,40.81709103 ]
+    },
+    "properties": {
+    "OBJECTID":182,
+    "Name":"Nebraska State Historical Society Building",
+    "HTML_Name":"nshs",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"Davis & Wilson",
+    "Builder":"Olson Construction Co.",
+    "Yr_Built":"1953",
+    "YR_Designated":2003
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70238279,40.81300216 ]
+    },
+    "properties": {
+    "OBJECTID":19,
+    "Name":"Nebraska Telephone Company",
+    "HTML_Name":"netelephone",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register / Local Landmark",
+    "Architect":"Walker & Kimball",
+    "Builder":"No Info",
+    "Yr_Built":"1894",
+    "YR_Designated":1978
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70227954,40.80663956 ]
+    },
+    "properties": {
+    "OBJECTID":4,
+    "Name":"Noble-Dawes House",
+    "HTML_Name":"nobledawes",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"No Info",
+    "Builder":"No Info",
+    "Yr_Built":"1885",
+    "YR_Designated":1985
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7088868,40.8063471 ]
+    },
+    "properties": {
+    "OBJECTID":147,
+    "Name":"O'Connell-Galbraith House",
+    "HTML_Name":"oconnellgalbraith",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"No Info",
+    "Builder":"John O'Connell",
+    "Yr_Built":"1881",
+    "YR_Designated":2014
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70789836,40.81391802 ]
+    },
+    "properties": {
+    "OBJECTID":65,
+    "Name":"Old City Hall",
+    "HTML_Name":"oldcityhall",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"Alfred B. Mullett",
+    "Builder":"No Info",
+    "Yr_Built":"1874",
+    "YR_Designated":1969
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70775717,40.81439831 ]
+    },
+    "properties": {
+    "OBJECTID":66,
+    "Name":"Old Federal Building (Grand Manse)",
+    "HTML_Name":"oldfed",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register / Local Landmark",
+    "Architect":"James Knox Taylor",
+    "Builder":"No Info",
+    "Yr_Built":"1905",
+    "YR_Designated":2002
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70602478,40.8173073 ]
+    },
+    "properties": {
+    "OBJECTID":85,
+    "Name":"Old University Library (Architecture Hall)",
+    "HTML_Name":"oldunllib",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"Mendelssohn, Fisher & Lawrie",
+    "Builder":"No Info",
+    "Yr_Built":"1891",
+    "YR_Designated":1975
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69842981,40.81657919 ]
+    },
+    "properties": {
+    "OBJECTID":71,
+    "Name":"Phi Delta Theta Fraternity",
+    "HTML_Name":"phideltatheta",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register / Local Landmark",
+    "Architect":"Martin I. Aitken",
+    "Builder":"Olson Construction Co.",
+    "Yr_Built":"1937",
+    "YR_Designated":1985
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69860987,40.81832253 ]
+    },
+    "properties": {
+    "OBJECTID":120,
+    "Name":"Phi Kappa Psi Fraternity",
+    "HTML_Name":"phikappapsi",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"A. H. Welch",
+    "Builder":"No Info",
+    "Yr_Built":"1917",
+    "YR_Designated":2008
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70163743,40.80823443 ]
+    },
+    "properties": {
+    "OBJECTID":48,
+    "Name":"President & Ambassador Apartments",
+    "HTML_Name":"presambass",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"John M. Alexander",
+    "Builder":"John M. Alexander",
+    "Yr_Built":"1928",
+    "YR_Designated":1993
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70887111,40.8009386 ]
+    },
+    "properties": {
+    "OBJECTID":102,
+    "Name":"Quinn Chapel African Methodist Episcopal Church",
+    "HTML_Name":"quinn",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"A. W. Woods",
+    "Builder":"No Info",
+    "Yr_Built":"1900",
+    "YR_Designated":1999
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69906327,40.81061265 ]
+    },
+    "properties": {
+    "OBJECTID":7,
+    "Name":"Scottish Rite Temple",
+    "HTML_Name":"scotrite",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register / Local Landmark",
+    "Architect":"Ellery L. Davis",
+    "Builder":"No Info",
+    "Yr_Built":"1916",
+    "YR_Designated":1986
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70380524,40.81383817 ]
+    },
+    "properties": {
+    "OBJECTID":17,
+    "Name":"Security Mutual Building (Centerstone)",
+    "HTML_Name":"secmut",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"James Tyler",
+    "Builder":"No Info",
+    "Yr_Built":"1887",
+    "YR_Designated":1979
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70442613,40.81753817 ]
+    },
+    "properties": {
+    "OBJECTID":152,
+    "Name":"Sheldon Musium of Art",
+    "HTML_Name":"sheldonart",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"Philip Johnson",
+    "Builder":"No Info",
+    "Yr_Built":"1963",
+    "YR_Designated":2013
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69854171,40.81970877 ]
+    },
+    "properties": {
+    "OBJECTID":142,
+    "Name":"Sigma Alpha Epsilon Fraternity",
+    "HTML_Name":"sigmaalphaepsilon",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"Miller & Craig",
+    "Builder":"No Info",
+    "Yr_Built":"1927",
+    "YR_Designated":2013
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69912001,40.82112463 ]
+    },
+    "properties": {
+    "OBJECTID":121,
+    "Name":"Sigma Chi Fraternity",
+    "HTML_Name":"sigmachi",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"Davis & Wilson",
+    "Builder":"No Info",
+    "Yr_Built":"1931",
+    "YR_Designated":2008
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69846215,40.81946424 ]
+    },
+    "properties": {
+    "OBJECTID":75,
+    "Name":"Sigma Nu Fraternity",
+    "HTML_Name":"sigmanu",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"N. R. Brigham",
+    "Builder":"John M. Alexander & Co.",
+    "Yr_Built":"1927",
+    "YR_Designated":2002
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69854557,40.81919044 ]
+    },
+    "properties": {
+    "OBJECTID":63,
+    "Name":"Sigma Phi Epsilon Fraternity",
+    "HTML_Name":"sigmaphiepsilon",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"Miller & Craig",
+    "Builder":"No Info",
+    "Yr_Built":"1929",
+    "YR_Designated":2002
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7020604,40.81172345 ]
+    },
+    "properties": {
+    "OBJECTID":153,
+    "Name":"Sky Park Manor",
+    "HTML_Name":"skypark",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"Selmer A. Solheim",
+    "Builder":"Olson Construction",
+    "Yr_Built":"1950",
+    "YR_Designated":2016
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70164171,40.82630766 ]
+    },
+    "properties": {
+    "OBJECTID":124,
+    "Name":"Standard Oil Company Barn & Garage",
+    "HTML_Name":"standardoil",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"Joseph W. Salmon",
+    "Builder":"F. P. Gould & Son",
+    "Yr_Built":"1915",
+    "YR_Designated":2009
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69783277,40.81395707 ]
+    },
+    "properties": {
+    "OBJECTID":589,
+    "Name":"Strode Building",
+    "HTML_Name":"strodebuilding",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"Fiske & Meginnis",
+    "Builder":"Edmund C. Strode",
+    "Yr_Built":"1916",
+    "YR_Designated":2019
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70221138,40.81438206 ]
+    },
+    "properties": {
+    "OBJECTID":107,
+    "Name":"Stuart Building (University Towers)",
+    "HTML_Name":"stuart",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"Davis & Wilson",
+    "Builder":"Olson Construction",
+    "Yr_Built":"1928",
+    "YR_Designated":2003
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70731853,40.81332417 ]
+    },
+    "properties": {
+    "OBJECTID":8,
+    "Name":"Terminal Building",
+    "HTML_Name":"terminal",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"Paul V. Hyland",
+    "Builder":"Selden-Breck Construction Company",
+    "Yr_Built":"1916",
+    "YR_Designated":1986
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.69884351,40.81656755 ]
+    },
+    "properties": {
+    "OBJECTID":185,
+    "Name":"Theta Xi Fraternity",
+    "HTML_Name":"thetaxi",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"Local Landmark",
+    "Architect":"Wesley Murray Matthews",
+    "Builder":"Kingery Construction",
+    "Yr_Built":"1946",
+    "YR_Designated":2017
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7096773,40.80272871 ]
+    },
+    "properties": {
+    "OBJECTID":18,
+    "Name":"Tyler (William & Sarah) House",
+    "HTML_Name":"tyler",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register / Local Landmark",
+    "Architect":"James Tyler",
+    "Builder":"No Info",
+    "Yr_Built":"1891",
+    "YR_Designated":1978
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70941337,40.81510111 ]
+    },
+    "properties": {
+    "OBJECTID":23,
+    "Name":"Veith Building",
+    "HTML_Name":"veith",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"Smith & Tyler",
+    "Builder":"No Info",
+    "Yr_Built":"1884",
+    "YR_Designated":1980
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70237343,40.81292055 ]
+    },
+    "properties": {
+    "OBJECTID":86,
+    "Name":"Woods Brothers Companies Building",
+    "HTML_Name":"woodsbros",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register / Local Landmark",
+    "Architect":"No Info",
+    "Builder":"Woods Brothers Construction Co.",
+    "Yr_Built":"1920",
+    "YR_Designated":1980
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.70016184,40.81283583 ]
+    },
+    "properties": {
+    "OBJECTID":1,
+    "Name":"YWCA Building",
+    "HTML_Name":"ywca",
+    "HP_Type":"Historic Site",
+    "D_TYPE":"National Register",
+    "Architect":"Meginnis & Schaumberg",
+    "Builder":"No Info",
+    "Yr_Built":"1932",
+    "YR_Designated":1984
+    }
+  }
 ]
+}
