@@ -34,12 +34,13 @@
         "phone": "(402) 438-3054"
       },
       "geometry": {
-        "type": "Polygon",
+        "type": "Point",
         "coordinates": [
             [
               -96.7020705,
               40.8134522
             ]
+          ]
       },
       "id": "way/703381326"
     },
