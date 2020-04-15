@@ -15,33 +15,13 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
+        "coordinates": 
             [
               -96.7068432,
               40.81462
               ]
-          ]
       },
       "id": "way/203844164"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/703381326",
-        "amenity": "pub",
-        "building": "yes",
-        "name": "The Watering Hole",
-        "phone": "(402) 438-3054"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates":
-        [
-              -96.7020705,
-              40.8134522
-            ]
-      },
-      "id": "way/703381326"
     },
     {
       "type": "Feature",
