@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>Visualize features with realistic WebStyleSymbols - 4.14</title>
+
+    <link rel="stylesheet" href="https://js.arcgis.com/4.14/esri/themes/light/main.css"/>
+    <script src="https://js.arcgis.com/4.14/"></script>
+
+    <style>
+      html,
+      body,
+      #viewDiv {padding: 0; margin: 0; height: 100%; width: 100%; }
+    </style>
+
+    <script>
+      require(["esri/WebScene","esri/views/SceneView","esri/layers/FeatureLayer",
+      "esri/layers/SceneLayer","esri/tasks/support/Query","esri/widgets/Legend"],
+	  function(WebScene, SceneView, FeatureLayer, SceneLayer, Query, Legend) {
+
+        var map = new WebScene({
+          basemap: "satellite",
+          ground: "world-elevation"
+        });
+
+        var view = new SceneView({
+          container: "viewDiv",
+          map: map,
+          camera: {
+            position: {
+              latitude: 41.660823,
+              longitude: -91.537568,
+              z: 500
+            },
+            tilt: 50,
+            heading: 330
+          },
+          environment: {
+            lighting: {
+              date: new Date("June 20, 2020 12:00:00 EDT"),
+              directShadowsEnabled: true,
+              ambientOcclusionEnabled: true
+            }
+          }
+        });
+
+        var uniqueValueInfos = [
+          {
+            value: "Rose",
+            symbol: {
+              type: "web-style",
+              name: "Rosa",
+              styleName: "EsriRealisticTreesStyle"
+            }
+          },
+          {
+            value: "Does Not Need Justification",
+            symbol: {
+              type: "web-style",
+              name: "Trash_Bin_1",
+              styleName: "EsriRealisticStreetSceneStyle"
+            }
+          },
+          {
+            value: "Orchid",
+            symbol: {
+              type: "web-style",
+              name: "Bulbophyllum",
+              styleName: "EsriRealisticTreesStyle"
+            }
+          },
+                    {
+            value: "Sorry University of Iowa",
+            symbol: {
+              type: "web-style",
+              name: "Trash_Bin_2",
+              styleName: "EsriRealisticStreetSceneStyle"
+            }
+          },
+                              {
+            value: "welp",
+            symbol: {
+              type: "web-style",
+              name: "Fagus",
+              styleName: "EsriRealisticStreetSceneStyle"
+            }
+          },
+                              {
+            value: "AHHHH",
+            symbol: {
+              type: "web-style",
+              name: "Trash_Can_1",
+              styleName: "EsriRealisticStreetSceneStyle"
+            }
+          },
+                    {
+            value: "Date Palm",
+            symbol: {
+              type: "web-style",
+              name: "Phoenix",
+              styleName: "EsriRealisticTreesStyle"
+            }
+          },
+          {
+            value: "Dormitories",
+            symbol: {
+              type: "web-style",
+              name: "Trailer",
+              styleName: "EsriRealisticTransportationStyle"
+            }
+          }
+        ];
+
+
+        var vegetationLayer = new FeatureLayer({
+          url:
+            "https://maps.facilities.uiowa.edu/arcgis/rest/services/Features/Trees/MapServer/1",
+          elevationInfo: {
+            mode: "on-the-ground"
+          },
+          renderer: {
+            type: "unique-value",
+            field: "Scientific",
+            defaultSymbol: {
+              type: "web-style",
+              name: "Fraxinus",
+              styleName: "EsriRealisticTreesStyle"
+            },
+            uniqueValueInfos: uniqueValueInfos,
+            visualVariables: [
+              {
+                type: "size",
+                field: "Height",
+                axis: "height"
+              },
+              {
+                type: "rotation",
+                valueExpression: "random() * 360"
+              }
+            ]
+          }
+        });
+
+        var buildingLabels = {
+					symbol: {
+						type: "text",
+						color: "#000000",
+						haloColor: "#f8de12",
+						haloSize: "2px",
+						font:{
+							size: "12px",
+							family: "Noto Sans",
+							style: "italic",
+							weight: "normal"
+						}
+					},
+					labelPlacement: "above-center",
+					labelExpressionInfo: {
+						expression: "$feature.BuildingCommonName"
+					}
+				};
+
+				var buildings = new FeatureLayer({
+				url:
+			"https://maps.facilities.uiowa.edu/arcgis/rest/services/Features/BuildingLabels/MapServer/0",
+			labelingInfo:[buildingLabels]
+		});
+
+		var legend = new Legend({
+		view: view,
+    layerInfos: [{
+      layer: vegetationLayer,
+      title: "Trees and Junk"
+    }]
+		});
+ view.ui.add(legend, "bottom-right");
+        map.addMany([ vegetationLayer, buildings]);
+});
+
+
+    </script>
+  </head>
+
+  <body>
+    <div id="viewDiv"></div>
+
+  </body>
+</html>
