@@ -1,3 +1,4 @@
+var HistoricData =
 {
    "type": "FeatureCollection",
    "features": [
