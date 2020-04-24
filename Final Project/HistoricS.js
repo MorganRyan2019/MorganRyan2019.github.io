@@ -1,4 +1,4 @@
-var data = 
+var HistoricData = 
 {
 "type": "FeatureCollection",
 "name": "DtHistoric2",
