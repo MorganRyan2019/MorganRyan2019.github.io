@@ -1,458 +1,841 @@
 var BarData = {
-  "type": "FeatureCollection",
-  "generator": "overpass-ide",
-  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-13T03:21:02Z",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/203844164",
-        "amenity": "bar",
-        "building": "yes",
-        "name": "Single Barrel",
-        "source": "bing"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": 
-            [
-              -96.7068432,
-              40.81462
-              ]
-      },
-      "id": "way/203844164"
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7068432,40.81462 ]
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1922497332",
-        "addr:housenumber": "1332",
-        "addr:street": "P Street",
-        "amenity": "pub",
-        "cuisine": "pizza",
-        "disused:amenity": "restaurant",
-        "name": "Stogies Bar"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7015996,
-          40.8149502
-        ]
-      },
-      "id": "node/1922497332"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1923741851",
-        "addr:city": "Lincoln",
-        "addr:state": "NE",
-        "amenity": "bar",
-        "is_in:city": "Lincoln",
-        "is_in:state": "Nebraska",
-        "is_in:state_code": "NE",
-        "name": "The Happy Raven"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7052988,
-          40.8140955
-        ]
-      },
-      "id": "node/1923741851"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1923741871",
-        "addr:city": "Lincoln",
-        "addr:country": "US",
-        "addr:housenumber": "1140",
-        "addr:postcode": "68508",
-        "addr:state": "NE",
-        "addr:street": "O Street",
-        "amenity": "bar",
-        "disused:cuisine": "american",
-        "internet_access": "wlan",
-        "internet_access:fee": "no",
-        "is_in:city": "Lincoln",
-        "is_in:state": "Nebraska",
-        "is_in:state_code": "NE",
-        "name": "White Rabbit",
-        "opening_hours": "Mo,Sa 00:00-02:00,16:30-24:00; Tu-Fr 16:30-24:00; Su 00:00-02:00,19:00-24:00",
-        "phone": "402-474-6279",
-        "smoking": "no",
-        "smoking:outside": "yes",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.704368,
-          40.8137963
-        ]
-      },
-      "id": "node/1923741871"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1923925358",
-        "amenity": "pub",
-        "name": "Zoo Bar",
-        "wikidata": "Q8074037"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7009492,
-          40.814383
-        ]
-      },
-      "id": "node/1923925358"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1924473791",
-        "addr:city": "Lincoln",
-        "addr:country": "US",
-        "addr:housenumber": "1423",
-        "addr:postcode": "68508",
-        "addr:state": "NE",
-        "addr:street": "O Street",
-        "amenity": "bar",
-        "cuisine": "pizza",
-        "name": "Yia Yia's",
-        "opening_hours": "Mo 11:00-24:00; Tu-Sa 00:00-01:00,11:00-24:00; Su 00:00-01:00,12:00-21:00",
-        "phone": "402-477-9166",
-        "smoking": "no",
-        "smoking:outside": "yes",
-        "takeaway": "yes",
-        "website": "http://yiayiaspizza.com/",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7004505,
-          40.8134367
-        ]
-      },
-      "id": "node/1924473791"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1946858992",
-        "amenity": "bar",
-        "name": "Duffy's Tavern",
-        "smoking:outside": "yes",
-        "website": "http://duffyslincoln.com/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7007266,
-          40.8137742
-        ]
-      },
-      "id": "node/1946858992"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2189324402",
-        "addr:city": "Lincoln",
-        "addr:housenumber": "301",
-        "addr:postcode": "68508",
-        "addr:street": "North 8th Street",
-        "alt_name": "LeadBelly Contemporary American Pub",
-        "amenity": "pub",
-        "cuisine": "american",
-        "email": "info@getleaded.com",
-        "name": "LeadBelly",
-        "phone": "402-261-8849",
-        "website": "https://getleaded.com/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7102505,
-          40.8160359
-        ]
-      },
-      "id": "node/2189324402"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2315669873",
-        "amenity": "bar",
-        "name": "Sandy's",
-        "opening_hours": "Sa-Th 18:00-02:00; Fr 16:00-02:00"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7008746,
-          40.8134155
-        ]
-      },
-      "id": "node/2315669873"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2315669987",
-        "amenity": "bar",
-        "name": "Fat Toad"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7007699,
-          40.813377
-        ]
-      },
-      "id": "node/2315669987"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2315681501",
-        "amenity": "pub",
-        "name": "Jake's Cigars"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7013816,
-          40.8145564
-        ]
-      },
-      "id": "node/2315681501"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2869723464",
-        "addr:city": "Lincoln",
-        "addr:housenumber": "151-#140",
-        "addr:postcode": "68508",
-        "addr:street": "North 8th Street",
-        "amenity": "bar",
-        "name": "McKinney's Irish Pub",
-        "phone": "402-477-0021",
-        "website": "http://mckinneyspublincoln.com/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7108086,
-          40.8146061
-        ]
-      },
-      "id": "node/2869723464"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3146595663",
-        "addr:city": "Lincoln",
-        "addr:housename": "Armour Building",
-        "addr:housenumber": "100",
-        "addr:postcode": "68508",
-        "addr:street": "North 8th Street",
-        "amenity": "bar",
-        "name": "Jack's Bar and Grill"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7097236,
-          40.8138762
-        ]
-      },
-      "id": "node/3146595663"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3148230783",
-        "addr:city": "Lincoln",
-        "addr:housenumber": "729",
-        "addr:postcode": "68508",
-        "addr:street": "Q Street",
-        "alt_name": "Empyrean Ales",
-        "amenity": "pub",
-        "name": "Empyrean Brewing Co.",
-        "opening_hours": "Mo-Fr 08:00-17:00",
-        "phone": "402-434-5960",
-        "website": "https://empyreanbrewingco.com/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7105429,
-          40.8155873
-        ]
-      },
-      "id": "node/3148230783"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3148230819",
-        "addr:city": "Lincoln",
-        "addr:housename": "Lincoln Hide & Fur Bldg",
-        "addr:housenumber": "728-B",
-        "addr:postcode": "68508",
-        "addr:street": "Q Street",
-        "alt_name": "The Cask Fermentations & Cocktails",
-        "amenity": "bar",
-        "name": "The Cask",
-        "opening_hours": "Mo-Sa 16:00-02:00",
-        "phone": "402-314-5609",
-        "website": "https://www.shoplincoln.com/thecask/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7105965,
-          40.8160927
-        ]
-      },
-      "id": "node/3148230819"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4035893511",
-        "amenity": "bar",
-        "description:en": "Pre-prohibition era bar, no cell phone use allowed. Minimum capacity occupancy.",
-        "name": "The Other Room",
-        "opening_hours": "17:00-02:00",
-        "operator": "Jill",
-        "smoking": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7090969,
-          40.8152789
-        ]
-      },
-      "id": "node/4035893511"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4472146825",
-        "amenity": "pub",
-        "name": "HopCat",
-        "outdoor_seating": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7121085,
-          40.8144062
-        ]
-      },
-      "id": "node/4472146825"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6516537069",
-        "addr:street": "O St.",
-        "amenity": "pub",
-        "name": "Iguana's Pub"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.700389,
-          40.8138042
-        ]
-      },
-      "id": "node/6516537069"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6993160057",
-        "addr:city": "Lincoln",
-        "addr:housenumber": "1200",
-        "addr:postcode": "68508",
-        "addr:state": "NE",
-        "addr:street": "O Street",
-        "amenity": "pub",
-        "atm": "yes",
-        "name": "12th Street Pub",
-        "opening_hours": "Mo-Sa 11:00-01:00"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7038333,
-          40.8138274
-        ]
-      },
-      "id": "node/6993160057"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6993160059",
-        "addr:city": "Lincoln",
-        "addr:housenumber": "140",
-        "addr:postcode": "68508",
-        "addr:state": "NE",
-        "addr:street": "North 12th Street",
-        "amenity": "bar",
-        "name": "Captain Jack's Bar",
-        "opening_hours": "Mo-We 15:00-00:00; Th-Sa 15:00-02:00",
-        "outdoor_seating": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7038666,
-          40.8144622
-        ]
-      },
-      "id": "node/6993160059"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/7217846193",
-        "addr:city": "Lincoln",
-        "addr:housename": "The Kindler Hotel",
-        "addr:housenumber": "216",
-        "addr:postcode": "68508",
-        "addr:state": "NE",
-        "addr:street": "North 11th Street",
-        "amenity": "bar",
-        "name": "Boitano's Lounge",
-        "note": "located within The Kindler Hotel",
-        "operator": "Brian Boitano;The Kindler Hotel",
-        "phone": "(402) 261-7800",
-        "website": "https://thekindlerhotel.com/wp-content/uploads/2020/01/Winter-Cocktail-Menu.pdf"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7052523,
-          40.8152488
-        ]
-      },
-      "id": "node/7217846193"
+    "properties": {
+    "#NAME?":"way/203844164",
+    "amenity":"bar",
+    "building":"yes",
+    "name":"Single Barrel",
+    "source":"bing",
+    "addr:housenumber":"",
+    "addr:street":"",
+    "cuisine":"",
+    "disused:amenity":"",
+    "addr:city":"",
+    "addr:state":"",
+    "is_in:city":"",
+    "is_in:state":"",
+    "is_in:state_code":"",
+    "addr:country":"",
+    "addr:postcode":null,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"11:00 - 22:00",
+    "phone":"402-904-4631",
+    "smoking":"",
+    "smoking:outside":"",
+    "wheelchair":"",
+    "wikidata":"",
+    "takeaway":"",
+    "website":"<a herf=\"thesinglebarrel.com\">TheSingleBarrel.com</a>",
+    "alt_name":"",
+    "email":"",
+    "addr:housename":"",
+    "description:en":"",
+    "operator":"",
+    "outdoor_seating":"",
+    "atm":"",
+    "note":""
     }
-  ]
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7015996,40.8149502 ]
+    },
+    "properties": {
+    "#NAME?":"node/1922497332",
+    "amenity":"pub",
+    "building":"",
+    "name":"Stogies Bar",
+    "source":"",
+    "addr:housenumber":"1332",
+    "addr:street":"P Street",
+    "cuisine":"pizza",
+    "disused:amenity":"restaurant",
+    "addr:city":"",
+    "addr:state":"",
+    "is_in:city":"",
+    "is_in:state":"",
+    "is_in:state_code":"",
+    "addr:country":"",
+    "addr:postcode":null,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"12:00 - 02:00",
+    "phone":"None available",
+    "smoking":"",
+    "smoking:outside":"",
+    "wheelchair":"",
+    "wikidata":"",
+    "takeaway":"",
+    "website":"<a herf=\"https://www.facebook.com/1332Pstreet/\">Stogies Facebook Page</a>",
+    "alt_name":"",
+    "email":"",
+    "addr:housename":"",
+    "description:en":"",
+    "operator":"",
+    "outdoor_seating":"",
+    "atm":"",
+    "note":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7052988,40.8140955 ]
+    },
+    "properties": {
+    "#NAME?":"node/1923741851",
+    "amenity":"bar",
+    "building":"",
+    "name":"The Happy Raven",
+    "source":"",
+    "addr:housenumber":"",
+    "addr:street":"",
+    "cuisine":"",
+    "disused:amenity":"",
+    "addr:city":"Lincoln",
+    "addr:state":"NE",
+    "is_in:city":"Lincoln",
+    "is_in:state":"Nebraska",
+    "is_in:state_code":"NE",
+    "addr:country":"",
+    "addr:postcode":null,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"13:00 - 20:00",
+    "phone":"402-472-0004",
+    "smoking":"",
+    "smoking:outside":"",
+    "wheelchair":"",
+    "wikidata":"",
+    "takeaway":"",
+    "website":"<a herf=\"https://www.thehappyraven.com/\">TheHappyRaven.com</a>",
+    "alt_name":"",
+    "email":"",
+    "addr:housename":"",
+    "description:en":"",
+    "operator":"",
+    "outdoor_seating":"",
+    "atm":"",
+    "note":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7009492,40.814383 ]
+    },
+    "properties": {
+    "#NAME?":"node/1923925358",
+    "amenity":"pub",
+    "building":"",
+    "name":"Zoo Bar",
+    "source":"",
+    "addr:housenumber":"",
+    "addr:street":"",
+    "cuisine":"",
+    "disused:amenity":"",
+    "addr:city":"",
+    "addr:state":"",
+    "is_in:city":"",
+    "is_in:state":"",
+    "is_in:state_code":"",
+    "addr:country":"",
+    "addr:postcode":null,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"15:00 - 02:00",
+    "phone":"402-435-8754",
+    "smoking":"",
+    "smoking:outside":"",
+    "wheelchair":"",
+    "wikidata":"Q8074037",
+    "takeaway":"",
+    "website":"<a herf=\"http://www.zoobar.com/\">ZooBar.com</a>",
+    "alt_name":"",
+    "email":"",
+    "addr:housename":"",
+    "description:en":"",
+    "operator":"",
+    "outdoor_seating":"",
+    "atm":"",
+    "note":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7004505,40.8134367 ]
+    },
+    "properties": {
+    "#NAME?":"node/1924473791",
+    "amenity":"bar",
+    "building":"",
+    "name":"Yia Yia's",
+    "source":"",
+    "addr:housenumber":"1423",
+    "addr:street":"O Street",
+    "cuisine":"pizza",
+    "disused:amenity":"",
+    "addr:city":"Lincoln",
+    "addr:state":"NE",
+    "is_in:city":"",
+    "is_in:state":"",
+    "is_in:state_code":"",
+    "addr:country":"US",
+    "addr:postcode":68508,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"11:00 - 21:00",
+    "phone":"402-477-9166",
+    "smoking":"no",
+    "smoking:outside":"yes",
+    "wheelchair":"yes",
+    "wikidata":"",
+    "takeaway":"yes",
+    "website":"<a herf=\"https://www.yiayiaspizzaandbeer.com/\">YiaYia's Website</a>",
+    "alt_name":"",
+    "email":"",
+    "addr:housename":"",
+    "description:en":"",
+    "operator":"",
+    "outdoor_seating":"",
+    "atm":"",
+    "note":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7007266,40.8137742 ]
+    },
+    "properties": {
+    "#NAME?":"node/1946858992",
+    "amenity":"bar",
+    "building":"",
+    "name":"Duffy's Tavern",
+    "source":"",
+    "addr:housenumber":"",
+    "addr:street":"",
+    "cuisine":"",
+    "disused:amenity":"",
+    "addr:city":"",
+    "addr:state":"",
+    "is_in:city":"",
+    "is_in:state":"",
+    "is_in:state_code":"",
+    "addr:country":"",
+    "addr:postcode":null,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"16:00 - 02:00",
+    "phone":"402-477-3543",
+    "smoking":"",
+    "smoking:outside":"yes",
+    "wheelchair":"",
+    "wikidata":"",
+    "takeaway":"",
+    "website":"<a herf=\"http://www.duffyslincoln.com/\">DuffysLincoln.com</a>",
+    "alt_name":"",
+    "email":"",
+    "addr:housename":"",
+    "description:en":"",
+    "operator":"",
+    "outdoor_seating":"",
+    "atm":"",
+    "note":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7102505,40.8160359 ]
+    },
+    "properties": {
+    "#NAME?":"node/2189324402",
+    "amenity":"pub",
+    "building":"",
+    "name":"LeadBelly",
+    "source":"",
+    "addr:housenumber":"301",
+    "addr:street":"North 8th Street",
+    "cuisine":"american",
+    "disused:amenity":"",
+    "addr:city":"Lincoln",
+    "addr:state":"",
+    "is_in:city":"",
+    "is_in:state":"",
+    "is_in:state_code":"",
+    "addr:country":"",
+    "addr:postcode":68508,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"11:00 - 24:00",
+    "phone":"402-261-8849",
+    "smoking":"",
+    "smoking:outside":"",
+    "wheelchair":"",
+    "wikidata":"",
+    "takeaway":"",
+    "website":"<a herf=\"https://www.getleaded.com/\">Leadbelly Website</a>",
+    "alt_name":"LeadBelly Contemporary American Pub",
+    "email":"info@getleaded.com",
+    "addr:housename":"",
+    "description:en":"",
+    "operator":"",
+    "outdoor_seating":"",
+    "atm":"",
+    "note":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7008746,40.8134155 ]
+    },
+    "properties": {
+    "#NAME?":"node/2315669873",
+    "amenity":"bar",
+    "building":"",
+    "name":"Sandy's",
+    "source":"",
+    "addr:housenumber":"",
+    "addr:street":"",
+    "cuisine":"",
+    "disused:amenity":"",
+    "addr:city":"",
+    "addr:state":"",
+    "is_in:city":"",
+    "is_in:state":"",
+    "is_in:state_code":"",
+    "addr:country":"",
+    "addr:postcode":null,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"18:00 - 02:00",
+    "phone":"402-475-2418",
+    "smoking":"",
+    "smoking:outside":"",
+    "wheelchair":"",
+    "wikidata":"",
+    "takeaway":"",
+    "website":"<a herf=\"https://www.facebook.com/SandysLincoln/\">Sandy's Lincoln Facebook Page</a>",
+    "alt_name":"",
+    "email":"",
+    "addr:housename":"",
+    "description:en":"",
+    "operator":"",
+    "outdoor_seating":"",
+    "atm":"",
+    "note":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7007699,40.813377 ]
+    },
+    "properties": {
+    "#NAME?":"node/2315669987",
+    "amenity":"bar",
+    "building":"",
+    "name":"Fat Toad",
+    "source":"",
+    "addr:housenumber":"",
+    "addr:street":"",
+    "cuisine":"",
+    "disused:amenity":"",
+    "addr:city":"",
+    "addr:state":"",
+    "is_in:city":"",
+    "is_in:state":"",
+    "is_in:state_code":"",
+    "addr:country":"",
+    "addr:postcode":null,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"21:00 - 02:00",
+    "phone":"402-438-3311",
+    "smoking":"",
+    "smoking:outside":"",
+    "wheelchair":"",
+    "wikidata":"",
+    "takeaway":"",
+    "website":"<a herf=\"https://www.facebook.com/FatToadPub/\">The Fat Toad Pub Facebook Page</a>",
+    "alt_name":"",
+    "email":"",
+    "addr:housename":"",
+    "description:en":"",
+    "operator":"",
+    "outdoor_seating":"",
+    "atm":"",
+    "note":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7013816,40.8145564 ]
+    },
+    "properties": {
+    "#NAME?":"node/2315681501",
+    "amenity":"pub",
+    "building":"",
+    "name":"Jake's Cigars",
+    "source":"",
+    "addr:housenumber":"",
+    "addr:street":"",
+    "cuisine":"",
+    "disused:amenity":"",
+    "addr:city":"",
+    "addr:state":"",
+    "is_in:city":"",
+    "is_in:state":"",
+    "is_in:state_code":"",
+    "addr:country":"",
+    "addr:postcode":null,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"11:00 - 22:00",
+    "phone":"402-261-5944",
+    "smoking":"",
+    "smoking:outside":"",
+    "wheelchair":"",
+    "wikidata":"",
+    "takeaway":"",
+    "website":"<a herf=\"https://jakescigars.com/\">Jake's Cigar Lounge</a>",
+    "alt_name":"",
+    "email":"",
+    "addr:housename":"",
+    "description:en":"",
+    "operator":"",
+    "outdoor_seating":"",
+    "atm":"",
+    "note":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7108086,40.8146061 ]
+    },
+    "properties": {
+    "#NAME?":"node/2869723464",
+    "amenity":"bar",
+    "building":"",
+    "name":"McKinney's Irish Pub",
+    "source":"",
+    "addr:housenumber":"151-#140",
+    "addr:street":"North 8th Street",
+    "cuisine":"",
+    "disused:amenity":"",
+    "addr:city":"Lincoln",
+    "addr:state":"",
+    "is_in:city":"",
+    "is_in:state":"",
+    "is_in:state_code":"",
+    "addr:country":"",
+    "addr:postcode":68508,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"11:00 - 02:00",
+    "phone":"402-477-0021",
+    "smoking":"",
+    "smoking:outside":"",
+    "wheelchair":"",
+    "wikidata":"",
+    "takeaway":"",
+    "website":"<a herf=\"http://mckinneyspublincoln.com/\">McKinney's Irish Pub Website</a>",
+    "alt_name":"",
+    "email":"",
+    "addr:housename":"",
+    "description:en":"",
+    "operator":"",
+    "outdoor_seating":"",
+    "atm":"",
+    "note":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7097236,40.8138762 ]
+    },
+    "properties": {
+    "#NAME?":"node/3146595663",
+    "amenity":"bar",
+    "building":"",
+    "name":"Jack's Bar and Grill",
+    "source":"",
+    "addr:housenumber":"100",
+    "addr:street":"North 8th Street",
+    "cuisine":"",
+    "disused:amenity":"",
+    "addr:city":"Lincoln",
+    "addr:state":"",
+    "is_in:city":"",
+    "is_in:state":"",
+    "is_in:state_code":"",
+    "addr:country":"",
+    "addr:postcode":68508,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"12:00 - 02:00",
+    "phone":"402-438-6288",
+    "smoking":"",
+    "smoking:outside":"",
+    "wheelchair":"",
+    "wikidata":"",
+    "takeaway":"",
+    "website":"<a herf=\"https://www.facebook.com/jacksbarlincoln\">Jack's Bar Facebook Page</a>",
+    "alt_name":"",
+    "email":"",
+    "addr:housename":"Armour Building",
+    "description:en":"",
+    "operator":"",
+    "outdoor_seating":"",
+    "atm":"",
+    "note":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7105429,40.8155873 ]
+    },
+    "properties": {
+    "#NAME?":"node/3148230783",
+    "amenity":"pub",
+    "building":"",
+    "name":"Empyrean Brewing Co.",
+    "source":"",
+    "addr:housenumber":"729",
+    "addr:street":"Q Street",
+    "cuisine":"",
+    "disused:amenity":"",
+    "addr:city":"Lincoln",
+    "addr:state":"",
+    "is_in:city":"",
+    "is_in:state":"",
+    "is_in:state_code":"",
+    "addr:country":"",
+    "addr:postcode":68508,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"08:00 - 17:00",
+    "phone":"402-434-5960",
+    "smoking":"",
+    "smoking:outside":"",
+    "wheelchair":"",
+    "wikidata":"",
+    "takeaway":"",
+    "website":"<a herf=\"https://empyreanbrewingco.com/\">Empryrian Brewing Company Website</a>",
+    "alt_name":"Empyrean Ales",
+    "email":"",
+    "addr:housename":"",
+    "description:en":"",
+    "operator":"",
+    "outdoor_seating":"",
+    "atm":"",
+    "note":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7090969,40.8152789 ]
+    },
+    "properties": {
+    "#NAME?":"node/4035893511",
+    "amenity":"bar",
+    "building":"",
+    "name":"The Other Room",
+    "source":"",
+    "addr:housenumber":"",
+    "addr:street":"",
+    "cuisine":"",
+    "disused:amenity":"",
+    "addr:city":"",
+    "addr:state":"",
+    "is_in:city":"",
+    "is_in:state":"",
+    "is_in:state_code":"",
+    "addr:country":"",
+    "addr:postcode":null,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"17:00 - 02:00",
+    "phone":"402-261-4608",
+    "smoking":"no",
+    "smoking:outside":"",
+    "wheelchair":"",
+    "wikidata":"",
+    "takeaway":"",
+    "website":"<a herf=\"https://www.facebook.com/theotherroomlincoln/\">The Other Room Facebook Page</a>",
+    "alt_name":"",
+    "email":"",
+    "addr:housename":"",
+    "description:en":"Pre-prohibition era bar, no cell phone use allowed. Minimum capacity occupancy.",
+    "operator":"Jill",
+    "outdoor_seating":"",
+    "atm":"",
+    "note":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7121085,40.8144062 ]
+    },
+    "properties": {
+    "#NAME?":"node/4472146825",
+    "amenity":"pub",
+    "building":"",
+    "name":"HopCat",
+    "source":"",
+    "addr:housenumber":"",
+    "addr:street":"",
+    "cuisine":"",
+    "disused:amenity":"",
+    "addr:city":"",
+    "addr:state":"",
+    "is_in:city":"",
+    "is_in:state":"",
+    "is_in:state_code":"",
+    "addr:country":"",
+    "addr:postcode":null,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"11:00 - 22:00",
+    "phone":"402-971-0700",
+    "smoking":"",
+    "smoking:outside":"",
+    "wheelchair":"",
+    "wikidata":"",
+    "takeaway":"",
+    "website":"<a herf=\"https://hopcat.com/lincoln\">Hopcat Lincoln Website</a>",
+    "alt_name":"",
+    "email":"",
+    "addr:housename":"",
+    "description:en":"",
+    "operator":"",
+    "outdoor_seating":"yes",
+    "atm":"",
+    "note":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.700389,40.8138042 ]
+    },
+    "properties": {
+    "#NAME?":"node/6516537069",
+    "amenity":"pub",
+    "building":"",
+    "name":"Iguana's Pub",
+    "source":"",
+    "addr:housenumber":"",
+    "addr:street":"O St.",
+    "cuisine":"",
+    "disused:amenity":"",
+    "addr:city":"",
+    "addr:state":"",
+    "is_in:city":"",
+    "is_in:state":"",
+    "is_in:state_code":"",
+    "addr:country":"",
+    "addr:postcode":null,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"20:00 - 02:00",
+    "phone":"402-476-8850",
+    "smoking":"",
+    "smoking:outside":"",
+    "wheelchair":"",
+    "wikidata":"",
+    "takeaway":"",
+    "website":"<a herf=\"https://www.facebook.com/iguanaslincoln/\">Iguana's Facebook</a>",
+    "alt_name":"",
+    "email":"",
+    "addr:housename":"",
+    "description:en":"",
+    "operator":"",
+    "outdoor_seating":"",
+    "atm":"",
+    "note":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7038333,40.8138274 ]
+    },
+    "properties": {
+    "#NAME?":"node/6993160057",
+    "amenity":"pub",
+    "building":"",
+    "name":"12th Street Pub",
+    "source":"",
+    "addr:housenumber":"1200",
+    "addr:street":"O Street",
+    "cuisine":"",
+    "disused:amenity":"",
+    "addr:city":"Lincoln",
+    "addr:state":"NE",
+    "is_in:city":"",
+    "is_in:state":"",
+    "is_in:state_code":"",
+    "addr:country":"",
+    "addr:postcode":68508,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"19:00 - 01:00",
+    "phone":"402-435-3358",
+    "smoking":"",
+    "smoking:outside":"",
+    "wheelchair":"",
+    "wikidata":"",
+    "takeaway":"",
+    "website":"<a herf=\"https://www.facebook.com/12thStreetPub/\">12th Street Pub Facebook</a>",
+    "alt_name":"",
+    "email":"",
+    "addr:housename":"",
+    "description:en":"",
+    "operator":"",
+    "outdoor_seating":"",
+    "atm":"yes",
+    "note":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7038666,40.8144622 ]
+    },
+    "properties": {
+    "#NAME?":"node/6993160059",
+    "amenity":"bar",
+    "building":"",
+    "name":"Captain Jack's Bar",
+    "source":"",
+    "addr:housenumber":"140",
+    "addr:street":"North 12th Street",
+    "cuisine":"",
+    "disused:amenity":"",
+    "addr:city":"Lincoln",
+    "addr:state":"NE",
+    "is_in:city":"",
+    "is_in:state":"",
+    "is_in:state_code":"",
+    "addr:country":"",
+    "addr:postcode":68508,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"12:00 - 02:00",
+    "phone":"402-770-7659",
+    "smoking":"",
+    "smoking:outside":"",
+    "wheelchair":"",
+    "wikidata":"",
+    "takeaway":"",
+    "website":"<a herf=\"https://www.facebook.com/CaptainJacksBar/\">Captain Jack's Facebook</a>",
+    "alt_name":"",
+    "email":"",
+    "addr:housename":"",
+    "description:en":"",
+    "operator":"",
+    "outdoor_seating":"no",
+    "atm":"",
+    "note":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7052523,40.8152488 ]
+    },
+    "properties": {
+    "#NAME?":"node/7217846193",
+    "amenity":"bar",
+    "building":"",
+    "name":"Boitano's Lounge",
+    "source":"",
+    "addr:housenumber":"216",
+    "addr:street":"North 11th Street",
+    "cuisine":"",
+    "disused:amenity":"",
+    "addr:city":"Lincoln",
+    "addr:state":"NE",
+    "is_in:city":"",
+    "is_in:state":"",
+    "is_in:state_code":"",
+    "addr:country":"",
+    "addr:postcode":68508,
+    "disused:cuisine":"",
+    "internet_access":"",
+    "internet_access:fee":"",
+    "opening_hours":"16:00 - 24:00",
+    "phone":"(402) 261-7800",
+    "smoking":"",
+    "smoking:outside":"",
+    "wheelchair":"",
+    "wikidata":"",
+    "takeaway":"",
+    "website":"<a herf=\"https://thekindlerhotel.com/amenities/\">Boitano's Lounge Website</a>",
+    "alt_name":"",
+    "email":"",
+    "addr:housename":"The Kindler Hotel",
+    "description:en":"",
+    "operator":"Brian Boitano;The Kindler Hotel",
+    "outdoor_seating":"",
+    "atm":"",
+    "note":"located within The Kindler Hotel"
+    }
+  }
+]
 }
