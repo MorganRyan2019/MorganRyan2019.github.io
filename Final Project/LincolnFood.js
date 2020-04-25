@@ -1,5 +1,5 @@
 var FoodData = {
-   "type": "FeatureCollection",
+"type": "FeatureCollection",
    "features": [
   {
     "type": "Feature",
@@ -10,10 +10,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Billy's",
     "Price":"$$$",
-    "Vegan-friendly":"No",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"No",
-    "Type of Food":"American",
+    "Vegan":"No",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"No",
+    "Cuisine":"American",
     "Website":"http://www.billysrestaurant.com/"
     }
   },
@@ -26,10 +26,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"DISH",
     "Price":"$$$",
-    "Vegan-friendly":"Yes",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"Yes",
-    "Type of Food":"American",
+    "Vegan":"Yes",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"Yes",
+    "Cuisine":"American",
     "Website":"https://dishdowntown.com/"
     }
   },
@@ -42,10 +42,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Misty's",
     "Price":"$$$",
-    "Vegan-friendly":"Yes",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"No",
-    "Type of Food":"Steakhouse",
+    "Vegan":"Yes",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"No",
+    "Cuisine":"Steakhouse",
     "Website":"https://www.mistyslincoln.com/Home"
     }
   },
@@ -58,10 +58,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Rodizio Grill",
     "Price":"$$$",
-    "Vegan-friendly":"No",
-    "Vegetarian-friendly":"No",
-    "Gluten-friendly":"No",
-    "Type of Food":"Brazillian",
+    "Vegan":"No",
+    "Vegetarian":"No",
+    "GlutenFriendly":"No",
+    "Cuisine":"Brazillian",
     "Website":"https://www.rodiziogrill.com/"
     }
   },
@@ -74,10 +74,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"The Oven",
     "Price":"$$",
-    "Vegan-friendly":"Yes",
-    "Vegetarian-friendly":"No",
-    "Gluten-friendly":"No",
-    "Type of Food":"Indian",
+    "Vegan":"Yes",
+    "Vegetarian":"No",
+    "GlutenFriendly":"No",
+    "Cuisine":"Indian",
     "Website":"https://theoven-lincoln.com/locations-and-menus/haymarket"
     }
   },
@@ -90,10 +90,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Single Barrel",
     "Price":"$$",
-    "Vegan-friendly":"No",
-    "Vegetarian-friendly":"No",
-    "Gluten-friendly":"No",
-    "Type of Food":"Steakhouse",
+    "Vegan":"No",
+    "Vegetarian":"No",
+    "GlutenFriendly":"No",
+    "Cuisine":"Steakhouse",
     "Website":"http://thesinglebarrel.com/"
     }
   },
@@ -106,10 +106,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Lazlo's",
     "Price":"$$",
-    "Vegan-friendly":"No",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"Yes",
-    "Type of Food":"Brewpub",
+    "Vegan":"No",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"Yes",
+    "Cuisine":"Brewpub",
     "Website":"http://www.lazlosbreweryandgrill.com/"
     }
   },
@@ -122,10 +122,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Hiro 88",
     "Price":"$$",
-    "Vegan-friendly":"No",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"No",
-    "Type of Food":"Pan-Asian",
+    "Vegan":"No",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"No",
+    "Cuisine":"Pan-Asian",
     "Website":"https://hiro88.com/"
     }
   },
@@ -138,10 +138,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Leadbelly",
     "Price":"$$",
-    "Vegan-friendly":"No",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"No",
-    "Type of Food":"American",
+    "Vegan":"No",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"No",
+    "Cuisine":"American",
     "Website":"https://www.getleaded.com/"
     }
   },
@@ -154,10 +154,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Green Gateau",
     "Price":"$$",
-    "Vegan-friendly":"Yes",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"Yes",
-    "Type of Food":"French, Bistro",
+    "Vegan":"Yes",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"Yes",
+    "Cuisine":"French, Bistro",
     "Website":"https://www.greengateau.com/"
     }
   },
@@ -170,10 +170,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Buzzard Billy's",
     "Price":"$$",
-    "Vegan-friendly":"No",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"No",
-    "Type of Food":"American, Creole, Cajun",
+    "Vegan":"No",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"No",
+    "Cuisine":"American, Creole, Cajun",
     "Website":"https://www.buzzardbillys.com/lincoln/"
     }
   },
@@ -186,10 +186,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Blue Sushi Sake Grill",
     "Price":"$$",
-    "Vegan-friendly":"Yes",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"Yes",
-    "Type of Food":"Sushi",
+    "Vegan":"Yes",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"Yes",
+    "Cuisine":"Sushi",
     "Website":"https://bluesushisakegrill.com/locations/nebraska/lincoln/haymarket"
     }
   },
@@ -202,10 +202,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Mellow Mushroom",
     "Price":"$$",
-    "Vegan-friendly":"Yes",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"Yes",
-    "Type of Food":"Pizza",
+    "Vegan":"Yes",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"Yes",
+    "Cuisine":"Pizza",
     "Website":"https://mellowmushroom.com/location/ne-lincoln-601-r-st-ste-110-68508/"
     }
   },
@@ -218,10 +218,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Vincenzo's",
     "Price":"$$",
-    "Vegan-friendly":"No",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"No",
-    "Type of Food":"Italian",
+    "Vegan":"No",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"No",
+    "Cuisine":"Italian",
     "Website":"https://vincenzos-ne.com/"
     }
   },
@@ -234,10 +234,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Blue Orchid Thai",
     "Price":"$$",
-    "Vegan-friendly":"Yes",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"No",
-    "Type of Food":"Thai",
+    "Vegan":"Yes",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"No",
+    "Cuisine":"Thai",
     "Website":"https://www.restaurantji.com/ne/lincoln/blue-orchid-thai-restaurant-/"
     }
   },
@@ -250,10 +250,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Grey Whale ",
     "Price":"$$",
-    "Vegan-friendly":"Yes",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"No",
-    "Type of Food":"Sushi, Pan-Asian",
+    "Vegan":"Yes",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"No",
+    "Cuisine":"Sushi, Pan-Asian",
     "Website":"https://www.greywhalesushi.com/"
     }
   },
@@ -266,10 +266,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Screamers Dining and Cabaret",
     "Price":"$$",
-    "Vegan-friendly":"Yes",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"No",
-    "Type of Food":"American",
+    "Vegan":"Yes",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"No",
+    "Cuisine":"American",
     "Website":"https://www.screamersdining.com/"
     }
   },
@@ -282,10 +282,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"BurgerFi",
     "Price":"$$",
-    "Vegan-friendly":"Yes",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"No",
-    "Type of Food":"American",
+    "Vegan":"Yes",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"No",
+    "Cuisine":"American",
     "Website":"https://order.burgerfi.com/locations/NE/lincoln/20463"
     }
   },
@@ -298,10 +298,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Gate 25",
     "Price":"$$",
-    "Vegan-friendly":"No",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"No",
-    "Type of Food":"American",
+    "Vegan":"No",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"No",
+    "Cuisine":"American",
     "Website":"https://gate25lnk.com/"
     }
   },
@@ -314,10 +314,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Rutabagas",
     "Price":"$$",
-    "Vegan-friendly":"Yes",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"Yes",
-    "Type of Food":"Plant-based, American",
+    "Vegan":"Yes",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"Yes",
+    "Cuisine":"Plant-based, American",
     "Website":"https://www.eatrutabagas.com/"
     }
   },
@@ -330,10 +330,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Sultan's Kite",
     "Price":"$",
-    "Vegan-friendly":"No",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"No",
-    "Type of Food":"Mediterranean, Halal",
+    "Vegan":"No",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"No",
+    "Cuisine":"Mediterranean, Halal",
     "Website":"https://sultanskite.com/"
     }
   },
@@ -346,10 +346,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Ali Baba Gyros",
     "Price":"$",
-    "Vegan-friendly":"No",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"No",
-    "Type of Food":"Greek, Mediterranean, Halal",
+    "Vegan":"No",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"No",
+    "Cuisine":"Greek, Mediterranean, Halal",
     "Website":"https://www.facebook.com/AliBabaGyros"
     }
   },
@@ -362,10 +362,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"AmuManu",
     "Price":"$",
-    "Vegan-friendly":"Yes",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"Yes",
-    "Type of Food":"Asian",
+    "Vegan":"Yes",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"Yes",
+    "Cuisine":"Asian",
     "Website":"https://www.amumanuramenbar.com/"
     }
   },
@@ -378,10 +378,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Thai Garden",
     "Price":"$",
-    "Vegan-friendly":"No",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"No",
-    "Type of Food":"Thai",
+    "Vegan":"No",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"No",
+    "Cuisine":"Thai",
     "Website":"https://downtownlincoln.org/go/thai-garden"
     }
   },
@@ -394,10 +394,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Barry's",
     "Price":"$",
-    "Vegan-friendly":"No",
-    "Vegetarian-friendly":"No",
-    "Gluten-friendly":"Yes",
-    "Type of Food":"American",
+    "Vegan":"No",
+    "Vegetarian":"No",
+    "GlutenFriendly":"Yes",
+    "Cuisine":"American",
     "Website":"https://barrysbarandgrill.com/"
     }
   },
@@ -410,10 +410,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Qdoba",
     "Price":"$",
-    "Vegan-friendly":"Yes",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"Yes",
-    "Type of Food":"Mexican",
+    "Vegan":"Yes",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"Yes",
+    "Cuisine":"Mexican",
     "Website":"https://locations.qdoba.com/us/ne/lincoln/211-n-12th-st.html"
     }
   },
@@ -426,10 +426,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Chipotle",
     "Price":"$",
-    "Vegan-friendly":"Yes",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"Yes",
-    "Type of Food":"Mexican",
+    "Vegan":"Yes",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"Yes",
+    "Cuisine":"Mexican",
     "Website":"https://locations.chipotle.com/ne/lincoln/1317-q-st"
     }
   },
@@ -442,10 +442,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Panda Express",
     "Price":"$",
-    "Vegan-friendly":"No",
-    "Vegetarian-friendly":"No",
-    "Gluten-friendly":"No",
-    "Type of Food":"Chinese",
+    "Vegan":"No",
+    "Vegetarian":"No",
+    "GlutenFriendly":"No",
+    "Cuisine":"Chinese",
     "Website":"https://www.pandaexpress.com/userlocation/2190/ne/lincoln/1317-q-street-suite-140"
     }
   },
@@ -458,10 +458,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Raising Cane's",
     "Price":"$",
-    "Vegan-friendly":"No",
-    "Vegetarian-friendly":"No",
-    "Gluten-friendly":"No",
-    "Type of Food":"American",
+    "Vegan":"No",
+    "Vegetarian":"No",
+    "GlutenFriendly":"No",
+    "Cuisine":"American",
     "Website":"https://raisingcanes.com/location/nebraska/lincoln/love-shack"
     }
   },
@@ -474,10 +474,10 @@ var FoodData = {
     "properties": {
     "Restaurants":"Blaze Pizza",
     "Price":"$",
-    "Vegan-friendly":"Yes",
-    "Vegetarian-friendly":"Yes",
-    "Gluten-friendly":"Yes",
-    "Type of Food":"Pizza",
+    "Vegan":"Yes",
+    "Vegetarian":"Yes",
+    "GlutenFriendly":"Yes",
+    "Cuisine":"Pizza",
     "Website":"https://hq.blazepizza.com/locations/lincoln/"
     }
   }
