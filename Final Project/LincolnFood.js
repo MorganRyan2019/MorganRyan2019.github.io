@@ -1,4 +1,4 @@
-{
+var FooData ={
    "type": "FeatureCollection",
    "features": [
   {
