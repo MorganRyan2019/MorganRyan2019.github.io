@@ -1,4 +1,5 @@
-var BarData = {
+var BarData = [
+   {
    "type": "FeatureCollection",
    "features": [
   {
@@ -839,3 +840,4 @@ var BarData = {
   }
 ]
 }
+];
