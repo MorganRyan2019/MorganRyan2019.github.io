@@ -6,13 +6,22 @@
 
 				<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"crossorigin=""/>
 
+				<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+
+				<link rel="stylesheet" href="https://lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.css">
+
 				<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"crossorigin=""></script>
+
+				<script src="https:///lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.js"></script>
 
 				<script src="https://morganryan2019.github.io/Final%20Project/LincolnFood.js"crossorigin=""></script>
 
-				<script src="https://morganryan2019.github.io/Final%20Project/Bars.js"crossorigin=""></script>
+				<script src="https://Morganryan2019.github.io/Final%20Project/Bars.js"crossorigin=""></script>
 
 				<script src="https://MorganRyan2019.github.io/Final%20Project/HistoricS.js"crossorigin=""></script>
+
+
+
 
 				<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -56,20 +65,25 @@
 							ext: 'png'
 						}).addTo(map);
 
-
-						var barDataStyle = {
-							color: '#11bd05',
-							fillColor: '#11bd05',
-							weight: 1,
-							opacity: 1,
-							radius: 3,
-							fillOpacity:1
-						};
+						var redMarker = L.AwesomMarkers.icon({
+							icon: 'coffee',
+							markerColor: 'red'
+						});
+						//var barDataStyle = {
+							//color: '#11bd05',
+							//fillColor: '#11bd05',
+							//weight: 1,
+							//opacity: 1,
+							//radius: 3,
+							//fillOpacity:1
+					//	};
 
 
 						var BarData = new L.geoJson(BarData,{
 							pointToLayer: function (feature, latlng) {
-							return L.circleMarker(latlng, barDataStyle)
+							return L.marker(latlng, {
+								icon:redMarker
+							})
 						},
 						onEachFeature: function(feature, layer){
 							layer.bindPopup('<b>'+'Name: '+'</b>' +feature.properties.name
@@ -113,7 +127,7 @@
 				"Restaurants": FoodData
 			};
 
-L.control.layers(overlaymaps).addTo(map);
+L.control.layers(null, overlaymaps, {collapsed:false}).addTo(map);
 
 
 map.on('overlayremove', function(eventLayer){
