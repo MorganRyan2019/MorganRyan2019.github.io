@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<html>
+	<head>
+			<title>Welcome to GPRM 2020!</title>
+
+				<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"crossorigin=""/>
+
+				<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"crossorigin=""></script>
+
+				<script src="https://kit.fontawesome.com/beaafb21b3.js" crossorigin="anonymous"></script>
+				<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+				<link rel="stylesheet" href="css/leaflet.awesome-markers.css">
+
+
+				<script src="https://morganryan2019.github.io/Final%20Project/LincolnFood.js"crossorigin=""></script>
+
+				<script src="https://morganryan2019.github.io/Final%20Project/Bars.js"crossorigin=""></script>
+
+				<script src="https://MorganRyan2019.github.io/Final%20Project/HistoricS.js"crossorigin=""></script>
+
+				<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+			<style type="text/css">
+					html,body{ margin: 0; padding: 0; height:100%; width: 100vw; }
+					#map{ min-height: 100%; }
+					.legned{
+							padding: 6px 8px;
+							line-height: 18px;
+							background: rgba(255, 0, 0, 0.5);
+							box-shadow: 0 0 15px rgba(0,0,0,0.2);
+							border-radius: 5px;
+						}
+					.legend i {
+							width: 18px;
+							height: 18px;
+							float: left;
+							margin-right: 8px;
+							opacity: 0.7;
+						}
+			</style>
+		</head>
+
+		<body>
+
+			<div id="map"></div>
+
+			<script type="text/javascript">
+
+					var map = L.map('map', {
+							center: [40.813618, -96.705518],
+							zoom: 15
+							});
+
+					var canvas = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}',{
+							attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+							subdomains: 'abcd',
+							minZoom: 0,
+							maxZoom: 20,
+							ext: 'png'
+						}).addTo(map);
+
+						var foodDataStyle = {
+							color: '#11bd05',
+							fillColor: '#11bd05',
+							weight: 1,
+							opacity: 1,
+							radius: 3,
+							fillOpacity:1
+						};
+
+var BarData = new L.geoJson(BarData,{style:foodDataStyle});
+var FoodData = new L.geoJson(FoodData,{style:foodDataStyle});
+var HistoricData = new L.geoJson(HistoricData,{style:foodDataStyle});
+
+
+
+
+
+
+
+		var overlaymaps = {
+				"Bars": BarData,
+				"Historic Sites": HistoricData,
+				"Resturants": FoodData
+			};
+
+L.control.layers(overlaymaps).addTo(map);
+
+
+map.on('overlayremove', function(eventLayer){
+	if (eventLayer.name == 'FoodData'){
+map.removeControl(legend);
+}
+});
+
+</script>
+</body>
+</html>
