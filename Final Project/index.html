@@ -8,11 +8,6 @@
 
 				<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"crossorigin=""></script>
 
-				<script src="https://kit.fontawesome.com/beaafb21b3.js" crossorigin="anonymous"></script>
-				<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
-				<link rel="stylesheet" href="css/leaflet.awesome-markers.css">
-
-
 				<script src="https://morganryan2019.github.io/Final%20Project/LincolnFood.js"crossorigin=""></script>
 
 				<script src="https://morganryan2019.github.io/Final%20Project/Bars.js"crossorigin=""></script>
@@ -61,7 +56,8 @@
 							ext: 'png'
 						}).addTo(map);
 
-						var foodDataStyle = {
+
+						var barDataStyle = {
 							color: '#11bd05',
 							fillColor: '#11bd05',
 							weight: 1,
@@ -70,20 +66,51 @@
 							fillOpacity:1
 						};
 
-var BarData = new L.geoJson(BarData,{style:foodDataStyle});
-var FoodData = new L.geoJson(FoodData,{style:foodDataStyle});
-var HistoricData = new L.geoJson(HistoricData,{style:foodDataStyle});
+
+						var BarData = new L.geoJson(BarData,{
+							pointToLayer: function (feature, latlng) {
+							return L.circleMarker(latlng, barDataStyle)
+						},
+						onEachFeature: function(feature, layer){
+							layer.bindPopup('<b>'+'Name: '+'</b>' +feature.properties.name
+							+ '<br/>' + '<hr />'+ feature.properties.phone
+							+ '<br/>' + '<hr />'+ feature.properties.website);
+						}
+						});
 
 
+						var FoodData = new L.geoJson(FoodData,{
+							pointToLayer: function (feature, latlng) {
+							return L.circleMarker(latlng, barDataStyle);
+						},
+						onEachFeature: function(feature, layer){
+							layer.bindPopup('<b>'+'Name: '+'</b>' +feature.properties.Restaurants
+							 + '<br/>' + '<hr />'+'Price: '+ feature.properties.Price
+							 + '<br/>' + '<hr />'+'Vegan Friendly: '+ feature.properties.Vegan
+							 + '<br/>' + '<hr />'+'Vegetarian Friendly: '+ feature.properties.Vegetarian
+							 + '<br/>' + '<hr />'+'Gluten Friendly: '+ feature.properties.GlutenFriendly
+							 + '<br/>' + '<hr />'+'Cuisine: '+ feature.properties.Cuisine
+							 + '<br/>' + '<hr />'+'Website: '+ feature.properties.Website);
+						}
+					});
 
-
-
+						var HistoricData = new L.geoJson(HistoricData,{
+							pointToLayer: function (feature, latlng) {
+							return L.circleMarker(latlng, barDataStyle);
+						},
+						onEachFeature: function(feature, layer){
+							layer.bindPopup('<b>'+'Name: '+'</b>' +feature.properties.Name
+							 + '<br/>' + '<hr />'+'Architect: '+ feature.properties.Architect
+							 + '<br/>' + '<hr />'+'Year Built: '+ feature.properties.Yr_Built
+							 + '<br/>' + '<hr />'+'Builder: '+ feature.properties.Builder)
+						}
+						});
 
 
 		var overlaymaps = {
 				"Bars": BarData,
 				"Historic Sites": HistoricData,
-				"Resturants": FoodData
+				"Restaurants": FoodData
 			};
 
 L.control.layers(overlaymaps).addTo(map);
