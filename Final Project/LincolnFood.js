@@ -1,4 +1,4 @@
-var FoodData ={
+var FoodData = {
    "type": "FeatureCollection",
    "features": [
   {
