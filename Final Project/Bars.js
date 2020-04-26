@@ -35,7 +35,7 @@ var BarData = [
     "wheelchair":"",
     "wikidata":"",
     "takeaway":"",
-    "website":"<a herf=\"thesinglebarrel.com\">TheSingleBarrel.com</a>",
+    "website":"<a herf=\"https://www.thesinglebarrel.com\">TheSingleBarrel.com</a>",
     "alt_name":"",
     "email":"",
     "addr:housename":"",
