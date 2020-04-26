@@ -1,5 +1,5 @@
 var FoodData = {
-"type": "FeatureCollection",
+   "type": "FeatureCollection",
    "features": [
   {
     "type": "Feature",
@@ -14,7 +14,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"No",
     "Cuisine":"American",
-    "Website":"http://www.billysrestaurant.com/"
+    "Website":"<a href=\"http://www.billysrestaurant.com\">Billys Website</a>"
     }
   },
   {
@@ -30,7 +30,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"Yes",
     "Cuisine":"American",
-    "Website":"https://dishdowntown.com/"
+    "Website":"<a href=\"https://dishdowntown.com\">Dish Downtown Website</a>"
     }
   },
   {
@@ -46,7 +46,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"No",
     "Cuisine":"Steakhouse",
-    "Website":"https://www.mistyslincoln.com/Home"
+    "Website":"<a href=\"https://www.mistyslincoln.com/Home\">Mistys Downtown</a>"
     }
   },
   {
@@ -62,7 +62,7 @@ var FoodData = {
     "Vegetarian":"No",
     "GlutenFriendly":"No",
     "Cuisine":"Brazillian",
-    "Website":"https://www.rodiziogrill.com/"
+    "Website":"<a href=\"https://www.rodiziogrill.com/\">Rodizio Grill</a>"
     }
   },
   {
@@ -78,7 +78,7 @@ var FoodData = {
     "Vegetarian":"No",
     "GlutenFriendly":"No",
     "Cuisine":"Indian",
-    "Website":"https://theoven-lincoln.com/locations-and-menus/haymarket"
+    "Website":"<a href=\"https://theoven-lincoln.com/locations-and-menus/haymarket\">The Oven Haymarket Location</a>"
     }
   },
   {
@@ -94,7 +94,7 @@ var FoodData = {
     "Vegetarian":"No",
     "GlutenFriendly":"No",
     "Cuisine":"Steakhouse",
-    "Website":"http://thesinglebarrel.com/"
+    "Website":"<a href=\"http://thesinglebarrel.com/\">The Single Barrel</a>"
     }
   },
   {
@@ -110,7 +110,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"Yes",
     "Cuisine":"Brewpub",
-    "Website":"http://www.lazlosbreweryandgrill.com/"
+    "Website":"<a href=\"http://www.lazlosbreweryandgrill.com/\">Lazlos Downtown</a>"
     }
   },
   {
@@ -126,7 +126,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"No",
     "Cuisine":"Pan-Asian",
-    "Website":"https://hiro88.com/"
+    "Website":"<a href=\"https://hiro88.com/\">Hiro 88 Downtown</a>"
     }
   },
   {
@@ -142,7 +142,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"No",
     "Cuisine":"American",
-    "Website":"https://www.getleaded.com/"
+    "Website":"<a href=\"https://www.getleaded.com/\">Leadbelly Website</a>"
     }
   },
   {
@@ -158,7 +158,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"Yes",
     "Cuisine":"French, Bistro",
-    "Website":"https://www.greengateau.com/"
+    "Website":"<a href=\"https://www.greengateau.com/\">The Green Gateau</a>"
     }
   },
   {
@@ -174,7 +174,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"No",
     "Cuisine":"American, Creole, Cajun",
-    "Website":"https://www.buzzardbillys.com/lincoln/"
+    "Website":"<a href=\"https://www.buzzardbillys.com/lincoln/\">Buzzard Billys Lincoln</a>"
     }
   },
   {
@@ -190,7 +190,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"Yes",
     "Cuisine":"Sushi",
-    "Website":"https://bluesushisakegrill.com/locations/nebraska/lincoln/haymarket"
+    "Website":"<a href=\"https://bluesushisakegrill.com/locations/nebraska/lincoln/haymarket\">Blue Sushi in the Haymarket</a>"
     }
   },
   {
@@ -206,7 +206,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"Yes",
     "Cuisine":"Pizza",
-    "Website":"https://mellowmushroom.com/location/ne-lincoln-601-r-st-ste-110-68508/"
+    "Website":"<a href=\"https://mellowmushroom.com/location/ne-lincoln-601-r-st-ste-110-68508/\">Mellow Mushroom Lincoln</a>"
     }
   },
   {
@@ -222,7 +222,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"No",
     "Cuisine":"Italian",
-    "Website":"https://vincenzos-ne.com/"
+    "Website":"<a href=\"https://vincenzos-ne.com/\">Vincenzos</a>"
     }
   },
   {
@@ -238,7 +238,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"No",
     "Cuisine":"Thai",
-    "Website":"https://www.restaurantji.com/ne/lincoln/blue-orchid-thai-restaurant-/"
+    "Website":"<a href=\"https://www.restaurantji.com/ne/lincoln/blue-orchid-thai-restaurant-/\">The Blue Orchid</a>"
     }
   },
   {
@@ -254,7 +254,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"No",
     "Cuisine":"Sushi, Pan-Asian",
-    "Website":"https://www.greywhalesushi.com/"
+    "Website":"<a href=\"https://www.greywhalesushi.com/\">Gray Whale Sushi</a>"
     }
   },
   {
@@ -270,7 +270,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"No",
     "Cuisine":"American",
-    "Website":"https://www.screamersdining.com/"
+    "Website":"<a href=\"https://www.screamersdining.com/\">Screamers</a>"
     }
   },
   {
@@ -286,7 +286,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"No",
     "Cuisine":"American",
-    "Website":"https://order.burgerfi.com/locations/NE/lincoln/20463"
+    "Website":"<a href=\"https://order.burgerfi.com/locations/NE/lincoln/20463\"><BurgerFi Lincoln</a>"
     }
   },
   {
@@ -302,14 +302,14 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"No",
     "Cuisine":"American",
-    "Website":"https://gate25lnk.com/"
+    "Website":"<a href=\"https://gate25lnk.com/\">Gate 25</a>"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -96.70358333,40.81541667 ]
+       "coordinates":  [ -96.700191,40.813983 ]
     },
     "properties": {
     "Restaurants":"Rutabagas",
@@ -318,7 +318,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"Yes",
     "Cuisine":"Plant-based, American",
-    "Website":"https://www.eatrutabagas.com/"
+    "Website":"<a href=\"https://www.eatrutabagas.com/\">Rutabagas</a>"
     }
   },
   {
@@ -334,7 +334,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"No",
     "Cuisine":"Mediterranean, Halal",
-    "Website":"https://sultanskite.com/"
+    "Website":"<a href=\"https://sultanskite.com/\">Sultans Kite</a>"
     }
   },
   {
@@ -350,7 +350,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"No",
     "Cuisine":"Greek, Mediterranean, Halal",
-    "Website":"https://www.facebook.com/AliBabaGyros"
+    "Website":"<a href=\"https://www.facebook.com/AliBabaGyros\">Alibab Gyros Facebook</a>"
     }
   },
   {
@@ -366,7 +366,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"Yes",
     "Cuisine":"Asian",
-    "Website":"https://www.amumanuramenbar.com/"
+    "Website":"<a href=\"https://www.amumanuramenbar.com/\">Amu Manu Ramen</a>"
     }
   },
   {
@@ -382,7 +382,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"No",
     "Cuisine":"Thai",
-    "Website":"https://downtownlincoln.org/go/thai-garden"
+    "Website":"<a href=\"https://downtownlincoln.org/go/thai-garden\">Thai Garden</a>"
     }
   },
   {
@@ -398,7 +398,7 @@ var FoodData = {
     "Vegetarian":"No",
     "GlutenFriendly":"Yes",
     "Cuisine":"American",
-    "Website":"https://barrysbarandgrill.com/"
+    "Website":"<a href=\"https://barrysbarandgrill.com/\">Barrys Bar and Grill</a>"
     }
   },
   {
@@ -414,7 +414,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"Yes",
     "Cuisine":"Mexican",
-    "Website":"https://locations.qdoba.com/us/ne/lincoln/211-n-12th-st.html"
+    "Website":"<a href\"https://locations.qdoba.com/us/ne/lincoln/211-n-12th-st.html\">Qdoba Downtown</a>"
     }
   },
   {
@@ -430,7 +430,7 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"Yes",
     "Cuisine":"Mexican",
-    "Website":"https://locations.chipotle.com/ne/lincoln/1317-q-st"
+    "Website":"<a href=\"https://locations.chipotle.com/ne/lincoln/1317-q-st\">Chipotle Downtown</a>"
     }
   },
   {
@@ -446,7 +446,7 @@ var FoodData = {
     "Vegetarian":"No",
     "GlutenFriendly":"No",
     "Cuisine":"Chinese",
-    "Website":"https://www.pandaexpress.com/userlocation/2190/ne/lincoln/1317-q-street-suite-140"
+    "Website":"<a href=\"https://www.pandaexpress.com/userlocation/2190/ne/lincoln/1317-q-street-suite-140\">Panda Express Downtown</a>"
     }
   },
   {
@@ -462,7 +462,7 @@ var FoodData = {
     "Vegetarian":"No",
     "GlutenFriendly":"No",
     "Cuisine":"American",
-    "Website":"https://raisingcanes.com/location/nebraska/lincoln/love-shack"
+    "Website":"<a href=\"https://raisingcanes.com/location/nebraska/lincoln/love-shack\">Raising Canes Downtown</a>"
     }
   },
   {
@@ -478,8 +478,8 @@ var FoodData = {
     "Vegetarian":"Yes",
     "GlutenFriendly":"Yes",
     "Cuisine":"Pizza",
-    "Website":"https://hq.blazepizza.com/locations/lincoln/"
+    "Website":"<a href=\"https://hq.blazepizza.com/locations/lincoln/\">Blaze Pizza Lincoln</a>"
     }
   }
 ]
-}
+};
