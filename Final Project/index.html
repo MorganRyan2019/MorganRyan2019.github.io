@@ -8,11 +8,15 @@
 
 				<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
 
-				<link rel="stylesheet" href="https://lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.css">
+				<link rel="stylesheet" href="https://rawcdn.githack.com/lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.css">
+
+				<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+
+  			<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 
 				<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"crossorigin=""></script>
 
-				<script src="https:///lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.js"></script>
+				<script src="https://rawcdn.githack.com/lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.js"></script>
 
 				<script src="https://morganryan2019.github.io/Final%20Project/LincolnFood.js"crossorigin=""></script>
 
@@ -65,24 +69,29 @@
 							ext: 'png'
 						}).addTo(map);
 
-						var redMarker = L.AwesomMarkers.icon({
-							icon: 'coffee',
-							markerColor: 'red'
+						var barMarker = L.AwesomeMarkers.icon({
+							icon: 'beer',
+							markerColor: 'red',
+							prefix: 'fa'
 						});
-						//var barDataStyle = {
-							//color: '#11bd05',
-							//fillColor: '#11bd05',
-							//weight: 1,
-							//opacity: 1,
-							//radius: 3,
-							//fillOpacity:1
-					//	};
+
+						var historicMarker = L.AwesomeMarkers.icon({
+							icon: 'bookmark',
+							markerColor: 'lightred',
+							prefix: 'fa'
+						});
+
+						var foodMarker = L.AwesomeMarkers.icon({
+							icon: 'twitter',
+							markerColor: 'red',
+							prefix: 'fa'
+						});
+
 
 
 						var BarData = new L.geoJson(BarData,{
 							pointToLayer: function (feature, latlng) {
-							return L.marker(latlng, {
-								icon:redMarker
+							return L.marker(latlng, { icon: barMarker
 							})
 						},
 						onEachFeature: function(feature, layer){
@@ -95,7 +104,8 @@
 
 						var FoodData = new L.geoJson(FoodData,{
 							pointToLayer: function (feature, latlng) {
-							return L.circleMarker(latlng, barDataStyle);
+							return L.circleMarker(latlng, { icon: foodMarker
+							})
 						},
 						onEachFeature: function(feature, layer){
 							layer.bindPopup('<b>'+'Name: '+'</b>' +feature.properties.Restaurants
@@ -106,11 +116,13 @@
 							 + '<br/>' + '<hr />'+'Cuisine: '+ feature.properties.Cuisine
 							 + '<br/>' + '<hr />'+'Website: '+ feature.properties.Website);
 						}
-					});
+						});
 
 						var HistoricData = new L.geoJson(HistoricData,{
 							pointToLayer: function (feature, latlng) {
-							return L.circleMarker(latlng, barDataStyle);
+							return L.circleMarker(latlng, { icon: historicMarker
+
+							})
 						},
 						onEachFeature: function(feature, layer){
 							layer.bindPopup('<b>'+'Name: '+'</b>' +feature.properties.Name
