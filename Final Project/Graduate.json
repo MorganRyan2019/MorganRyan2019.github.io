@@ -5,7 +5,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -96.708968,40.814475 ]
+       "coordinates":  [ 40.814475, -96.708968 ]
     },
     "properties": {
     "Hotel":"The Graduate"
