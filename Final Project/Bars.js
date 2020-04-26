@@ -1,5 +1,5 @@
 var BarData = [
-    {
+   {
    "type": "FeatureCollection",
    "features": [
   {
@@ -211,7 +211,7 @@ var BarData = [
     "wheelchair":"yes",
     "wikidata":"",
     "takeaway":"yes",
-    "website":"<a herf=\"https://www.yiayiaspizzaandbeer.com/\">YiaYias website</a>",
+    "website":"<a herf=\"https://www.yiayiaspizzaandbeer.com/\">YiaYias Website</a>",
     "alt_name":"",
     "email":"",
     "addr:housename":"",
@@ -299,7 +299,7 @@ var BarData = [
     "wheelchair":"",
     "wikidata":"",
     "takeaway":"",
-    "website":"<a herf=\"https://www.getleaded.com/\">Leadbelly website</a>",
+    "website":"<a herf=\"https://www.getleaded.com/\">Leadbelly Website</a>",
     "alt_name":"LeadBelly Contemporary American Pub",
     "email":"info@getleaded.com",
     "addr:housename":"",
@@ -475,7 +475,7 @@ var BarData = [
     "wheelchair":"",
     "wikidata":"",
     "takeaway":"",
-    "website":"<a herf=\"http://mckinneyspublincoln.com/\">McKinneys Irish Pub website</a>",
+    "website":"<a herf=\"http://mckinneyspublincoln.com/\">McKinneys Irish Pub Website</a>",
     "alt_name":"",
     "email":"",
     "addr:housename":"",
@@ -563,7 +563,7 @@ var BarData = [
     "wheelchair":"",
     "wikidata":"",
     "takeaway":"",
-    "website":"<a herf=\"https://empyreanbrewingco.com/\">Empryrian Brewing Company website</a>",
+    "website":"<a herf=\"https://empyreanbrewingco.com/\">Empryrian Brewing Company Website</a>",
     "alt_name":"Empyrean Ales",
     "email":"",
     "addr:housename":"",
@@ -651,7 +651,7 @@ var BarData = [
     "wheelchair":"",
     "wikidata":"",
     "takeaway":"",
-    "website":"<a herf=\"https://hopcat.com/lincoln\">Hopcat Lincoln website</a>",
+    "website":"<a herf=\"https://hopcat.com/lincoln\">Hopcat Lincoln Website</a>",
     "alt_name":"",
     "email":"",
     "addr:housename":"",
@@ -827,7 +827,7 @@ var BarData = [
     "wheelchair":"",
     "wikidata":"",
     "takeaway":"",
-    "website":"<a herf=\"https://thekindlerhotel.com/amenities/\">Boitanos Lounge website</a>",
+    "website":"<a herf=\"https://thekindlerhotel.com/amenities/\">Boitanos Lounge Website</a>",
     "alt_name":"",
     "email":"",
     "addr:housename":"The Kindler Hotel",
@@ -840,4 +840,4 @@ var BarData = [
   }
 ]
 }
-   ];
+    ];
