@@ -1,17 +1,12 @@
-{
+var theGraduate = {
    "type": "FeatureCollection",
    "features": [
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -96.70230556,40.80666667 ]
+       "coordinates":  [ -96.708968,40.814475 ]
     },
     "properties": {
-    "Restaurants":"Billy's",
-    "Price":3,
-    "Vegan-friendly":"0",
-    "Vegetarian-friendly":"1",
-    "Gluten-friendly":"0",
-    "Type of Food":"American"
+    "Hotel":"The Graduate"
     };
