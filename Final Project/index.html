@@ -10,7 +10,7 @@
 
 				<link rel="stylesheet" href="https://rawcdn.githack.com/lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.css">
 
-				<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+				<link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
 
 				<link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
@@ -70,22 +70,21 @@
 						}).addTo(map);
 
 						var barMarker = L.AwesomeMarkers.icon({
-							icon: 'beer',
+							icon: 'glass',
 							markerColor: 'red',
 							prefix: 'fa'
 						});
 
 						var historicMarker = L.AwesomeMarkers.icon({
-							icon: 'book',
+							icon: 'university',
 							markerColor: 'darkred',
-							prefix: 'fa',
+							prefix: 'fa'
 						});
 
 						var foodMarker = L.AwesomeMarkers.icon({
-							icon: 'spinner',
-							markerColor: 'green',
-							prefix: 'fa',
-							spin: true
+							icon: 'cutlery',
+							markerColor: 'lightred',
+							prefix: 'fa'
 						});
 
 
@@ -97,8 +96,9 @@
 						},
 						onEachFeature: function(feature, layer){
 							layer.bindPopup('<b>'+'Name: '+'</b>' +feature.properties.name
-							+ '<br/>' + '<hr />'+ feature.properties.phone
-							+ '<br/>' + '<hr />'+ feature.properties.website);
+							+ '<br/>' + '<hr />'+'Hours: '+ feature.properties.opening_hours
+							+ '<br/>' + '<hr />'+'Phone number: '+ feature.properties.phone
+							+ '<br/>' + '<hr />'+'Website: '+  "<a href='" + feature.properties.website + "'>" + feature.properties.website + "</a>");
 						}
 						});
 
@@ -115,7 +115,7 @@
 							 + '<br/>' + '<hr />'+'Vegetarian Friendly: '+ feature.properties.Vegetarian
 							 + '<br/>' + '<hr />'+'Gluten Friendly: '+ feature.properties.GlutenFriendly
 							 + '<br/>' + '<hr />'+'Cuisine: '+ feature.properties.Cuisine
-							 + '<br/>' + '<hr />'+'Website: '+ feature.properties.Website);
+							 + '<br/>' + '<hr />'+'Website: '+  "<a href='" + feature.properties.Website + "'>" + feature.properties.Website + "</a>");
 						}
 						});
 
