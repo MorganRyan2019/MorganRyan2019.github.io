@@ -475,7 +475,7 @@ var BarData = [
     "wheelchair":"",
     "wikidata":"",
     "takeaway":"",
-    "website":"<a herf=\"http://mckinneyspublincoln.com/\">McKinney's Irish Pub Website</a>",
+    "website":"<a herf=\"http://mckinneyspublincoln.com/\">McKinneys Irish Pub Website</a>",
     "alt_name":"",
     "email":"",
     "addr:housename":"",
