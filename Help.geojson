@@ -1,0 +1,2596 @@
+{
+ "currentVersion": 10.11,
+ "id": 0,
+ "name": "Park Unit Boundaries",
+ "type": "Feature Layer",
+ "description": "",
+ "definitionExpression": "",
+ "geometryType": "esriGeometryPolygon",
+ "copyrightText": "",
+ "parentLayer": null,
+ "subLayers": [],
+ "minScale": 0,
+ "maxScale": 0,
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriSFS",
+    "style": "esriSFSSolid",
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "outline": {
+     "type": "esriSLS",
+     "style": "esriSLSDash",
+     "color": [
+      255,
+      255,
+      255,
+      255
+     ],
+     "width": 0.7647058823529411
+    }
+   },
+   "label": "",
+   "description": ""
+  },
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "defaultVisibility": true,
+ "extent": {
+  "xmin": 118142.03024074435,
+  "ymin": 143165.36184690893,
+  "xmax": 195141.34376149625,
+  "ymax": 247600.9817154035,
+  "spatialReference": {"wkt": "PROJCS[\"NAD_1983_Nebraska_Lancaster_County_FtUS\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",164041.6666666667],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-96.68805555555557],PARAMETER[\"Scale_Factor\",1.000054615],PARAMETER[\"Latitude_Of_Origin\",40.25],UNIT[\"Foot_US\",0.3048006096012192]]"}
+ },
+ "hasAttachments": false,
+ "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+ "displayField": "ParkUnitName",
+ "typeIdField": null,
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "domain": null
+  },
+  {
+   "name": "ParkType",
+   "type": "esriFieldTypeString",
+   "alias": "Park Type",
+   "length": 24,
+   "domain": {
+    "type": "codedValue",
+    "name": "qppParkType",
+    "codedValues": [
+     {
+      "name": "Boulevard",
+      "code": "Boulevard"
+     },
+     {
+      "name": "Community",
+      "code": "Community"
+     },
+     {
+      "name": "Conservancy",
+      "code": "Conservancy"
+     },
+     {
+      "name": "Dog Run",
+      "code": "Dog Run"
+     },
+     {
+      "name": "Golf Course",
+      "code": "Golf Course"
+     },
+     {
+      "name": "Mini",
+      "code": "Mini"
+     },
+     {
+      "name": "Neighborhood",
+      "code": "Neighborhood"
+     },
+     {
+      "name": "Pocket",
+      "code": "Pocket"
+     },
+     {
+      "name": "Pool",
+      "code": "Pool"
+     },
+     {
+      "name": "Public Garden/Plaza",
+      "code": "Public Garden/Plaza"
+     },
+     {
+      "name": "Recreation Center",
+      "code": "Recreation Center"
+     },
+     {
+      "name": "Nature Center",
+      "code": "Nature Center"
+     },
+     {
+      "name": "Regional",
+      "code": "Regional"
+     },
+     {
+      "name": "Undeveloped",
+      "code": "Undeveloped"
+     },
+     {
+      "name": "Other Facilities",
+      "code": "Other Facilities"
+     },
+     {
+      "name": "Trailhead",
+      "code": "Trailhead"
+     },
+     {
+      "name": "Administration",
+      "code": "Administration"
+     },
+     {
+      "name": "Leased",
+      "code": "Leased"
+     },
+     {
+      "name": "Managed Site",
+      "code": "Managed Site"
+     },
+     {
+      "name": "ROW",
+      "code": "ROW"
+     },
+     {
+      "name": "Trail Corridor",
+      "code": "Trail Corridor"
+     },
+     {
+      "name": "Easement",
+      "code": "Easement"
+     },
+     {
+      "name": "Median",
+      "code": "Median"
+     }
+    ]
+   }
+  },
+  {
+   "name": "District",
+   "type": "esriFieldTypeString",
+   "alias": "Maintenance District",
+   "length": 4,
+   "domain": {
+    "type": "codedValue",
+    "name": "qppParkDistricts",
+    "codedValues": [
+     {
+      "name": "Southeast",
+      "code": "SE"
+     },
+     {
+      "name": "Northeast",
+      "code": "NE"
+     },
+     {
+      "name": "Northwest",
+      "code": "NW"
+     },
+     {
+      "name": "Southwest",
+      "code": "SW"
+     },
+     {
+      "name": "Public Gardens",
+      "code": "PG"
+     },
+     {
+      "name": "Leased",
+      "code": "L"
+     },
+     {
+      "name": "NRD",
+      "code": "NRD"
+     },
+     {
+      "name": "Other",
+      "code": "Other"
+     },
+     {
+      "name": "Administration",
+      "code": "AD"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Verified",
+   "type": "esriFieldTypeString",
+   "alias": "Verified",
+   "length": 5,
+   "domain": {
+    "type": "codedValue",
+    "name": "qppYesNo",
+    "codedValues": [
+     {
+      "name": "Yes",
+      "code": "Yes"
+     },
+     {
+      "name": "No",
+      "code": "No"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Quadrant",
+   "type": "esriFieldTypeString",
+   "alias": "Geographic Quadrant",
+   "length": 12,
+   "domain": {
+    "type": "codedValue",
+    "name": "qppQuadrant",
+    "codedValues": [
+     {
+      "name": "Northeast",
+      "code": "NE"
+     },
+     {
+      "name": "Northwest",
+      "code": "NW"
+     },
+     {
+      "name": "Southeast",
+      "code": "SE"
+     },
+     {
+      "name": "Southwest",
+      "code": "SW"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Acres",
+   "type": "esriFieldTypeDouble",
+   "alias": "Acres",
+   "domain": null
+  },
+  {
+   "name": "GlobalID",
+   "type": "esriFieldTypeGlobalID",
+   "alias": "GlobalID",
+   "length": 38,
+   "domain": null
+  },
+  {
+   "name": "ParkUnitName",
+   "type": "esriFieldTypeString",
+   "alias": "Park Unit Name",
+   "length": 64,
+   "domain": {
+    "type": "codedValue",
+    "name": "qppParkUnitName",
+    "codedValues": [
+     {
+      "name": "10th & Charleston",
+      "code": "10th & Charleston"
+     },
+     {
+      "name": "27th & Old Cheney",
+      "code": "27th & Old Cheney"
+     },
+     {
+      "name": "Air Park West",
+      "code": "Air Park West"
+     },
+     {
+      "name": "Athletics-Planning & Construction",
+      "code": "Athletics-Planning & Construction"
+     },
+     {
+      "name": "Austin Property",
+      "code": "Austin Property"
+     },
+     {
+      "name": "Centennial Mall",
+      "code": "Centennial Mall"
+     },
+     {
+      "name": "Fleming Fields Recreational Sports Park",
+      "code": "Fleming Fields Recreational Sports Park"
+     },
+     {
+      "name": "Fred Barry Easement",
+      "code": "Fred Barry Easement"
+     },
+     {
+      "name": "Gerbig Parcel",
+      "code": "Gerbig Parcel"
+     },
+     {
+      "name": "Glebe Property",
+      "code": "Glebe Property"
+     },
+     {
+      "name": "Goodhue Mall",
+      "code": "Goodhue Mall"
+     },
+     {
+      "name": "Government Square",
+      "code": "Government Square"
+     },
+     {
+      "name": "Highlands Aquatic Center",
+      "code": "Highlands Aquatic Center"
+     },
+     {
+      "name": "Highlands Golf Course",
+      "code": "Highlands Golf Course"
+     },
+     {
+      "name": "Hollingsworth Property",
+      "code": "Hollingsworth Property"
+     },
+     {
+      "name": "Holmes Lake Golf Course",
+      "code": "Holmes Lake Golf Course"
+     },
+     {
+      "name": "Jamaica North Trailhead",
+      "code": "Jamaica North Trailhead"
+     },
+     {
+      "name": "Jim Ager Golf Course",
+      "code": "Jim Ager Golf Course"
+     },
+     {
+      "name": "King Saline Wetlands",
+      "code": "King Saline Wetlands"
+     },
+     {
+      "name": "Lincoln Community Foundation Tower Square",
+      "code": "Lincoln Community Foundation Tower Square"
+     },
+     {
+      "name": "Lincoln Mall",
+      "code": "Lincoln Mall"
+     },
+     {
+      "name": "London Road & S. 56th Street",
+      "code": "London Road & S. 56th Street"
+     },
+     {
+      "name": "Mahoney Golf Course",
+      "code": "Mahoney Golf Course"
+     },
+     {
+      "name": "Midtown Commons",
+      "code": "Midtown Commons"
+     },
+     {
+      "name": "Mopac Trailhead",
+      "code": "Mopac Trailhead"
+     },
+     {
+      "name": "N 27th Street Commons",
+      "code": "N 27th Street Commons"
+     },
+     {
+      "name": "Norder Tract",
+      "code": "Norder Tract"
+     },
+     {
+      "name": "Pioneers Golf Course",
+      "code": "Pioneers Golf Course"
+     },
+     {
+      "name": "Pioneers Park Nature Center",
+      "code": "Pioneers Park Nature Center"
+     },
+     {
+      "name": "Rickman's Run",
+      "code": "Rickman's Run"
+     },
+     {
+      "name": "Schaefer Tract",
+      "code": "Schaefer Tract"
+     },
+     {
+      "name": "Seacrest Range",
+      "code": "Seacrest Range"
+     },
+     {
+      "name": "Star City Shores Aquatic Center",
+      "code": "Star City Shores Aquatic Center"
+     },
+     {
+      "name": "Stent Property",
+      "code": "Stent Property"
+     },
+     {
+      "name": "Sunken Gardens",
+      "code": "Sunken Gardens"
+     },
+     {
+      "name": "Tiedemen Easement",
+      "code": "Tiedemen Easement"
+     },
+     {
+      "name": "Tierra Williamsburg Playground",
+      "code": "Tierra Williamsburg Playground"
+     },
+     {
+      "name": "Union Plaza",
+      "code": "Union Plaza"
+     },
+     {
+      "name": "3rd & F Underpass",
+      "code": "3rd & F Underpass"
+     },
+     {
+      "name": "Jan Pitsch Green",
+      "code": "Jan Pitsch Green"
+     },
+     {
+      "name": "Pioneers Park & Nature Center",
+      "code": "Pioneers Park & Nature Center"
+     },
+     {
+      "name": "Hollingsworth & 56th/London Road",
+      "code": "Hollingsworth & 56th/London Road"
+     },
+     {
+      "name": "27th & South Park",
+      "code": "27th & South Park"
+     },
+     {
+      "name": "48th & Adams Park",
+      "code": "48th & Adams Park"
+     },
+     {
+      "name": "American Legion Park",
+      "code": "American Legion Park"
+     },
+     {
+      "name": "Antelope Park North",
+      "code": "Antelope Park North"
+     },
+     {
+      "name": "Antelope Park South",
+      "code": "Antelope Park South"
+     },
+     {
+      "name": "Antelope Park Triangle",
+      "code": "Antelope Park Triangle"
+     },
+     {
+      "name": "Arnold Heights Park",
+      "code": "Arnold Heights Park"
+     },
+     {
+      "name": "Ashley Heights Park",
+      "code": "Ashley Heights Park"
+     },
+     {
+      "name": "Aster Park",
+      "code": "Aster Park"
+     },
+     {
+      "name": "Ballard Park",
+      "code": "Ballard Park"
+     },
+     {
+      "name": "Bea Richmond Park",
+      "code": "Bea Richmond Park"
+     },
+     {
+      "name": "Belmont Park",
+      "code": "Belmont Park"
+     },
+     {
+      "name": "Bethany Park",
+      "code": "Bethany Park"
+     },
+     {
+      "name": "Bill Harris Iron Horse Park",
+      "code": "Bill Harris Iron Horse Park"
+     },
+     {
+      "name": "Bishop Heights Park",
+      "code": "Bishop Heights Park"
+     },
+     {
+      "name": "Bison Park",
+      "code": "Bison Park"
+     },
+     {
+      "name": "Boosalis Park",
+      "code": "Boosalis Park"
+     },
+     {
+      "name": "Bowling Lake Park",
+      "code": "Bowling Lake Park"
+     },
+     {
+      "name": "Breta Green",
+      "code": "Breta Green"
+     },
+     {
+      "name": "Burns Park",
+      "code": "Burns Park"
+     },
+     {
+      "name": "Coddington Park",
+      "code": "Coddington Park"
+     },
+     {
+      "name": "Colonial Hills Park",
+      "code": "Colonial Hills Park"
+     },
+     {
+      "name": "Cooper Park",
+      "code": "Cooper Park"
+     },
+     {
+      "name": "Country View Park",
+      "code": "Country View Park"
+     },
+     {
+      "name": "Cripple Creek Park",
+      "code": "Cripple Creek Park"
+     },
+     {
+      "name": "Densmore Park",
+      "code": "Densmore Park"
+     },
+     {
+      "name": "Eagles' View Park",
+      "code": "Eagles' View Park"
+     },
+     {
+      "name": "Easterday Park",
+      "code": "Easterday Park"
+     },
+     {
+      "name": "ECCO Park",
+      "code": "ECCO Park"
+     },
+     {
+      "name": "Eden Park",
+      "code": "Eden Park"
+     },
+     {
+      "name": "Edenton South Park",
+      "code": "Edenton South Park"
+     },
+     {
+      "name": "Filbert Park",
+      "code": "Filbert Park"
+     },
+     {
+      "name": "Folsom Park",
+      "code": "Folsom Park"
+     },
+     {
+      "name": "Grand Terrace Park",
+      "code": "Grand Terrace Park"
+     },
+     {
+      "name": "Hartley Park",
+      "code": "Hartley Park"
+     },
+     {
+      "name": "Havelock Park",
+      "code": "Havelock Park"
+     },
+     {
+      "name": "Hayward Park",
+      "code": "Hayward Park"
+     },
+     {
+      "name": "Hazel Abel Park",
+      "code": "Hazel Abel Park"
+     },
+     {
+      "name": "Henry Park",
+      "code": "Henry Park"
+     },
+     {
+      "name": "Herbert Park",
+      "code": "Herbert Park"
+     },
+     {
+      "name": "Highlands Park",
+      "code": "Highlands Park"
+     },
+     {
+      "name": "Highlands South Park",
+      "code": "Highlands South Park"
+     },
+     {
+      "name": "Holmes Lake Park",
+      "code": "Holmes Lake Park"
+     },
+     {
+      "name": "Huskerville Park",
+      "code": "Huskerville Park"
+     },
+     {
+      "name": "Irvingdale Park",
+      "code": "Irvingdale Park"
+     },
+     {
+      "name": "Kahoa Park",
+      "code": "Kahoa Park"
+     },
+     {
+      "name": "Jensen Park",
+      "code": "Jensen Park"
+     },
+     {
+      "name": "Keech Park",
+      "code": "Keech Park"
+     },
+     {
+      "name": "Kontras Park",
+      "code": "Kontras Park"
+     },
+     {
+      "name": "Lakeview Park",
+      "code": "Lakeview Park"
+     },
+     {
+      "name": "Larson Park",
+      "code": "Larson Park"
+     },
+     {
+      "name": "Lintel Park",
+      "code": "Lintel Park"
+     },
+     {
+      "name": "Mahoney Park",
+      "code": "Mahoney Park"
+     },
+     {
+      "name": "Maple Lodge Park",
+      "code": "Maple Lodge Park"
+     },
+     {
+      "name": "Marlene Park",
+      "code": "Marlene Park"
+     },
+     {
+      "name": "McAdams Park",
+      "code": "McAdams Park"
+     },
+     {
+      "name": "McWilliams Park",
+      "code": "McWilliams Park"
+     },
+     {
+      "name": "Near South Park",
+      "code": "Near South Park"
+     },
+     {
+      "name": "Neighbors Park",
+      "code": "Neighbors Park"
+     },
+     {
+      "name": "Nevin Park",
+      "code": "Nevin Park"
+     },
+     {
+      "name": "Oak Lake Park",
+      "code": "Oak Lake Park"
+     },
+     {
+      "name": "Olympic Heights Park",
+      "code": "Olympic Heights Park"
+     },
+     {
+      "name": "Pansing Park",
+      "code": "Pansing Park"
+     },
+     {
+      "name": "Peach Park",
+      "code": "Peach Park"
+     },
+     {
+      "name": "Pentzer Park",
+      "code": "Pentzer Park"
+     },
+     {
+      "name": "Peter Pan Park",
+      "code": "Peter Pan Park"
+     },
+     {
+      "name": "Peterson (Erwin) Park",
+      "code": "Peterson (Erwin) Park"
+     },
+     {
+      "name": "Phares Park",
+      "code": "Phares Park"
+     },
+     {
+      "name": "Piedmont Park",
+      "code": "Piedmont Park"
+     },
+     {
+      "name": "Pine Lake Park",
+      "code": "Pine Lake Park"
+     },
+     {
+      "name": "Pioneers Park",
+      "code": "Pioneers Park"
+     },
+     {
+      "name": "Pocras Park",
+      "code": "Pocras Park"
+     },
+     {
+      "name": "Porter (Clare) Park",
+      "code": "Porter (Clare) Park"
+     },
+     {
+      "name": "Roberts Park",
+      "code": "Roberts Park"
+     },
+     {
+      "name": "Roose Park",
+      "code": "Roose Park"
+     },
+     {
+      "name": "Roper (Max E) Park",
+      "code": "Roper (Max E) Park"
+     },
+     {
+      "name": "Rudge Park",
+      "code": "Rudge Park"
+     },
+     {
+      "name": "Sampson Park",
+      "code": "Sampson Park"
+     },
+     {
+      "name": "Sawyer Snell Park",
+      "code": "Sawyer Snell Park"
+     },
+     {
+      "name": "Schwartzkopf Park",
+      "code": "Schwartzkopf Park"
+     },
+     {
+      "name": "Seacrest Park",
+      "code": "Seacrest Park"
+     },
+     {
+      "name": "Standing Bear Park",
+      "code": "Standing Bear Park"
+     },
+     {
+      "name": "Stonebridge Park",
+      "code": "Stonebridge Park"
+     },
+     {
+      "name": "Stransky Park",
+      "code": "Stransky Park"
+     },
+     {
+      "name": "Stuhr Park",
+      "code": "Stuhr Park"
+     },
+     {
+      "name": "Sunburst Park",
+      "code": "Sunburst Park"
+     },
+     {
+      "name": "Sunrise Park",
+      "code": "Sunrise Park"
+     },
+     {
+      "name": "Taylor Park",
+      "code": "Taylor Park"
+     },
+     {
+      "name": "Tierra Park",
+      "code": "Tierra Park"
+     },
+     {
+      "name": "Timber Valley Park",
+      "code": "Timber Valley Park"
+     },
+     {
+      "name": "Touzalin Green",
+      "code": "Touzalin Green"
+     },
+     {
+      "name": "Trago Park",
+      "code": "Trago Park"
+     },
+     {
+      "name": "Trendwood Park",
+      "code": "Trendwood Park"
+     },
+     {
+      "name": "Tyrrell Park",
+      "code": "Tyrrell Park"
+     },
+     {
+      "name": "UPCO Park",
+      "code": "UPCO Park"
+     },
+     {
+      "name": "Van Dorn Park",
+      "code": "Van Dorn Park"
+     },
+     {
+      "name": "Vavrina Park",
+      "code": "Vavrina Park"
+     },
+     {
+      "name": "West Lincoln Park",
+      "code": "West Lincoln Park"
+     },
+     {
+      "name": "Williamsburg Park",
+      "code": "Williamsburg Park"
+     },
+     {
+      "name": "Witherbee Park",
+      "code": "Witherbee Park"
+     },
+     {
+      "name": "Woods Park",
+      "code": "Woods Park"
+     },
+     {
+      "name": "Woodsdale Green",
+      "code": "Woodsdale Green"
+     },
+     {
+      "name": "Fallbrook Park",
+      "code": "Fallbrook Park"
+     },
+     {
+      "name": "Waterford Park",
+      "code": "Waterford Park"
+     },
+     {
+      "name": "Village Meadows Park",
+      "code": "Village Meadows Park"
+     },
+     {
+      "name": "Beal Slough Greenway",
+      "code": "Beal Slough Greenway"
+     },
+     {
+      "name": "Roper (Max E) East Park",
+      "code": "Roper (Max E) East Park"
+     },
+     {
+      "name": "Roper (Max E) West Park",
+      "code": "Roper (Max E) West Park"
+     },
+     {
+      "name": "University Place Park",
+      "code": "University Place Park"
+     },
+     {
+      "name": "Highway 2 Greenway",
+      "code": "Highway 2 Greenway"
+     },
+     {
+      "name": "Arbor Lake Conservation Area",
+      "code": "Arbor Lake Conservation Area"
+     },
+     {
+      "name": "Gapp (Jonathan) Greenway",
+      "code": "Gapp (Jonathan) Greenway"
+     },
+     {
+      "name": "Hamann Meadows Conservation Area",
+      "code": "Hamann Meadows Conservation Area"
+     },
+     {
+      "name": "HBR-2013-1",
+      "code": "HBR-2013-1"
+     },
+     {
+      "name": "Northern Lights Greenway",
+      "code": "Northern Lights Greenway"
+     },
+     {
+      "name": "Shoemaker (Frank) Marsh Conservation Area",
+      "code": "Shoemaker (Frank) Marsh Conservation Area"
+     },
+     {
+      "name": "Dakota Springs Conservation Area",
+      "code": "Dakota Springs Conservation Area"
+     },
+     {
+      "name": "LSC-2012-1",
+      "code": "LSC-2012-1"
+     },
+     {
+      "name": "Warner Wetlands Conservation Area",
+      "code": "Warner Wetlands Conservation Area"
+     },
+     {
+      "name": "Wilderness Park Conservation Area",
+      "code": "Wilderness Park Conservation Area"
+     },
+     {
+      "name": "HBR-2014-1",
+      "code": "HBR-2014-1"
+     },
+     {
+      "name": "HBR-2017-1",
+      "code": "HBR-2017-1"
+     },
+     {
+      "name": "34th & Madison Park",
+      "code": "34th & Madison Park"
+     },
+     {
+      "name": "45th & Gladstone Park",
+      "code": "45th & Gladstone Park"
+     },
+     {
+      "name": "Oak Creek Park",
+      "code": "Oak Creek Park"
+     },
+     {
+      "name": "3rd & A Overpass Park",
+      "code": "3rd & A Overpass Park"
+     },
+     {
+      "name": "F Street Community Center",
+      "code": "F Street Community Center"
+     },
+     {
+      "name": "Hartland Garden Valley Conservation Area",
+      "code": "Hartland Garden Valley Conservation Area"
+     },
+     {
+      "name": "Stevens Creek Park Conservation Area",
+      "code": "Stevens Creek Park Conservation Area"
+     },
+     {
+      "name": "Antelope Creek Greenway",
+      "code": "Antelope Creek Greenway"
+     },
+     {
+      "name": "Sheridan Green",
+      "code": "Sheridan Green"
+     },
+     {
+      "name": "21st & M",
+      "code": "21st & M"
+     },
+     {
+      "name": "Valentino's Idylwild Park",
+      "code": "Valentino's Idylwild Park"
+     },
+     {
+      "name": "Mendoza (Phil E) Park",
+      "code": "Mendoza (Phil E) Park"
+     },
+     {
+      "name": "Stiefel Property",
+      "code": "Stiefel Property"
+     },
+     {
+      "name": "Schleich (Steven C) Park",
+      "code": "Schleich (Steven C) Park"
+     },
+     {
+      "name": "Schroder Park",
+      "code": "Schroder Park"
+     }
+    ]
+   }
+  },
+  {
+   "name": "BusinessUnit",
+   "type": "esriFieldTypeInteger",
+   "alias": "Business Unit",
+   "domain": null
+  },
+  {
+   "name": "Shape",
+   "type": "esriFieldTypeGeometry",
+   "alias": "Shape",
+   "domain": null
+  },
+  {
+   "name": "ParkSite",
+   "type": "esriFieldTypeString",
+   "alias": "Park Site",
+   "length": 8,
+   "domain": {
+    "type": "codedValue",
+    "name": "qppYesNo",
+    "codedValues": [
+     {
+      "name": "Yes",
+      "code": "Yes"
+     },
+     {
+      "name": "No",
+      "code": "No"
+     }
+    ]
+   }
+  },
+  {
+   "name": "ParkUnit",
+   "type": "esriFieldTypeString",
+   "alias": "Park Unit?",
+   "length": 8,
+   "domain": {
+    "type": "codedValue",
+    "name": "qppYesNo",
+    "codedValues": [
+     {
+      "name": "Yes",
+      "code": "Yes"
+     },
+     {
+      "name": "No",
+      "code": "No"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Year_Acq",
+   "type": "esriFieldTypeDouble",
+   "alias": "Year Acquired",
+   "domain": null
+  },
+  {
+   "name": "Year_AcN",
+   "type": "esriFieldTypeString",
+   "alias": "Year Acquired Notes",
+   "length": 72,
+   "domain": null
+  },
+  {
+   "name": "GISView",
+   "type": "esriFieldTypeString",
+   "alias": "GIS Viewer?",
+   "length": 10,
+   "domain": {
+    "type": "codedValue",
+    "name": "qppYesNo",
+    "codedValues": [
+     {
+      "name": "Yes",
+      "code": "Yes"
+     },
+     {
+      "name": "No",
+      "code": "No"
+     }
+    ]
+   }
+  },
+  {
+   "name": "ReferenceID",
+   "type": "esriFieldTypeString",
+   "alias": "Reference ID",
+   "length": 64,
+   "domain": {
+    "type": "codedValue",
+    "name": "qppParkUnitName",
+    "codedValues": [
+     {
+      "name": "10th & Charleston",
+      "code": "10th & Charleston"
+     },
+     {
+      "name": "27th & Old Cheney",
+      "code": "27th & Old Cheney"
+     },
+     {
+      "name": "Air Park West",
+      "code": "Air Park West"
+     },
+     {
+      "name": "Athletics-Planning & Construction",
+      "code": "Athletics-Planning & Construction"
+     },
+     {
+      "name": "Austin Property",
+      "code": "Austin Property"
+     },
+     {
+      "name": "Centennial Mall",
+      "code": "Centennial Mall"
+     },
+     {
+      "name": "Fleming Fields Recreational Sports Park",
+      "code": "Fleming Fields Recreational Sports Park"
+     },
+     {
+      "name": "Fred Barry Easement",
+      "code": "Fred Barry Easement"
+     },
+     {
+      "name": "Gerbig Parcel",
+      "code": "Gerbig Parcel"
+     },
+     {
+      "name": "Glebe Property",
+      "code": "Glebe Property"
+     },
+     {
+      "name": "Goodhue Mall",
+      "code": "Goodhue Mall"
+     },
+     {
+      "name": "Government Square",
+      "code": "Government Square"
+     },
+     {
+      "name": "Highlands Aquatic Center",
+      "code": "Highlands Aquatic Center"
+     },
+     {
+      "name": "Highlands Golf Course",
+      "code": "Highlands Golf Course"
+     },
+     {
+      "name": "Hollingsworth Property",
+      "code": "Hollingsworth Property"
+     },
+     {
+      "name": "Holmes Lake Golf Course",
+      "code": "Holmes Lake Golf Course"
+     },
+     {
+      "name": "Jamaica North Trailhead",
+      "code": "Jamaica North Trailhead"
+     },
+     {
+      "name": "Jim Ager Golf Course",
+      "code": "Jim Ager Golf Course"
+     },
+     {
+      "name": "King Saline Wetlands",
+      "code": "King Saline Wetlands"
+     },
+     {
+      "name": "Lincoln Community Foundation Tower Square",
+      "code": "Lincoln Community Foundation Tower Square"
+     },
+     {
+      "name": "Lincoln Mall",
+      "code": "Lincoln Mall"
+     },
+     {
+      "name": "London Road & S. 56th Street",
+      "code": "London Road & S. 56th Street"
+     },
+     {
+      "name": "Mahoney Golf Course",
+      "code": "Mahoney Golf Course"
+     },
+     {
+      "name": "Midtown Commons",
+      "code": "Midtown Commons"
+     },
+     {
+      "name": "Mopac Trailhead",
+      "code": "Mopac Trailhead"
+     },
+     {
+      "name": "N 27th Street Commons",
+      "code": "N 27th Street Commons"
+     },
+     {
+      "name": "Norder Tract",
+      "code": "Norder Tract"
+     },
+     {
+      "name": "Pioneers Golf Course",
+      "code": "Pioneers Golf Course"
+     },
+     {
+      "name": "Pioneers Park Nature Center",
+      "code": "Pioneers Park Nature Center"
+     },
+     {
+      "name": "Rickman's Run",
+      "code": "Rickman's Run"
+     },
+     {
+      "name": "Schaefer Tract",
+      "code": "Schaefer Tract"
+     },
+     {
+      "name": "Seacrest Range",
+      "code": "Seacrest Range"
+     },
+     {
+      "name": "Star City Shores Aquatic Center",
+      "code": "Star City Shores Aquatic Center"
+     },
+     {
+      "name": "Stent Property",
+      "code": "Stent Property"
+     },
+     {
+      "name": "Sunken Gardens",
+      "code": "Sunken Gardens"
+     },
+     {
+      "name": "Tiedemen Easement",
+      "code": "Tiedemen Easement"
+     },
+     {
+      "name": "Tierra Williamsburg Playground",
+      "code": "Tierra Williamsburg Playground"
+     },
+     {
+      "name": "Union Plaza",
+      "code": "Union Plaza"
+     },
+     {
+      "name": "3rd & F Underpass",
+      "code": "3rd & F Underpass"
+     },
+     {
+      "name": "Jan Pitsch Green",
+      "code": "Jan Pitsch Green"
+     },
+     {
+      "name": "Pioneers Park & Nature Center",
+      "code": "Pioneers Park & Nature Center"
+     },
+     {
+      "name": "Hollingsworth & 56th/London Road",
+      "code": "Hollingsworth & 56th/London Road"
+     },
+     {
+      "name": "27th & South Park",
+      "code": "27th & South Park"
+     },
+     {
+      "name": "48th & Adams Park",
+      "code": "48th & Adams Park"
+     },
+     {
+      "name": "American Legion Park",
+      "code": "American Legion Park"
+     },
+     {
+      "name": "Antelope Park North",
+      "code": "Antelope Park North"
+     },
+     {
+      "name": "Antelope Park South",
+      "code": "Antelope Park South"
+     },
+     {
+      "name": "Antelope Park Triangle",
+      "code": "Antelope Park Triangle"
+     },
+     {
+      "name": "Arnold Heights Park",
+      "code": "Arnold Heights Park"
+     },
+     {
+      "name": "Ashley Heights Park",
+      "code": "Ashley Heights Park"
+     },
+     {
+      "name": "Aster Park",
+      "code": "Aster Park"
+     },
+     {
+      "name": "Ballard Park",
+      "code": "Ballard Park"
+     },
+     {
+      "name": "Bea Richmond Park",
+      "code": "Bea Richmond Park"
+     },
+     {
+      "name": "Belmont Park",
+      "code": "Belmont Park"
+     },
+     {
+      "name": "Bethany Park",
+      "code": "Bethany Park"
+     },
+     {
+      "name": "Bill Harris Iron Horse Park",
+      "code": "Bill Harris Iron Horse Park"
+     },
+     {
+      "name": "Bishop Heights Park",
+      "code": "Bishop Heights Park"
+     },
+     {
+      "name": "Bison Park",
+      "code": "Bison Park"
+     },
+     {
+      "name": "Boosalis Park",
+      "code": "Boosalis Park"
+     },
+     {
+      "name": "Bowling Lake Park",
+      "code": "Bowling Lake Park"
+     },
+     {
+      "name": "Breta Green",
+      "code": "Breta Green"
+     },
+     {
+      "name": "Burns Park",
+      "code": "Burns Park"
+     },
+     {
+      "name": "Coddington Park",
+      "code": "Coddington Park"
+     },
+     {
+      "name": "Colonial Hills Park",
+      "code": "Colonial Hills Park"
+     },
+     {
+      "name": "Cooper Park",
+      "code": "Cooper Park"
+     },
+     {
+      "name": "Country View Park",
+      "code": "Country View Park"
+     },
+     {
+      "name": "Cripple Creek Park",
+      "code": "Cripple Creek Park"
+     },
+     {
+      "name": "Densmore Park",
+      "code": "Densmore Park"
+     },
+     {
+      "name": "Eagles' View Park",
+      "code": "Eagles' View Park"
+     },
+     {
+      "name": "Easterday Park",
+      "code": "Easterday Park"
+     },
+     {
+      "name": "ECCO Park",
+      "code": "ECCO Park"
+     },
+     {
+      "name": "Eden Park",
+      "code": "Eden Park"
+     },
+     {
+      "name": "Edenton South Park",
+      "code": "Edenton South Park"
+     },
+     {
+      "name": "Filbert Park",
+      "code": "Filbert Park"
+     },
+     {
+      "name": "Folsom Park",
+      "code": "Folsom Park"
+     },
+     {
+      "name": "Grand Terrace Park",
+      "code": "Grand Terrace Park"
+     },
+     {
+      "name": "Hartley Park",
+      "code": "Hartley Park"
+     },
+     {
+      "name": "Havelock Park",
+      "code": "Havelock Park"
+     },
+     {
+      "name": "Hayward Park",
+      "code": "Hayward Park"
+     },
+     {
+      "name": "Hazel Abel Park",
+      "code": "Hazel Abel Park"
+     },
+     {
+      "name": "Henry Park",
+      "code": "Henry Park"
+     },
+     {
+      "name": "Herbert Park",
+      "code": "Herbert Park"
+     },
+     {
+      "name": "Highlands Park",
+      "code": "Highlands Park"
+     },
+     {
+      "name": "Highlands South Park",
+      "code": "Highlands South Park"
+     },
+     {
+      "name": "Holmes Lake Park",
+      "code": "Holmes Lake Park"
+     },
+     {
+      "name": "Huskerville Park",
+      "code": "Huskerville Park"
+     },
+     {
+      "name": "Irvingdale Park",
+      "code": "Irvingdale Park"
+     },
+     {
+      "name": "Kahoa Park",
+      "code": "Kahoa Park"
+     },
+     {
+      "name": "Jensen Park",
+      "code": "Jensen Park"
+     },
+     {
+      "name": "Keech Park",
+      "code": "Keech Park"
+     },
+     {
+      "name": "Kontras Park",
+      "code": "Kontras Park"
+     },
+     {
+      "name": "Lakeview Park",
+      "code": "Lakeview Park"
+     },
+     {
+      "name": "Larson Park",
+      "code": "Larson Park"
+     },
+     {
+      "name": "Lintel Park",
+      "code": "Lintel Park"
+     },
+     {
+      "name": "Mahoney Park",
+      "code": "Mahoney Park"
+     },
+     {
+      "name": "Maple Lodge Park",
+      "code": "Maple Lodge Park"
+     },
+     {
+      "name": "Marlene Park",
+      "code": "Marlene Park"
+     },
+     {
+      "name": "McAdams Park",
+      "code": "McAdams Park"
+     },
+     {
+      "name": "McWilliams Park",
+      "code": "McWilliams Park"
+     },
+     {
+      "name": "Near South Park",
+      "code": "Near South Park"
+     },
+     {
+      "name": "Neighbors Park",
+      "code": "Neighbors Park"
+     },
+     {
+      "name": "Nevin Park",
+      "code": "Nevin Park"
+     },
+     {
+      "name": "Oak Lake Park",
+      "code": "Oak Lake Park"
+     },
+     {
+      "name": "Olympic Heights Park",
+      "code": "Olympic Heights Park"
+     },
+     {
+      "name": "Pansing Park",
+      "code": "Pansing Park"
+     },
+     {
+      "name": "Peach Park",
+      "code": "Peach Park"
+     },
+     {
+      "name": "Pentzer Park",
+      "code": "Pentzer Park"
+     },
+     {
+      "name": "Peter Pan Park",
+      "code": "Peter Pan Park"
+     },
+     {
+      "name": "Peterson (Erwin) Park",
+      "code": "Peterson (Erwin) Park"
+     },
+     {
+      "name": "Phares Park",
+      "code": "Phares Park"
+     },
+     {
+      "name": "Piedmont Park",
+      "code": "Piedmont Park"
+     },
+     {
+      "name": "Pine Lake Park",
+      "code": "Pine Lake Park"
+     },
+     {
+      "name": "Pioneers Park",
+      "code": "Pioneers Park"
+     },
+     {
+      "name": "Pocras Park",
+      "code": "Pocras Park"
+     },
+     {
+      "name": "Porter (Clare) Park",
+      "code": "Porter (Clare) Park"
+     },
+     {
+      "name": "Roberts Park",
+      "code": "Roberts Park"
+     },
+     {
+      "name": "Roose Park",
+      "code": "Roose Park"
+     },
+     {
+      "name": "Roper (Max E) Park",
+      "code": "Roper (Max E) Park"
+     },
+     {
+      "name": "Rudge Park",
+      "code": "Rudge Park"
+     },
+     {
+      "name": "Sampson Park",
+      "code": "Sampson Park"
+     },
+     {
+      "name": "Sawyer Snell Park",
+      "code": "Sawyer Snell Park"
+     },
+     {
+      "name": "Schwartzkopf Park",
+      "code": "Schwartzkopf Park"
+     },
+     {
+      "name": "Seacrest Park",
+      "code": "Seacrest Park"
+     },
+     {
+      "name": "Standing Bear Park",
+      "code": "Standing Bear Park"
+     },
+     {
+      "name": "Stonebridge Park",
+      "code": "Stonebridge Park"
+     },
+     {
+      "name": "Stransky Park",
+      "code": "Stransky Park"
+     },
+     {
+      "name": "Stuhr Park",
+      "code": "Stuhr Park"
+     },
+     {
+      "name": "Sunburst Park",
+      "code": "Sunburst Park"
+     },
+     {
+      "name": "Sunrise Park",
+      "code": "Sunrise Park"
+     },
+     {
+      "name": "Taylor Park",
+      "code": "Taylor Park"
+     },
+     {
+      "name": "Tierra Park",
+      "code": "Tierra Park"
+     },
+     {
+      "name": "Timber Valley Park",
+      "code": "Timber Valley Park"
+     },
+     {
+      "name": "Touzalin Green",
+      "code": "Touzalin Green"
+     },
+     {
+      "name": "Trago Park",
+      "code": "Trago Park"
+     },
+     {
+      "name": "Trendwood Park",
+      "code": "Trendwood Park"
+     },
+     {
+      "name": "Tyrrell Park",
+      "code": "Tyrrell Park"
+     },
+     {
+      "name": "UPCO Park",
+      "code": "UPCO Park"
+     },
+     {
+      "name": "Van Dorn Park",
+      "code": "Van Dorn Park"
+     },
+     {
+      "name": "Vavrina Park",
+      "code": "Vavrina Park"
+     },
+     {
+      "name": "West Lincoln Park",
+      "code": "West Lincoln Park"
+     },
+     {
+      "name": "Williamsburg Park",
+      "code": "Williamsburg Park"
+     },
+     {
+      "name": "Witherbee Park",
+      "code": "Witherbee Park"
+     },
+     {
+      "name": "Woods Park",
+      "code": "Woods Park"
+     },
+     {
+      "name": "Woodsdale Green",
+      "code": "Woodsdale Green"
+     },
+     {
+      "name": "Fallbrook Park",
+      "code": "Fallbrook Park"
+     },
+     {
+      "name": "Waterford Park",
+      "code": "Waterford Park"
+     },
+     {
+      "name": "Village Meadows Park",
+      "code": "Village Meadows Park"
+     },
+     {
+      "name": "Beal Slough Greenway",
+      "code": "Beal Slough Greenway"
+     },
+     {
+      "name": "Roper (Max E) East Park",
+      "code": "Roper (Max E) East Park"
+     },
+     {
+      "name": "Roper (Max E) West Park",
+      "code": "Roper (Max E) West Park"
+     },
+     {
+      "name": "University Place Park",
+      "code": "University Place Park"
+     },
+     {
+      "name": "Highway 2 Greenway",
+      "code": "Highway 2 Greenway"
+     },
+     {
+      "name": "Arbor Lake Conservation Area",
+      "code": "Arbor Lake Conservation Area"
+     },
+     {
+      "name": "Gapp (Jonathan) Greenway",
+      "code": "Gapp (Jonathan) Greenway"
+     },
+     {
+      "name": "Hamann Meadows Conservation Area",
+      "code": "Hamann Meadows Conservation Area"
+     },
+     {
+      "name": "HBR-2013-1",
+      "code": "HBR-2013-1"
+     },
+     {
+      "name": "Northern Lights Greenway",
+      "code": "Northern Lights Greenway"
+     },
+     {
+      "name": "Shoemaker (Frank) Marsh Conservation Area",
+      "code": "Shoemaker (Frank) Marsh Conservation Area"
+     },
+     {
+      "name": "Dakota Springs Conservation Area",
+      "code": "Dakota Springs Conservation Area"
+     },
+     {
+      "name": "LSC-2012-1",
+      "code": "LSC-2012-1"
+     },
+     {
+      "name": "Warner Wetlands Conservation Area",
+      "code": "Warner Wetlands Conservation Area"
+     },
+     {
+      "name": "Wilderness Park Conservation Area",
+      "code": "Wilderness Park Conservation Area"
+     },
+     {
+      "name": "HBR-2014-1",
+      "code": "HBR-2014-1"
+     },
+     {
+      "name": "HBR-2017-1",
+      "code": "HBR-2017-1"
+     },
+     {
+      "name": "34th & Madison Park",
+      "code": "34th & Madison Park"
+     },
+     {
+      "name": "45th & Gladstone Park",
+      "code": "45th & Gladstone Park"
+     },
+     {
+      "name": "Oak Creek Park",
+      "code": "Oak Creek Park"
+     },
+     {
+      "name": "3rd & A Overpass Park",
+      "code": "3rd & A Overpass Park"
+     },
+     {
+      "name": "F Street Community Center",
+      "code": "F Street Community Center"
+     },
+     {
+      "name": "Hartland Garden Valley Conservation Area",
+      "code": "Hartland Garden Valley Conservation Area"
+     },
+     {
+      "name": "Stevens Creek Park Conservation Area",
+      "code": "Stevens Creek Park Conservation Area"
+     },
+     {
+      "name": "Antelope Creek Greenway",
+      "code": "Antelope Creek Greenway"
+     },
+     {
+      "name": "Sheridan Green",
+      "code": "Sheridan Green"
+     },
+     {
+      "name": "21st & M",
+      "code": "21st & M"
+     },
+     {
+      "name": "Valentino's Idylwild Park",
+      "code": "Valentino's Idylwild Park"
+     },
+     {
+      "name": "Mendoza (Phil E) Park",
+      "code": "Mendoza (Phil E) Park"
+     },
+     {
+      "name": "Stiefel Property",
+      "code": "Stiefel Property"
+     },
+     {
+      "name": "Schleich (Steven C) Park",
+      "code": "Schleich (Steven C) Park"
+     },
+     {
+      "name": "Schroder Park",
+      "code": "Schroder Park"
+     }
+    ]
+   }
+  },
+  {
+   "name": "WorkingName",
+   "type": "esriFieldTypeString",
+   "alias": "Working Name",
+   "length": 64,
+   "domain": {
+    "type": "codedValue",
+    "name": "qppParkUnitName",
+    "codedValues": [
+     {
+      "name": "10th & Charleston",
+      "code": "10th & Charleston"
+     },
+     {
+      "name": "27th & Old Cheney",
+      "code": "27th & Old Cheney"
+     },
+     {
+      "name": "Air Park West",
+      "code": "Air Park West"
+     },
+     {
+      "name": "Athletics-Planning & Construction",
+      "code": "Athletics-Planning & Construction"
+     },
+     {
+      "name": "Austin Property",
+      "code": "Austin Property"
+     },
+     {
+      "name": "Centennial Mall",
+      "code": "Centennial Mall"
+     },
+     {
+      "name": "Fleming Fields Recreational Sports Park",
+      "code": "Fleming Fields Recreational Sports Park"
+     },
+     {
+      "name": "Fred Barry Easement",
+      "code": "Fred Barry Easement"
+     },
+     {
+      "name": "Gerbig Parcel",
+      "code": "Gerbig Parcel"
+     },
+     {
+      "name": "Glebe Property",
+      "code": "Glebe Property"
+     },
+     {
+      "name": "Goodhue Mall",
+      "code": "Goodhue Mall"
+     },
+     {
+      "name": "Government Square",
+      "code": "Government Square"
+     },
+     {
+      "name": "Highlands Aquatic Center",
+      "code": "Highlands Aquatic Center"
+     },
+     {
+      "name": "Highlands Golf Course",
+      "code": "Highlands Golf Course"
+     },
+     {
+      "name": "Hollingsworth Property",
+      "code": "Hollingsworth Property"
+     },
+     {
+      "name": "Holmes Lake Golf Course",
+      "code": "Holmes Lake Golf Course"
+     },
+     {
+      "name": "Jamaica North Trailhead",
+      "code": "Jamaica North Trailhead"
+     },
+     {
+      "name": "Jim Ager Golf Course",
+      "code": "Jim Ager Golf Course"
+     },
+     {
+      "name": "King Saline Wetlands",
+      "code": "King Saline Wetlands"
+     },
+     {
+      "name": "Lincoln Community Foundation Tower Square",
+      "code": "Lincoln Community Foundation Tower Square"
+     },
+     {
+      "name": "Lincoln Mall",
+      "code": "Lincoln Mall"
+     },
+     {
+      "name": "London Road & S. 56th Street",
+      "code": "London Road & S. 56th Street"
+     },
+     {
+      "name": "Mahoney Golf Course",
+      "code": "Mahoney Golf Course"
+     },
+     {
+      "name": "Midtown Commons",
+      "code": "Midtown Commons"
+     },
+     {
+      "name": "Mopac Trailhead",
+      "code": "Mopac Trailhead"
+     },
+     {
+      "name": "N 27th Street Commons",
+      "code": "N 27th Street Commons"
+     },
+     {
+      "name": "Norder Tract",
+      "code": "Norder Tract"
+     },
+     {
+      "name": "Pioneers Golf Course",
+      "code": "Pioneers Golf Course"
+     },
+     {
+      "name": "Pioneers Park Nature Center",
+      "code": "Pioneers Park Nature Center"
+     },
+     {
+      "name": "Rickman's Run",
+      "code": "Rickman's Run"
+     },
+     {
+      "name": "Schaefer Tract",
+      "code": "Schaefer Tract"
+     },
+     {
+      "name": "Seacrest Range",
+      "code": "Seacrest Range"
+     },
+     {
+      "name": "Star City Shores Aquatic Center",
+      "code": "Star City Shores Aquatic Center"
+     },
+     {
+      "name": "Stent Property",
+      "code": "Stent Property"
+     },
+     {
+      "name": "Sunken Gardens",
+      "code": "Sunken Gardens"
+     },
+     {
+      "name": "Tiedemen Easement",
+      "code": "Tiedemen Easement"
+     },
+     {
+      "name": "Tierra Williamsburg Playground",
+      "code": "Tierra Williamsburg Playground"
+     },
+     {
+      "name": "Union Plaza",
+      "code": "Union Plaza"
+     },
+     {
+      "name": "3rd & F Underpass",
+      "code": "3rd & F Underpass"
+     },
+     {
+      "name": "Jan Pitsch Green",
+      "code": "Jan Pitsch Green"
+     },
+     {
+      "name": "Pioneers Park & Nature Center",
+      "code": "Pioneers Park & Nature Center"
+     },
+     {
+      "name": "Hollingsworth & 56th/London Road",
+      "code": "Hollingsworth & 56th/London Road"
+     },
+     {
+      "name": "27th & South Park",
+      "code": "27th & South Park"
+     },
+     {
+      "name": "48th & Adams Park",
+      "code": "48th & Adams Park"
+     },
+     {
+      "name": "American Legion Park",
+      "code": "American Legion Park"
+     },
+     {
+      "name": "Antelope Park North",
+      "code": "Antelope Park North"
+     },
+     {
+      "name": "Antelope Park South",
+      "code": "Antelope Park South"
+     },
+     {
+      "name": "Antelope Park Triangle",
+      "code": "Antelope Park Triangle"
+     },
+     {
+      "name": "Arnold Heights Park",
+      "code": "Arnold Heights Park"
+     },
+     {
+      "name": "Ashley Heights Park",
+      "code": "Ashley Heights Park"
+     },
+     {
+      "name": "Aster Park",
+      "code": "Aster Park"
+     },
+     {
+      "name": "Ballard Park",
+      "code": "Ballard Park"
+     },
+     {
+      "name": "Bea Richmond Park",
+      "code": "Bea Richmond Park"
+     },
+     {
+      "name": "Belmont Park",
+      "code": "Belmont Park"
+     },
+     {
+      "name": "Bethany Park",
+      "code": "Bethany Park"
+     },
+     {
+      "name": "Bill Harris Iron Horse Park",
+      "code": "Bill Harris Iron Horse Park"
+     },
+     {
+      "name": "Bishop Heights Park",
+      "code": "Bishop Heights Park"
+     },
+     {
+      "name": "Bison Park",
+      "code": "Bison Park"
+     },
+     {
+      "name": "Boosalis Park",
+      "code": "Boosalis Park"
+     },
+     {
+      "name": "Bowling Lake Park",
+      "code": "Bowling Lake Park"
+     },
+     {
+      "name": "Breta Green",
+      "code": "Breta Green"
+     },
+     {
+      "name": "Burns Park",
+      "code": "Burns Park"
+     },
+     {
+      "name": "Coddington Park",
+      "code": "Coddington Park"
+     },
+     {
+      "name": "Colonial Hills Park",
+      "code": "Colonial Hills Park"
+     },
+     {
+      "name": "Cooper Park",
+      "code": "Cooper Park"
+     },
+     {
+      "name": "Country View Park",
+      "code": "Country View Park"
+     },
+     {
+      "name": "Cripple Creek Park",
+      "code": "Cripple Creek Park"
+     },
+     {
+      "name": "Densmore Park",
+      "code": "Densmore Park"
+     },
+     {
+      "name": "Eagles' View Park",
+      "code": "Eagles' View Park"
+     },
+     {
+      "name": "Easterday Park",
+      "code": "Easterday Park"
+     },
+     {
+      "name": "ECCO Park",
+      "code": "ECCO Park"
+     },
+     {
+      "name": "Eden Park",
+      "code": "Eden Park"
+     },
+     {
+      "name": "Edenton South Park",
+      "code": "Edenton South Park"
+     },
+     {
+      "name": "Filbert Park",
+      "code": "Filbert Park"
+     },
+     {
+      "name": "Folsom Park",
+      "code": "Folsom Park"
+     },
+     {
+      "name": "Grand Terrace Park",
+      "code": "Grand Terrace Park"
+     },
+     {
+      "name": "Hartley Park",
+      "code": "Hartley Park"
+     },
+     {
+      "name": "Havelock Park",
+      "code": "Havelock Park"
+     },
+     {
+      "name": "Hayward Park",
+      "code": "Hayward Park"
+     },
+     {
+      "name": "Hazel Abel Park",
+      "code": "Hazel Abel Park"
+     },
+     {
+      "name": "Henry Park",
+      "code": "Henry Park"
+     },
+     {
+      "name": "Herbert Park",
+      "code": "Herbert Park"
+     },
+     {
+      "name": "Highlands Park",
+      "code": "Highlands Park"
+     },
+     {
+      "name": "Highlands South Park",
+      "code": "Highlands South Park"
+     },
+     {
+      "name": "Holmes Lake Park",
+      "code": "Holmes Lake Park"
+     },
+     {
+      "name": "Huskerville Park",
+      "code": "Huskerville Park"
+     },
+     {
+      "name": "Irvingdale Park",
+      "code": "Irvingdale Park"
+     },
+     {
+      "name": "Kahoa Park",
+      "code": "Kahoa Park"
+     },
+     {
+      "name": "Jensen Park",
+      "code": "Jensen Park"
+     },
+     {
+      "name": "Keech Park",
+      "code": "Keech Park"
+     },
+     {
+      "name": "Kontras Park",
+      "code": "Kontras Park"
+     },
+     {
+      "name": "Lakeview Park",
+      "code": "Lakeview Park"
+     },
+     {
+      "name": "Larson Park",
+      "code": "Larson Park"
+     },
+     {
+      "name": "Lintel Park",
+      "code": "Lintel Park"
+     },
+     {
+      "name": "Mahoney Park",
+      "code": "Mahoney Park"
+     },
+     {
+      "name": "Maple Lodge Park",
+      "code": "Maple Lodge Park"
+     },
+     {
+      "name": "Marlene Park",
+      "code": "Marlene Park"
+     },
+     {
+      "name": "McAdams Park",
+      "code": "McAdams Park"
+     },
+     {
+      "name": "McWilliams Park",
+      "code": "McWilliams Park"
+     },
+     {
+      "name": "Near South Park",
+      "code": "Near South Park"
+     },
+     {
+      "name": "Neighbors Park",
+      "code": "Neighbors Park"
+     },
+     {
+      "name": "Nevin Park",
+      "code": "Nevin Park"
+     },
+     {
+      "name": "Oak Lake Park",
+      "code": "Oak Lake Park"
+     },
+     {
+      "name": "Olympic Heights Park",
+      "code": "Olympic Heights Park"
+     },
+     {
+      "name": "Pansing Park",
+      "code": "Pansing Park"
+     },
+     {
+      "name": "Peach Park",
+      "code": "Peach Park"
+     },
+     {
+      "name": "Pentzer Park",
+      "code": "Pentzer Park"
+     },
+     {
+      "name": "Peter Pan Park",
+      "code": "Peter Pan Park"
+     },
+     {
+      "name": "Peterson (Erwin) Park",
+      "code": "Peterson (Erwin) Park"
+     },
+     {
+      "name": "Phares Park",
+      "code": "Phares Park"
+     },
+     {
+      "name": "Piedmont Park",
+      "code": "Piedmont Park"
+     },
+     {
+      "name": "Pine Lake Park",
+      "code": "Pine Lake Park"
+     },
+     {
+      "name": "Pioneers Park",
+      "code": "Pioneers Park"
+     },
+     {
+      "name": "Pocras Park",
+      "code": "Pocras Park"
+     },
+     {
+      "name": "Porter (Clare) Park",
+      "code": "Porter (Clare) Park"
+     },
+     {
+      "name": "Roberts Park",
+      "code": "Roberts Park"
+     },
+     {
+      "name": "Roose Park",
+      "code": "Roose Park"
+     },
+     {
+      "name": "Roper (Max E) Park",
+      "code": "Roper (Max E) Park"
+     },
+     {
+      "name": "Rudge Park",
+      "code": "Rudge Park"
+     },
+     {
+      "name": "Sampson Park",
+      "code": "Sampson Park"
+     },
+     {
+      "name": "Sawyer Snell Park",
+      "code": "Sawyer Snell Park"
+     },
+     {
+      "name": "Schwartzkopf Park",
+      "code": "Schwartzkopf Park"
+     },
+     {
+      "name": "Seacrest Park",
+      "code": "Seacrest Park"
+     },
+     {
+      "name": "Standing Bear Park",
+      "code": "Standing Bear Park"
+     },
+     {
+      "name": "Stonebridge Park",
+      "code": "Stonebridge Park"
+     },
+     {
+      "name": "Stransky Park",
+      "code": "Stransky Park"
+     },
+     {
+      "name": "Stuhr Park",
+      "code": "Stuhr Park"
+     },
+     {
+      "name": "Sunburst Park",
+      "code": "Sunburst Park"
+     },
+     {
+      "name": "Sunrise Park",
+      "code": "Sunrise Park"
+     },
+     {
+      "name": "Taylor Park",
+      "code": "Taylor Park"
+     },
+     {
+      "name": "Tierra Park",
+      "code": "Tierra Park"
+     },
+     {
+      "name": "Timber Valley Park",
+      "code": "Timber Valley Park"
+     },
+     {
+      "name": "Touzalin Green",
+      "code": "Touzalin Green"
+     },
+     {
+      "name": "Trago Park",
+      "code": "Trago Park"
+     },
+     {
+      "name": "Trendwood Park",
+      "code": "Trendwood Park"
+     },
+     {
+      "name": "Tyrrell Park",
+      "code": "Tyrrell Park"
+     },
+     {
+      "name": "UPCO Park",
+      "code": "UPCO Park"
+     },
+     {
+      "name": "Van Dorn Park",
+      "code": "Van Dorn Park"
+     },
+     {
+      "name": "Vavrina Park",
+      "code": "Vavrina Park"
+     },
+     {
+      "name": "West Lincoln Park",
+      "code": "West Lincoln Park"
+     },
+     {
+      "name": "Williamsburg Park",
+      "code": "Williamsburg Park"
+     },
+     {
+      "name": "Witherbee Park",
+      "code": "Witherbee Park"
+     },
+     {
+      "name": "Woods Park",
+      "code": "Woods Park"
+     },
+     {
+      "name": "Woodsdale Green",
+      "code": "Woodsdale Green"
+     },
+     {
+      "name": "Fallbrook Park",
+      "code": "Fallbrook Park"
+     },
+     {
+      "name": "Waterford Park",
+      "code": "Waterford Park"
+     },
+     {
+      "name": "Village Meadows Park",
+      "code": "Village Meadows Park"
+     },
+     {
+      "name": "Beal Slough Greenway",
+      "code": "Beal Slough Greenway"
+     },
+     {
+      "name": "Roper (Max E) East Park",
+      "code": "Roper (Max E) East Park"
+     },
+     {
+      "name": "Roper (Max E) West Park",
+      "code": "Roper (Max E) West Park"
+     },
+     {
+      "name": "University Place Park",
+      "code": "University Place Park"
+     },
+     {
+      "name": "Highway 2 Greenway",
+      "code": "Highway 2 Greenway"
+     },
+     {
+      "name": "Arbor Lake Conservation Area",
+      "code": "Arbor Lake Conservation Area"
+     },
+     {
+      "name": "Gapp (Jonathan) Greenway",
+      "code": "Gapp (Jonathan) Greenway"
+     },
+     {
+      "name": "Hamann Meadows Conservation Area",
+      "code": "Hamann Meadows Conservation Area"
+     },
+     {
+      "name": "HBR-2013-1",
+      "code": "HBR-2013-1"
+     },
+     {
+      "name": "Northern Lights Greenway",
+      "code": "Northern Lights Greenway"
+     },
+     {
+      "name": "Shoemaker (Frank) Marsh Conservation Area",
+      "code": "Shoemaker (Frank) Marsh Conservation Area"
+     },
+     {
+      "name": "Dakota Springs Conservation Area",
+      "code": "Dakota Springs Conservation Area"
+     },
+     {
+      "name": "LSC-2012-1",
+      "code": "LSC-2012-1"
+     },
+     {
+      "name": "Warner Wetlands Conservation Area",
+      "code": "Warner Wetlands Conservation Area"
+     },
+     {
+      "name": "Wilderness Park Conservation Area",
+      "code": "Wilderness Park Conservation Area"
+     },
+     {
+      "name": "HBR-2014-1",
+      "code": "HBR-2014-1"
+     },
+     {
+      "name": "HBR-2017-1",
+      "code": "HBR-2017-1"
+     },
+     {
+      "name": "34th & Madison Park",
+      "code": "34th & Madison Park"
+     },
+     {
+      "name": "45th & Gladstone Park",
+      "code": "45th & Gladstone Park"
+     },
+     {
+      "name": "Oak Creek Park",
+      "code": "Oak Creek Park"
+     },
+     {
+      "name": "3rd & A Overpass Park",
+      "code": "3rd & A Overpass Park"
+     },
+     {
+      "name": "F Street Community Center",
+      "code": "F Street Community Center"
+     },
+     {
+      "name": "Hartland Garden Valley Conservation Area",
+      "code": "Hartland Garden Valley Conservation Area"
+     },
+     {
+      "name": "Stevens Creek Park Conservation Area",
+      "code": "Stevens Creek Park Conservation Area"
+     },
+     {
+      "name": "Antelope Creek Greenway",
+      "code": "Antelope Creek Greenway"
+     },
+     {
+      "name": "Sheridan Green",
+      "code": "Sheridan Green"
+     },
+     {
+      "name": "21st & M",
+      "code": "21st & M"
+     },
+     {
+      "name": "Valentino's Idylwild Park",
+      "code": "Valentino's Idylwild Park"
+     },
+     {
+      "name": "Mendoza (Phil E) Park",
+      "code": "Mendoza (Phil E) Park"
+     },
+     {
+      "name": "Stiefel Property",
+      "code": "Stiefel Property"
+     },
+     {
+      "name": "Schleich (Steven C) Park",
+      "code": "Schleich (Steven C) Park"
+     },
+     {
+      "name": "Schroder Park",
+      "code": "Schroder Park"
+     }
+    ]
+   }
+  },
+  {
+   "name": "PermanentName",
+   "type": "esriFieldTypeString",
+   "alias": "Permanent Name?",
+   "length": 12,
+   "domain": {
+    "type": "codedValue",
+    "name": "qppYesNo",
+    "codedValues": [
+     {
+      "name": "Yes",
+      "code": "Yes"
+     },
+     {
+      "name": "No",
+      "code": "No"
+     }
+    ]
+   }
+  },
+  {
+   "name": "Address",
+   "type": "esriFieldTypeString",
+   "alias": "Address",
+   "length": 72,
+   "domain": null
+  },
+  {
+   "name": "Shape.STArea()",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape.STArea()",
+   "domain": null
+  },
+  {
+   "name": "Shape.STLength()",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape.STLength()",
+   "domain": null
+  }
+ ],
+ "relationships": [],
+ "canModifyLayer": true,
+ "canScaleSymbols": false,
+ "hasLabels": false,
+ "capabilities": "Map,Query,Data",
+ "maxRecordCount": 1000,
+ "supportsStatistics": true,
+ "supportsAdvancedQueries": true,
+ "supportedQueryFormats": "JSON, AMF",
+ "isDataVersioned": true,
+ "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true}
+}
