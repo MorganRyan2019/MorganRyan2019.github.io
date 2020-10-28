@@ -1,6 +1,6 @@
 onLoadData({
 "type": "FeatureCollection",
-"name": "statepolls5Cent",
+"name": "statepolls",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "OBJECTID": 1, "NAME": "West Virginia", "DEM": 38, "REP": 58, "DIFF": -20, "start": 1603150000000, "end": 1603630000000 }, "geometry": { "type": "Point", "coordinates": [ -80.613829197379275, 38.6417178342192 ] } },
@@ -785,4 +785,5 @@ onLoadData({
 { "type": "Feature", "properties": { "OBJECTID": 780, "NAME": "NE District 2", "DEM": 48, "REP": 41, "DIFF": 7, "start": 1601294400000, "end": 1603630000000 }, "geometry": { "type": "Point", "coordinates": [ -96.097412109374986, 41.146569386845755 ] } },
 { "type": "Feature", "properties": { "OBJECTID": 781, "NAME": "Arizona", "DEM": 46, "REP": 46, "DIFF": 0, "start": 1578100000000, "end": 1581720000000 }, "geometry": { "type": "Point", "coordinates": [ -111.660881037565574, 34.28750069785854 ] } }
 ]
-})
+}
+)
