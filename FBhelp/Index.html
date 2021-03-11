@@ -2,7 +2,7 @@ x<!doctype html>
 <html lang="en">
 <html>
 	<head>
-			<title>2021 Lincoln Food Bank Locations</title>
+			<title>Lincoln Food Distribution Centers</title>
 
 				<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"crossorigin=""/>
 
@@ -91,14 +91,14 @@ x<!doctype html>
 
 
 		var overlaymaps = {
-				"Food Bank Locations": FBdata,
+				"Food Distribution Centers": FBdata,
 			};
 
 L.control.layers(null, overlaymaps, {collapsed:false}).addTo(map);
 
 
 map.on('overlayremove', function(eventLayer){
-	if (eventLayer.name == 'FoodData'){
+	if (eventLayer.name == 'FBdata'){
 map.removeControl(legend);
 }
 });
